@@ -1,14 +1,14 @@
-import Autofill, PollyTTS, WikiContent
+import Autofill, PollyTTS, WikiContent, CreateVideo
 
-trick_prompt1 = "\nPerson 1: What are 5 fun and short facts from this article that only experts would know?\n"
-trick_prompt2 = "\nDon't list the fun facts with numbers, list them with dashes: '-'\n"
+trick_prompt1 = "\nPerson 1: Explain in 5 essential points what this article is about so anyone will understand.\n"
+trick_prompt2 = "\nList the facts with numbers, 1), 2), 3) etc\n"
 trick_prompt3 = "\nPerson 2:\n"
 fun_fact_intro = "\nDid you know...\n"
 
-norwayContent = WikiContent.get_content("List of songs recorded by Ariana Grande")[:12000]
+norwayContent = WikiContent.get_content("Oregon")[:12000]
 
 answer = fun_fact_intro + Autofill.ask_ai(trick_prompt1 + trick_prompt2 + '"' + norwayContent + '"' + trick_prompt3)
 
-PollyTTS.tts(answer)
+PollyTTS.tts(answer.replace("-", " "))
 
-print(answer)
+CreateVideo.timestamp_video()

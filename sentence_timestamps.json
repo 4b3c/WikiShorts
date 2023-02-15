@@ -1,0 +1,94 @@
+[
+   {
+      "time": 0,
+      "type": "sentence",
+      "start": 1,
+      "end": 16,
+      "value": "Did you know..."
+   },
+   {
+      "time": 1164,
+      "type": "sentence",
+      "start": 18,
+      "end": 20,
+      "value": "1."
+   },
+   {
+      "time": 2027,
+      "type": "sentence",
+      "start": 21,
+      "end": 105,
+      "value": "The state of Oregon is located in the Pacific Northwest region of the United States."
+   },
+   {
+      "time": 7251,
+      "type": "sentence",
+      "start": 107,
+      "end": 109,
+      "value": "2."
+   },
+   {
+      "time": 7960,
+      "type": "sentence",
+      "start": 110,
+      "end": 237,
+      "value": "The state is bordered by the Columbia River (to the north), the Snake River (to the east), and the Pacific Ocean (to the west)."
+   },
+   {
+      "time": 16205,
+      "type": "sentence",
+      "start": 239,
+      "end": 241,
+      "value": "3."
+   },
+   {
+      "time": 17162,
+      "type": "sentence",
+      "start": 242,
+      "end": 311,
+      "value": "Oregon has been inhabited by Native Americans for thousands of years."
+   },
+   {
+      "time": 21378,
+      "type": "sentence",
+      "start": 312,
+      "end": 379,
+      "value": "European explorers and settlers began arriving in the 16th century."
+   },
+   {
+      "time": 26224,
+      "type": "sentence",
+      "start": 381,
+      "end": 383,
+      "value": "4."
+   },
+   {
+      "time": 27121,
+      "type": "sentence",
+      "start": 384,
+      "end": 414,
+      "value": "Oregon became a state in 1859."
+   },
+   {
+      "time": 30247,
+      "type": "sentence",
+      "start": 415,
+      "end": 470,
+      "value": "The capital is Salem, and the largest city is Portland."
+   },
+   {
+      "time": 34239,
+      "type": "sentence",
+      "start": 472,
+      "end": 474,
+      "value": "5."
+   },
+   {
+      "time": 35222,
+      "type": "sentence",
+      "start": 475,
+      "end": 566,
+      "value": "Oregon is a geographically diverse state, with a variety of forests, mountains, and rivers."
+   },
+   "END"
+]

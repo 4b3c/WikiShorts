@@ -10,7 +10,7 @@ def tts(text):
 	client = boto3.client('polly', aws_access_key_id=ACCESS_KEY_ID,
 	                      aws_secret_access_key=SECRET_ACCESS_KEY, region_name='us-west-1')
 
-	voice = 'Matthew'
+	voice = 'Joey'
 	response = client.synthesize_speech(Text=text, OutputFormat='mp3', VoiceId=voice)
 
 	file = open('test.mp3', 'wb')
@@ -20,7 +20,17 @@ def tts(text):
 	response = client.synthesize_speech(Text=text, OutputFormat='json', VoiceId=voice, SpeechMarkTypes=['word'])
 
 	json_data = response['AudioStream'].read().decode('utf-8').split("\n")
-	json_obj = [json.loads(json_data[i]) for i in range(len(json_data[:-2]))]
+	json_obj = [json.loads(json_data[i]) for i in range(len(json_data[:-1]))]
+	json_obj.append("END")
 
 	with open('word_timestamps.json', 'w') as f:
+		json.dump(json_obj, f, indent = 3)
+
+	response = client.synthesize_speech(Text=text, OutputFormat='json', VoiceId=voice, SpeechMarkTypes=['sentence'])
+
+	json_data = response['AudioStream'].read().decode('utf-8').split("\n")
+	json_obj = [json.loads(json_data[i]) for i in range(len(json_data[:-1]))]
+	json_obj.append("END")
+
+	with open('sentence_timestamps.json', 'w') as f:
 		json.dump(json_obj, f, indent = 3)
