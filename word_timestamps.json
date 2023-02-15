@@ -1,0 +1,849 @@
+[
+   {
+      "time": 6,
+      "type": "word",
+      "start": 1,
+      "end": 4,
+      "value": "Did"
+   },
+   {
+      "time": 166,
+      "type": "word",
+      "start": 5,
+      "end": 8,
+      "value": "you"
+   },
+   {
+      "time": 268,
+      "type": "word",
+      "start": 9,
+      "end": 13,
+      "value": "know"
+   },
+   {
+      "time": 1062,
+      "type": "word",
+      "start": 19,
+      "end": 27,
+      "value": "Grande's"
+   },
+   {
+      "time": 1489,
+      "type": "word",
+      "start": 28,
+      "end": 33,
+      "value": "music"
+   },
+   {
+      "time": 1828,
+      "type": "word",
+      "start": 34,
+      "end": 40,
+      "value": "career"
+   },
+   {
+      "time": 2185,
+      "type": "word",
+      "start": 41,
+      "end": 46,
+      "value": "began"
+   },
+   {
+      "time": 2555,
+      "type": "word",
+      "start": 47,
+      "end": 49,
+      "value": "in"
+   },
+   {
+      "time": 2659,
+      "type": "word",
+      "start": 50,
+      "end": 54,
+      "value": "2008"
+   },
+   {
+      "time": 3695,
+      "type": "word",
+      "start": 56,
+      "end": 60,
+      "value": "when"
+   },
+   {
+      "time": 3823,
+      "type": "word",
+      "start": 61,
+      "end": 64,
+      "value": "she"
+   },
+   {
+      "time": 3998,
+      "type": "word",
+      "start": 65,
+      "end": 76,
+      "value": "contributed"
+   },
+   {
+      "time": 4634,
+      "type": "word",
+      "start": 77,
+      "end": 83,
+      "value": "vocals"
+   },
+   {
+      "time": 5081,
+      "type": "word",
+      "start": 84,
+      "end": 86,
+      "value": "to"
+   },
+   {
+      "time": 5206,
+      "type": "word",
+      "start": 87,
+      "end": 90,
+      "value": "the"
+   },
+   {
+      "time": 5305,
+      "type": "word",
+      "start": 91,
+      "end": 95,
+      "value": "cast"
+   },
+   {
+      "time": 5645,
+      "type": "word",
+      "start": 96,
+      "end": 105,
+      "value": "recording"
+   },
+   {
+      "time": 6082,
+      "type": "word",
+      "start": 106,
+      "end": 108,
+      "value": "of"
+   },
+   {
+      "time": 6161,
+      "type": "word",
+      "start": 109,
+      "end": 112,
+      "value": "the"
+   },
+   {
+      "time": 6238,
+      "type": "word",
+      "start": 113,
+      "end": 120,
+      "value": "musical"
+   },
+   {
+      "time": 6676,
+      "type": "word",
+      "start": 121,
+      "end": 123,
+      "value": "13"
+   },
+   {
+      "time": 8090,
+      "type": "word",
+      "start": 127,
+      "end": 129,
+      "value": "In"
+   },
+   {
+      "time": 8233,
+      "type": "word",
+      "start": 130,
+      "end": 134,
+      "value": "2011"
+   },
+   {
+      "time": 9209,
+      "type": "word",
+      "start": 136,
+      "end": 142,
+      "value": "Grande"
+   },
+   {
+      "time": 9499,
+      "type": "word",
+      "start": 143,
+      "end": 147,
+      "value": "also"
+   },
+   {
+      "time": 9752,
+      "type": "word",
+      "start": 148,
+      "end": 153,
+      "value": "began"
+   },
+   {
+      "time": 10124,
+      "type": "word",
+      "start": 154,
+      "end": 156,
+      "value": "to"
+   },
+   {
+      "time": 10202,
+      "type": "word",
+      "start": 157,
+      "end": 161,
+      "value": "work"
+   },
+   {
+      "time": 10523,
+      "type": "word",
+      "start": 162,
+      "end": 164,
+      "value": "as"
+   },
+   {
+      "time": 10662,
+      "type": "word",
+      "start": 165,
+      "end": 167,
+      "value": "an"
+   },
+   {
+      "time": 10745,
+      "type": "word",
+      "start": 168,
+      "end": 179,
+      "value": "independent"
+   },
+   {
+      "time": 11301,
+      "type": "word",
+      "start": 180,
+      "end": 186,
+      "value": "artist"
+   },
+   {
+      "time": 11664,
+      "type": "word",
+      "start": 187,
+      "end": 194,
+      "value": "outside"
+   },
+   {
+      "time": 12012,
+      "type": "word",
+      "start": 195,
+      "end": 197,
+      "value": "of"
+   },
+   {
+      "time": 12112,
+      "type": "word",
+      "start": 198,
+      "end": 208,
+      "value": "television"
+   },
+   {
+      "time": 12975,
+      "type": "word",
+      "start": 210,
+      "end": 219,
+      "value": "releasing"
+   },
+   {
+      "time": 13492,
+      "type": "word",
+      "start": 221,
+      "end": 224,
+      "value": "Put"
+   },
+   {
+      "time": 13676,
+      "type": "word",
+      "start": 225,
+      "end": 229,
+      "value": "Your"
+   },
+   {
+      "time": 13811,
+      "type": "word",
+      "start": 230,
+      "end": 236,
+      "value": "Hearts"
+   },
+   {
+      "time": 14113,
+      "type": "word",
+      "start": 237,
+      "end": 239,
+      "value": "Up"
+   },
+   {
+      "time": 14612,
+      "type": "word",
+      "start": 242,
+      "end": 243,
+      "value": "a"
+   },
+   {
+      "time": 14677,
+      "type": "word",
+      "start": 244,
+      "end": 253,
+      "value": "bubblegum"
+   },
+   {
+      "time": 15136,
+      "type": "word",
+      "start": 254,
+      "end": 257,
+      "value": "pop"
+   },
+   {
+      "time": 15401,
+      "type": "word",
+      "start": 258,
+      "end": 262,
+      "value": "song"
+   },
+   {
+      "time": 16044,
+      "type": "word",
+      "start": 264,
+      "end": 267,
+      "value": "the"
+   },
+   {
+      "time": 16141,
+      "type": "word",
+      "start": 268,
+      "end": 272,
+      "value": "same"
+   },
+   {
+      "time": 16431,
+      "type": "word",
+      "start": 273,
+      "end": 277,
+      "value": "year"
+   },
+   {
+      "time": 17496,
+      "type": "word",
+      "start": 281,
+      "end": 289,
+      "value": "Grande's"
+   },
+   {
+      "time": 17977,
+      "type": "word",
+      "start": 290,
+      "end": 296,
+      "value": "second"
+   },
+   {
+      "time": 18332,
+      "type": "word",
+      "start": 297,
+      "end": 303,
+      "value": "studio"
+   },
+   {
+      "time": 18836,
+      "type": "word",
+      "start": 304,
+      "end": 309,
+      "value": "album"
+   },
+   {
+      "time": 19460,
+      "type": "word",
+      "start": 311,
+      "end": 313,
+      "value": "My"
+   },
+   {
+      "time": 19720,
+      "type": "word",
+      "start": 314,
+      "end": 324,
+      "value": "Everything"
+   },
+   {
+      "time": 20474,
+      "type": "word",
+      "start": 326,
+      "end": 329,
+      "value": "was"
+   },
+   {
+      "time": 20684,
+      "type": "word",
+      "start": 330,
+      "end": 338,
+      "value": "released"
+   },
+   {
+      "time": 21071,
+      "type": "word",
+      "start": 339,
+      "end": 341,
+      "value": "in"
+   },
+   {
+      "time": 21177,
+      "type": "word",
+      "start": 342,
+      "end": 348,
+      "value": "August"
+   },
+   {
+      "time": 21551,
+      "type": "word",
+      "start": 349,
+      "end": 353,
+      "value": "2014"
+   },
+   {
+      "time": 23249,
+      "type": "word",
+      "start": 357,
+      "end": 360,
+      "value": "The"
+   },
+   {
+      "time": 23426,
+      "type": "word",
+      "start": 361,
+      "end": 366,
+      "value": "album"
+   },
+   {
+      "time": 23743,
+      "type": "word",
+      "start": 367,
+      "end": 370,
+      "value": "and"
+   },
+   {
+      "time": 23876,
+      "type": "word",
+      "start": 371,
+      "end": 374,
+      "value": "its"
+   },
+   {
+      "time": 24017,
+      "type": "word",
+      "start": 375,
+      "end": 382,
+      "value": "singles"
+   },
+   {
+      "time": 24480,
+      "type": "word",
+      "start": 383,
+      "end": 387,
+      "value": "were"
+   },
+   {
+      "time": 24603,
+      "type": "word",
+      "start": 388,
+      "end": 400,
+      "value": "commercially"
+   },
+   {
+      "time": 25079,
+      "type": "word",
+      "start": 401,
+      "end": 411,
+      "value": "successful"
+   },
+   {
+      "time": 25995,
+      "type": "word",
+      "start": 413,
+      "end": 420,
+      "value": "landing"
+   },
+   {
+      "time": 26444,
+      "type": "word",
+      "start": 421,
+      "end": 423,
+      "value": "in"
+   },
+   {
+      "time": 26514,
+      "type": "word",
+      "start": 424,
+      "end": 427,
+      "value": "the"
+   },
+   {
+      "time": 26579,
+      "type": "word",
+      "start": 428,
+      "end": 431,
+      "value": "top"
+   },
+   {
+      "time": 26882,
+      "type": "word",
+      "start": 432,
+      "end": 435,
+      "value": "ten"
+   },
+   {
+      "time": 27063,
+      "type": "word",
+      "start": 436,
+      "end": 438,
+      "value": "of"
+   },
+   {
+      "time": 27150,
+      "type": "word",
+      "start": 439,
+      "end": 443,
+      "value": "most"
+   },
+   {
+      "time": 27427,
+      "type": "word",
+      "start": 444,
+      "end": 453,
+      "value": "countries"
+   },
+   {
+      "time": 27841,
+      "type": "word",
+      "start": 454,
+      "end": 463,
+      "value": "worldwide"
+   },
+   {
+      "time": 28954,
+      "type": "word",
+      "start": 466,
+      "end": 474,
+      "value": "Grande's"
+   },
+   {
+      "time": 29348,
+      "type": "word",
+      "start": 475,
+      "end": 480,
+      "value": "third"
+   },
+   {
+      "time": 29691,
+      "type": "word",
+      "start": 481,
+      "end": 487,
+      "value": "studio"
+   },
+   {
+      "time": 30198,
+      "type": "word",
+      "start": 488,
+      "end": 493,
+      "value": "album"
+   },
+   {
+      "time": 30493,
+      "type": "word",
+      "start": 494,
+      "end": 503,
+      "value": "Dangerous"
+   },
+   {
+      "time": 30994,
+      "type": "word",
+      "start": 504,
+      "end": 509,
+      "value": "Woman"
+   },
+   {
+      "time": 31681,
+      "type": "word",
+      "start": 511,
+      "end": 514,
+      "value": "was"
+   },
+   {
+      "time": 31891,
+      "type": "word",
+      "start": 515,
+      "end": 523,
+      "value": "released"
+   },
+   {
+      "time": 32289,
+      "type": "word",
+      "start": 524,
+      "end": 526,
+      "value": "in"
+   },
+   {
+      "time": 32363,
+      "type": "word",
+      "start": 527,
+      "end": 530,
+      "value": "May"
+   },
+   {
+      "time": 32531,
+      "type": "word",
+      "start": 531,
+      "end": 535,
+      "value": "2016"
+   },
+   {
+      "time": 34198,
+      "type": "word",
+      "start": 539,
+      "end": 542,
+      "value": "The"
+   },
+   {
+      "time": 34367,
+      "type": "word",
+      "start": 543,
+      "end": 548,
+      "value": "album"
+   },
+   {
+      "time": 34684,
+      "type": "word",
+      "start": 549,
+      "end": 552,
+      "value": "and"
+   },
+   {
+      "time": 34817,
+      "type": "word",
+      "start": 553,
+      "end": 556,
+      "value": "its"
+   },
+   {
+      "time": 34958,
+      "type": "word",
+      "start": 557,
+      "end": 564,
+      "value": "singles"
+   },
+   {
+      "time": 35339,
+      "type": "word",
+      "start": 565,
+      "end": 572,
+      "value": "reached"
+   },
+   {
+      "time": 35597,
+      "type": "word",
+      "start": 573,
+      "end": 576,
+      "value": "top"
+   },
+   {
+      "time": 35882,
+      "type": "word",
+      "start": 577,
+      "end": 580,
+      "value": "ten"
+   },
+   {
+      "time": 36100,
+      "type": "word",
+      "start": 581,
+      "end": 590,
+      "value": "positions"
+   },
+   {
+      "time": 36625,
+      "type": "word",
+      "start": 591,
+      "end": 593,
+      "value": "of"
+   },
+   {
+      "time": 36726,
+      "type": "word",
+      "start": 594,
+      "end": 601,
+      "value": "several"
+   },
+   {
+      "time": 37077,
+      "type": "word",
+      "start": 602,
+      "end": 611,
+      "value": "countries"
+   },
+   {
+      "time": 37521,
+      "type": "word",
+      "start": 612,
+      "end": 620,
+      "value": "globally"
+   },
+   {
+      "time": 38284,
+      "type": "word",
+      "start": 622,
+      "end": 625,
+      "value": "and"
+   },
+   {
+      "time": 38410,
+      "type": "word",
+      "start": 626,
+      "end": 632,
+      "value": "became"
+   },
+   {
+      "time": 38746,
+      "type": "word",
+      "start": 633,
+      "end": 641,
+      "value": "Grande's"
+   },
+   {
+      "time": 39255,
+      "type": "word",
+      "start": 642,
+      "end": 646,
+      "value": "most"
+   },
+   {
+      "time": 39544,
+      "type": "word",
+      "start": 647,
+      "end": 660,
+      "value": "well-received"
+   },
+   {
+      "time": 40230,
+      "type": "word",
+      "start": 661,
+      "end": 667,
+      "value": "record"
+   },
+   {
+      "time": 40552,
+      "type": "word",
+      "start": 668,
+      "end": 670,
+      "value": "up"
+   },
+   {
+      "time": 40696,
+      "type": "word",
+      "start": 671,
+      "end": 673,
+      "value": "to"
+   },
+   {
+      "time": 40783,
+      "type": "word",
+      "start": 674,
+      "end": 678,
+      "value": "that"
+   },
+   {
+      "time": 40979,
+      "type": "word",
+      "start": 679,
+      "end": 684,
+      "value": "point"
+   },
+   {
+      "time": 41783,
+      "type": "word",
+      "start": 687,
+      "end": 695,
+      "value": "Grande's"
+   },
+   {
+      "time": 42303,
+      "type": "word",
+      "start": 696,
+      "end": 702,
+      "value": "fourth"
+   },
+   {
+      "time": 42595,
+      "type": "word",
+      "start": 703,
+      "end": 709,
+      "value": "studio"
+   },
+   {
+      "time": 43100,
+      "type": "word",
+      "start": 710,
+      "end": 715,
+      "value": "album"
+   },
+   {
+      "time": 43723,
+      "type": "word",
+      "start": 717,
+      "end": 726,
+      "value": "Sweetener"
+   },
+   {
+      "time": 44625,
+      "type": "word",
+      "start": 728,
+      "end": 731,
+      "value": "was"
+   },
+   {
+      "time": 44804,
+      "type": "word",
+      "start": 732,
+      "end": 740,
+      "value": "released"
+   },
+   {
+      "time": 45208,
+      "type": "word",
+      "start": 741,
+      "end": 743,
+      "value": "in"
+   },
+   {
+      "time": 45313,
+      "type": "word",
+      "start": 744,
+      "end": 750,
+      "value": "August"
+   },
+   {
+      "time": 45688,
+      "type": "word",
+      "start": 751,
+      "end": 755,
+      "value": "2018"
+   },
+   {
+      "time": 46342,
+      "type": "word",
+      "start": 756,
+      "end": 758,
+      "value": "to"
+   },
+   {
+      "time": 46447,
+      "type": "word",
+      "start": 759,
+      "end": 768,
+      "value": "universal"
+   }
+]
