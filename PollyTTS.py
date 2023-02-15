@@ -13,7 +13,7 @@ def tts(text):
 	voice = 'Joey'
 	response = client.synthesize_speech(Text=text, OutputFormat='mp3', VoiceId=voice)
 
-	file = open('test.mp3', 'wb')
+	file = open('Temporary//test.mp3', 'wb')
 	file.write(response['AudioStream'].read())
 	file.close()
 
@@ -23,7 +23,7 @@ def tts(text):
 	json_obj = [json.loads(json_data[i]) for i in range(len(json_data[:-1]))]
 	json_obj.append("END")
 
-	with open('word_timestamps.json', 'w') as f:
+	with open('Temporary//word_timestamps.json', 'w') as f:
 		json.dump(json_obj, f, indent = 3)
 
 	response = client.synthesize_speech(Text=text, OutputFormat='json', VoiceId=voice, SpeechMarkTypes=['sentence'])
@@ -32,5 +32,5 @@ def tts(text):
 	json_obj = [json.loads(json_data[i]) for i in range(len(json_data[:-1]))]
 	json_obj.append("END")
 
-	with open('sentence_timestamps.json', 'w') as f:
+	with open('Temporary//sentence_timestamps.json', 'w') as f:
 		json.dump(json_obj, f, indent = 3)

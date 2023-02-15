@@ -13,15 +13,15 @@ def search_for(key_phrase):
 
 	response = requests.get(image_url)
 	if response.status_code == 200:
-		with open("sample.jpg", 'wb') as f:
+		with open("Temporary//sample.jpg", 'wb') as f:
 			f.write(response.content)
 	else:
 		return None
 
-	image = Image.open('sample.jpg')
+	image = Image.open('Temporary//sample.jpg')
 	width, height = image.size
 	new_height = int(height * 500 / width)
 	resized_image = image.resize((500, new_height))
-	resized_image.save('image.jpg')
+	resized_image.save('Temporary//image.jpg')
 
-	return "image.jpg"
+	return "Temporary//image.jpg"

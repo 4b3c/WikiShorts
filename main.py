@@ -5,7 +5,7 @@ trick_prompt2 = "\nList the facts with numbers, 1), 2), 3) etc\n"
 trick_prompt3 = "\nPerson 2:\n"
 fun_fact_intro = "\nDid you know...\n"
 
-norwayContent = WikiContent.get_content("Oregon")[:12000]
+norwayContent = WikiContent.get_content("Dos Hombres")[:12000]
 
 answer = fun_fact_intro + Autofill.ask_ai(trick_prompt1 + trick_prompt2 + '"' + norwayContent + '"' + trick_prompt3)
 

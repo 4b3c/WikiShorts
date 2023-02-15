@@ -1,0 +1,45 @@
+[
+   {
+      "time": 0,
+      "type": "sentence",
+      "start": 1,
+      "end": 16,
+      "value": "Did you know..."
+   },
+   {
+      "time": 1164,
+      "type": "sentence",
+      "start": 18,
+      "end": 121,
+      "value": "1) Dos Hombres is a mezcal company co founded in 2019 by American actors Aaron Paul and Bryan Cranston."
+   },
+   {
+      "time": 9374,
+      "type": "sentence",
+      "start": 122,
+      "end": 234,
+      "value": "2) The company produces artisanal mezcal which is distilled in small batches and does not use modern technology."
+   },
+   {
+      "time": 16611,
+      "type": "sentence",
+      "start": 235,
+      "end": 344,
+      "value": "3) Dos Hombres is produced in San Luis del R\u00edo in Oaxaca, Mexico, and production is led by Gregorio Velasco."
+   },
+   {
+      "time": 25486,
+      "type": "sentence",
+      "start": 345,
+      "end": 431,
+      "value": "4) The company offers two types of mezcal: Dos Hombres Espadin and Dos Hombres Tobala."
+   },
+   {
+      "time": 32341,
+      "type": "sentence",
+      "start": 432,
+      "end": 584,
+      "value": "5) Dos Hombres provides several cocktail recipes on their website, including the Dos Hombres Sour, Dos Hombres Mule, Party Punch, and Sunrise in Oaxaca."
+   },
+   "END"
+]

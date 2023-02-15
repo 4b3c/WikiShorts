@@ -1,0 +1,696 @@
+[
+   {
+      "time": 6,
+      "type": "word",
+      "start": 1,
+      "end": 4,
+      "value": "Did"
+   },
+   {
+      "time": 235,
+      "type": "word",
+      "start": 5,
+      "end": 8,
+      "value": "you"
+   },
+   {
+      "time": 358,
+      "type": "word",
+      "start": 9,
+      "end": 13,
+      "value": "know"
+   },
+   {
+      "time": 1171,
+      "type": "word",
+      "start": 18,
+      "end": 19,
+      "value": "1"
+   },
+   {
+      "time": 1888,
+      "type": "word",
+      "start": 21,
+      "end": 24,
+      "value": "Dos"
+   },
+   {
+      "time": 2238,
+      "type": "word",
+      "start": 25,
+      "end": 32,
+      "value": "Hombres"
+   },
+   {
+      "time": 2757,
+      "type": "word",
+      "start": 33,
+      "end": 35,
+      "value": "is"
+   },
+   {
+      "time": 2882,
+      "type": "word",
+      "start": 36,
+      "end": 37,
+      "value": "a"
+   },
+   {
+      "time": 2922,
+      "type": "word",
+      "start": 38,
+      "end": 44,
+      "value": "mezcal"
+   },
+   {
+      "time": 3512,
+      "type": "word",
+      "start": 45,
+      "end": 52,
+      "value": "company"
+   },
+   {
+      "time": 3966,
+      "type": "word",
+      "start": 53,
+      "end": 55,
+      "value": "co"
+   },
+   {
+      "time": 4199,
+      "type": "word",
+      "start": 56,
+      "end": 63,
+      "value": "founded"
+   },
+   {
+      "time": 4675,
+      "type": "word",
+      "start": 64,
+      "end": 66,
+      "value": "in"
+   },
+   {
+      "time": 4791,
+      "type": "word",
+      "start": 67,
+      "end": 71,
+      "value": "2019"
+   },
+   {
+      "time": 5710,
+      "type": "word",
+      "start": 72,
+      "end": 74,
+      "value": "by"
+   },
+   {
+      "time": 5906,
+      "type": "word",
+      "start": 75,
+      "end": 83,
+      "value": "American"
+   },
+   {
+      "time": 6457,
+      "type": "word",
+      "start": 84,
+      "end": 90,
+      "value": "actors"
+   },
+   {
+      "time": 6947,
+      "type": "word",
+      "start": 91,
+      "end": 96,
+      "value": "Aaron"
+   },
+   {
+      "time": 7281,
+      "type": "word",
+      "start": 97,
+      "end": 101,
+      "value": "Paul"
+   },
+   {
+      "time": 7645,
+      "type": "word",
+      "start": 102,
+      "end": 105,
+      "value": "and"
+   },
+   {
+      "time": 7802,
+      "type": "word",
+      "start": 106,
+      "end": 111,
+      "value": "Bryan"
+   },
+   {
+      "time": 8286,
+      "type": "word",
+      "start": 112,
+      "end": 120,
+      "value": "Cranston"
+   },
+   {
+      "time": 9381,
+      "type": "word",
+      "start": 122,
+      "end": 123,
+      "value": "2"
+   },
+   {
+      "time": 9953,
+      "type": "word",
+      "start": 125,
+      "end": 128,
+      "value": "The"
+   },
+   {
+      "time": 10057,
+      "type": "word",
+      "start": 129,
+      "end": 136,
+      "value": "company"
+   },
+   {
+      "time": 10507,
+      "type": "word",
+      "start": 137,
+      "end": 145,
+      "value": "produces"
+   },
+   {
+      "time": 11119,
+      "type": "word",
+      "start": 146,
+      "end": 155,
+      "value": "artisanal"
+   },
+   {
+      "time": 11736,
+      "type": "word",
+      "start": 156,
+      "end": 162,
+      "value": "mezcal"
+   },
+   {
+      "time": 12312,
+      "type": "word",
+      "start": 163,
+      "end": 168,
+      "value": "which"
+   },
+   {
+      "time": 12549,
+      "type": "word",
+      "start": 169,
+      "end": 171,
+      "value": "is"
+   },
+   {
+      "time": 12671,
+      "type": "word",
+      "start": 172,
+      "end": 181,
+      "value": "distilled"
+   },
+   {
+      "time": 13207,
+      "type": "word",
+      "start": 182,
+      "end": 184,
+      "value": "in"
+   },
+   {
+      "time": 13316,
+      "type": "word",
+      "start": 185,
+      "end": 190,
+      "value": "small"
+   },
+   {
+      "time": 13646,
+      "type": "word",
+      "start": 191,
+      "end": 198,
+      "value": "batches"
+   },
+   {
+      "time": 14128,
+      "type": "word",
+      "start": 199,
+      "end": 202,
+      "value": "and"
+   },
+   {
+      "time": 14254,
+      "type": "word",
+      "start": 203,
+      "end": 207,
+      "value": "does"
+   },
+   {
+      "time": 14440,
+      "type": "word",
+      "start": 208,
+      "end": 211,
+      "value": "not"
+   },
+   {
+      "time": 14697,
+      "type": "word",
+      "start": 212,
+      "end": 215,
+      "value": "use"
+   },
+   {
+      "time": 14991,
+      "type": "word",
+      "start": 216,
+      "end": 222,
+      "value": "modern"
+   },
+   {
+      "time": 15414,
+      "type": "word",
+      "start": 223,
+      "end": 233,
+      "value": "technology"
+   },
+   {
+      "time": 16618,
+      "type": "word",
+      "start": 235,
+      "end": 236,
+      "value": "3"
+   },
+   {
+      "time": 17419,
+      "type": "word",
+      "start": 238,
+      "end": 241,
+      "value": "Dos"
+   },
+   {
+      "time": 17769,
+      "type": "word",
+      "start": 242,
+      "end": 249,
+      "value": "Hombres"
+   },
+   {
+      "time": 18278,
+      "type": "word",
+      "start": 250,
+      "end": 252,
+      "value": "is"
+   },
+   {
+      "time": 18413,
+      "type": "word",
+      "start": 253,
+      "end": 261,
+      "value": "produced"
+   },
+   {
+      "time": 18933,
+      "type": "word",
+      "start": 262,
+      "end": 264,
+      "value": "in"
+   },
+   {
+      "time": 19021,
+      "type": "word",
+      "start": 265,
+      "end": 268,
+      "value": "San"
+   },
+   {
+      "time": 19358,
+      "type": "word",
+      "start": 269,
+      "end": 273,
+      "value": "Luis"
+   },
+   {
+      "time": 19821,
+      "type": "word",
+      "start": 274,
+      "end": 277,
+      "value": "del"
+   },
+   {
+      "time": 20067,
+      "type": "word",
+      "start": 278,
+      "end": 282,
+      "value": "R\u00edo"
+   },
+   {
+      "time": 20516,
+      "type": "word",
+      "start": 283,
+      "end": 285,
+      "value": "in"
+   },
+   {
+      "time": 20630,
+      "type": "word",
+      "start": 286,
+      "end": 292,
+      "value": "Oaxaca"
+   },
+   {
+      "time": 21446,
+      "type": "word",
+      "start": 294,
+      "end": 300,
+      "value": "Mexico"
+   },
+   {
+      "time": 22350,
+      "type": "word",
+      "start": 302,
+      "end": 305,
+      "value": "and"
+   },
+   {
+      "time": 22546,
+      "type": "word",
+      "start": 306,
+      "end": 316,
+      "value": "production"
+   },
+   {
+      "time": 23159,
+      "type": "word",
+      "start": 317,
+      "end": 319,
+      "value": "is"
+   },
+   {
+      "time": 23315,
+      "type": "word",
+      "start": 320,
+      "end": 323,
+      "value": "led"
+   },
+   {
+      "time": 23537,
+      "type": "word",
+      "start": 324,
+      "end": 326,
+      "value": "by"
+   },
+   {
+      "time": 23733,
+      "type": "word",
+      "start": 327,
+      "end": 335,
+      "value": "Gregorio"
+   },
+   {
+      "time": 24412,
+      "type": "word",
+      "start": 336,
+      "end": 343,
+      "value": "Velasco"
+   },
+   {
+      "time": 25492,
+      "type": "word",
+      "start": 345,
+      "end": 346,
+      "value": "4"
+   },
+   {
+      "time": 26183,
+      "type": "word",
+      "start": 348,
+      "end": 351,
+      "value": "The"
+   },
+   {
+      "time": 26303,
+      "type": "word",
+      "start": 352,
+      "end": 359,
+      "value": "company"
+   },
+   {
+      "time": 26793,
+      "type": "word",
+      "start": 360,
+      "end": 366,
+      "value": "offers"
+   },
+   {
+      "time": 27308,
+      "type": "word",
+      "start": 367,
+      "end": 370,
+      "value": "two"
+   },
+   {
+      "time": 27533,
+      "type": "word",
+      "start": 371,
+      "end": 376,
+      "value": "types"
+   },
+   {
+      "time": 27940,
+      "type": "word",
+      "start": 377,
+      "end": 379,
+      "value": "of"
+   },
+   {
+      "time": 28051,
+      "type": "word",
+      "start": 380,
+      "end": 386,
+      "value": "mezcal"
+   },
+   {
+      "time": 28938,
+      "type": "word",
+      "start": 388,
+      "end": 391,
+      "value": "Dos"
+   },
+   {
+      "time": 29289,
+      "type": "word",
+      "start": 392,
+      "end": 399,
+      "value": "Hombres"
+   },
+   {
+      "time": 29798,
+      "type": "word",
+      "start": 400,
+      "end": 407,
+      "value": "Espadin"
+   },
+   {
+      "time": 30345,
+      "type": "word",
+      "start": 408,
+      "end": 411,
+      "value": "and"
+   },
+   {
+      "time": 30509,
+      "type": "word",
+      "start": 412,
+      "end": 415,
+      "value": "Dos"
+   },
+   {
+      "time": 30859,
+      "type": "word",
+      "start": 416,
+      "end": 423,
+      "value": "Hombres"
+   },
+   {
+      "time": 31378,
+      "type": "word",
+      "start": 424,
+      "end": 430,
+      "value": "Tobala"
+   },
+   {
+      "time": 32347,
+      "type": "word",
+      "start": 432,
+      "end": 433,
+      "value": "5"
+   },
+   {
+      "time": 33111,
+      "type": "word",
+      "start": 435,
+      "end": 438,
+      "value": "Dos"
+   },
+   {
+      "time": 33462,
+      "type": "word",
+      "start": 439,
+      "end": 446,
+      "value": "Hombres"
+   },
+   {
+      "time": 33961,
+      "type": "word",
+      "start": 447,
+      "end": 455,
+      "value": "provides"
+   },
+   {
+      "time": 34452,
+      "type": "word",
+      "start": 456,
+      "end": 463,
+      "value": "several"
+   },
+   {
+      "time": 34924,
+      "type": "word",
+      "start": 464,
+      "end": 472,
+      "value": "cocktail"
+   },
+   {
+      "time": 35501,
+      "type": "word",
+      "start": 473,
+      "end": 480,
+      "value": "recipes"
+   },
+   {
+      "time": 36117,
+      "type": "word",
+      "start": 481,
+      "end": 483,
+      "value": "on"
+   },
+   {
+      "time": 36235,
+      "type": "word",
+      "start": 484,
+      "end": 489,
+      "value": "their"
+   },
+   {
+      "time": 36390,
+      "type": "word",
+      "start": 490,
+      "end": 497,
+      "value": "website"
+   },
+   {
+      "time": 37297,
+      "type": "word",
+      "start": 499,
+      "end": 508,
+      "value": "including"
+   },
+   {
+      "time": 37831,
+      "type": "word",
+      "start": 509,
+      "end": 512,
+      "value": "the"
+   },
+   {
+      "time": 37915,
+      "type": "word",
+      "start": 513,
+      "end": 516,
+      "value": "Dos"
+   },
+   {
+      "time": 38355,
+      "type": "word",
+      "start": 517,
+      "end": 524,
+      "value": "Hombres"
+   },
+   {
+      "time": 38946,
+      "type": "word",
+      "start": 525,
+      "end": 529,
+      "value": "Sour"
+   },
+   {
+      "time": 39708,
+      "type": "word",
+      "start": 531,
+      "end": 534,
+      "value": "Dos"
+   },
+   {
+      "time": 40058,
+      "type": "word",
+      "start": 535,
+      "end": 542,
+      "value": "Hombres"
+   },
+   {
+      "time": 40567,
+      "type": "word",
+      "start": 543,
+      "end": 547,
+      "value": "Mule"
+   },
+   {
+      "time": 41227,
+      "type": "word",
+      "start": 549,
+      "end": 554,
+      "value": "Party"
+   },
+   {
+      "time": 41514,
+      "type": "word",
+      "start": 555,
+      "end": 560,
+      "value": "Punch"
+   },
+   {
+      "time": 42186,
+      "type": "word",
+      "start": 562,
+      "end": 565,
+      "value": "and"
+   },
+   {
+      "time": 42414,
+      "type": "word",
+      "start": 566,
+      "end": 573,
+      "value": "Sunrise"
+   },
+   {
+      "time": 42993,
+      "type": "word",
+      "start": 574,
+      "end": 576,
+      "value": "in"
+   },
+   {
+      "time": 43085,
+      "type": "word",
+      "start": 577,
+      "end": 583,
+      "value": "Oaxaca"
+   },
+   "END"
+]
