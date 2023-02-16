@@ -4,28 +4,51 @@ from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_
 
 def timestamp_video():
 	with open('Temporary//word_timestamps.json', 'r') as f:
-		data = json.load(f)
+		wordts = json.load(f)
+		f.close()
+	with open('Temporary//img_timestamps.json', 'r') as f:
+		imgts = json.load(f)
 		f.close()
 
 	font = cv2.FONT_HERSHEY_SIMPLEX
 	color = (255, 255, 55)
 	thickness = 3
 
+	images = []
+	for i in imgts:
+		image = cv2.imread(i[0])
+		image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+		images.append(image)
 
 	frames = []
-	for i in range(len(data) - 1):
-		text = data[i]["value"]
+	imgnum = 0
+	for i in range(len(wordts) - 1):
+		text = wordts[i]["value"]
+		frame = np.full((1080, 1920, 3), 5, dtype=np.uint8)
+
 		try:
-			duration = (data[i + 1]["time"] - data[i]["time"]) / 1000
+			duration = (wordts[i + 1]["time"] - wordts[i]["time"]) / 1000
 		except:
 			duration = 0.1
-		frame = np.full((1080, 1920, 3), 5, dtype=np.uint8)
+		time = wordts[i]["time"]
+
+		if time > imgts[imgnum][1]:
+			try:
+				if time > imgts[imgnum + 1][1]:
+					imgnum += 1
+			except:
+				pass
+			image_height, image_width, _ = images[imgnum].shape
+			y_pos = int((1080 - image_height) / 2)
+			x_pos = int((1920 - image_width) / 2)
+
+			frame[y_pos : y_pos + image_height, x_pos : x_pos + image_width, :] = images[imgnum]
+
 		text_size = cv2.getTextSize(text, font, 3, thickness)[0]
 		text_x = int((frame.shape[1] - text_size[0]) / 2)
 		cv2.putText(frame, text, (text_x, 730), font, 3, color, thickness, cv2.LINE_AA)
 		frames.append([frame, duration])
 
-	print(len(frames))
 	clips = [ImageClip(frame[0]).set_duration(frame[1]) for frame in frames]
 	video = concatenate_videoclips(clips)
 

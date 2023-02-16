@@ -1,8 +1,8 @@
 from google_images_search import GoogleImagesSearch
-import requests
+import requests, json
 from PIL import Image
 
-def search_for(key_phrase):
+def search_for(key_phrase, num = 0):
 	with open('creds.json', 'r') as f:
 		data = json.load(f)
 		f.close()
@@ -20,8 +20,11 @@ def search_for(key_phrase):
 
 	image = Image.open('Temporary//sample.jpg')
 	width, height = image.size
-	new_height = int(height * 500 / width)
-	resized_image = image.resize((500, new_height))
-	resized_image.save('Temporary//image.jpg')
+	new_height = int(height * 900 / width)
+	resized_image = image.resize((900, new_height))
+	if image.size[1] > 1000:
+		resized_image = resized_image.crop((0, 0, 900, 1000))
+	resized_image = resized_image.convert('RGB')
+	resized_image.save("Temporary//image" + str(num) + ".jpg")
 
-	return "Temporary//image.jpg"
+	return "Temporary//image" + str(num) + ".jpg"
