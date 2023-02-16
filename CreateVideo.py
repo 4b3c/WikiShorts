@@ -1,4 +1,4 @@
-import cv2, json
+import cv2, json, os
 import numpy as np
 from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
 
@@ -11,8 +11,6 @@ def timestamp_video():
 		f.close()
 
 	font = cv2.FONT_HERSHEY_SIMPLEX
-	color = (255, 255, 55)
-	thickness = 3
 
 	images = []
 	for i in imgts:
@@ -44,9 +42,10 @@ def timestamp_video():
 
 			frame[y_pos : y_pos + image_height, x_pos : x_pos + image_width, :] = images[imgnum]
 
-		text_size = cv2.getTextSize(text, font, 3, thickness)[0]
+		text_size = cv2.getTextSize(text, font, 3, 3)[0]
 		text_x = int((frame.shape[1] - text_size[0]) / 2)
-		cv2.putText(frame, text, (text_x, 730), font, 3, color, thickness, cv2.LINE_AA)
+		cv2.putText(frame, text, (text_x, 730), font, 3, (0, 0, 0), 7, cv2.LINE_AA)
+		cv2.putText(frame, text, (text_x, 730), font, 3, (255, 255, 255), 3, cv2.LINE_AA)
 		frames.append([frame, duration])
 
 	clips = [ImageClip(frame[0]).set_duration(frame[1]) for frame in frames]
@@ -58,3 +57,5 @@ def timestamp_video():
 	video = VideoFileClip("Temporary//output.mp4")
 	video = video.set_audio(audio)
 	video.write_videofile("Final//final_out.mp4", codec="libx264")
+	for i in range(6):
+		os.remove("Temporary//image" + str(i) + ".jpg")

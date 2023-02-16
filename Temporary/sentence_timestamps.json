@@ -10,36 +10,36 @@
       "time": 1164,
       "type": "sentence",
       "start": 18,
-      "end": 124,
-      "value": "1) Aaron Paul is an American actor best known for portraying Jesse Pinkman in the AMC series Breaking Bad."
+      "end": 112,
+      "value": "1) The article discusses the history of the American economy and how it has changed over time."
    },
    {
-      "time": 8765,
+      "time": 7416,
       "type": "sentence",
-      "start": 125,
-      "end": 444,
-      "value": "2) He has won several awards for his role in Breaking Bad, including the Critics' Choice Television Award for Best Supporting Actor in a Drama Series, the Satellite Award for Best Supporting Actor   Series, Miniseries, or Television Film, and the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series."
+      "start": 113,
+      "end": 242,
+      "value": "2) It discusses how the economy has been affected by various factors such as technology, globalization, and the financial crisis."
    },
    {
-      "time": 28638,
+      "time": 16506,
       "type": "sentence",
-      "start": 445,
-      "end": 558,
-      "value": "3) Paul began his career with roles in several music videos, guest roles in television, and minor roles in films."
+      "start": 243,
+      "end": 319,
+      "value": "3) It discusses how the economy has changed the way Americans live and work."
    },
    {
-      "time": 36739,
+      "time": 21783,
       "type": "sentence",
-      "start": 559,
-      "end": 702,
-      "value": "4) In addition to Breaking Bad, he has also starred in films such as Need for Speed, Hellion, Exodus: Gods and Kings, and Central Intelligence."
+      "start": 320,
+      "end": 384,
+      "value": "4) It discusses how the economy has affected the American Dream."
    },
    {
-      "time": 47239,
+      "time": 26525,
       "type": "sentence",
-      "start": 703,
-      "end": 843,
-      "value": "5) He has also voiced Todd Chavez in the Netflix animated series BoJack Horseman and portrayed Eddie Lane in the Hulu drama series The Path."
+      "start": 385,
+      "end": 458,
+      "value": "5) It discusses how the economy has changed America's place in the world."
    },
    "END"
 ]
