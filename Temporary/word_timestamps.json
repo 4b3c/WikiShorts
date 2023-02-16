@@ -28,522 +28,494 @@
       "value": "1"
    },
    {
-      "time": 1881,
+      "time": 2034,
       "type": "word",
       "start": 21,
       "end": 24,
       "value": "The"
    },
    {
-      "time": 2062,
+      "time": 2214,
       "type": "word",
       "start": 25,
       "end": 32,
       "value": "article"
    },
    {
-      "time": 2600,
+      "time": 2752,
       "type": "word",
       "start": 33,
       "end": 42,
       "value": "discusses"
    },
    {
-      "time": 3193,
+      "time": 3345,
       "type": "word",
       "start": 43,
       "end": 46,
       "value": "the"
    },
    {
-      "time": 3273,
+      "time": 3425,
       "type": "word",
       "start": 47,
       "end": 54,
       "value": "history"
    },
    {
-      "time": 3722,
+      "time": 3918,
       "type": "word",
       "start": 55,
-      "end": 57,
+      "end": 58,
+      "value": "and"
+   },
+   {
+      "time": 4062,
+      "type": "word",
+      "start": 59,
+      "end": 68,
+      "value": "different"
+   },
+   {
+      "time": 4372,
+      "type": "word",
+      "start": 69,
+      "end": 74,
+      "value": "types"
+   },
+   {
+      "time": 4678,
+      "type": "word",
+      "start": 75,
+      "end": 77,
       "value": "of"
    },
    {
-      "time": 3853,
+      "time": 4758,
       "type": "word",
-      "start": 58,
-      "end": 61,
-      "value": "the"
+      "start": 78,
+      "end": 90,
+      "value": "screwdrivers"
    },
    {
-      "time": 3971,
+      "time": 6045,
       "type": "word",
-      "start": 62,
-      "end": 70,
-      "value": "American"
-   },
-   {
-      "time": 4509,
-      "type": "word",
-      "start": 71,
-      "end": 78,
-      "value": "economy"
-   },
-   {
-      "time": 5116,
-      "type": "word",
-      "start": 79,
-      "end": 82,
-      "value": "and"
-   },
-   {
-      "time": 5275,
-      "type": "word",
-      "start": 83,
-      "end": 86,
-      "value": "how"
-   },
-   {
-      "time": 5491,
-      "type": "word",
-      "start": 87,
-      "end": 89,
-      "value": "it"
-   },
-   {
-      "time": 5572,
-      "type": "word",
-      "start": 90,
+      "start": 92,
       "end": 93,
-      "value": "has"
-   },
-   {
-      "time": 5788,
-      "type": "word",
-      "start": 94,
-      "end": 101,
-      "value": "changed"
-   },
-   {
-      "time": 6298,
-      "type": "word",
-      "start": 102,
-      "end": 106,
-      "value": "over"
-   },
-   {
-      "time": 6602,
-      "type": "word",
-      "start": 107,
-      "end": 111,
-      "value": "time"
-   },
-   {
-      "time": 7423,
-      "type": "word",
-      "start": 113,
-      "end": 114,
       "value": "2"
    },
    {
-      "time": 8000,
+      "time": 6754,
       "type": "word",
-      "start": 116,
-      "end": 118,
-      "value": "It"
+      "start": 95,
+      "end": 107,
+      "value": "Screwdrivers"
    },
    {
-      "time": 8124,
+      "time": 7596,
       "type": "word",
-      "start": 119,
-      "end": 128,
-      "value": "discusses"
+      "start": 108,
+      "end": 111,
+      "value": "are"
    },
    {
-      "time": 8747,
+      "time": 7728,
       "type": "word",
-      "start": 129,
-      "end": 132,
-      "value": "how"
+      "start": 112,
+      "end": 122,
+      "value": "classified"
    },
    {
-      "time": 8965,
+      "time": 8473,
       "type": "word",
-      "start": 133,
-      "end": 136,
-      "value": "the"
-   },
-   {
-      "time": 9126,
-      "type": "word",
-      "start": 137,
-      "end": 144,
-      "value": "economy"
-   },
-   {
-      "time": 9684,
-      "type": "word",
-      "start": 145,
-      "end": 148,
-      "value": "has"
-   },
-   {
-      "time": 9896,
-      "type": "word",
-      "start": 149,
-      "end": 153,
-      "value": "been"
-   },
-   {
-      "time": 10075,
-      "type": "word",
-      "start": 154,
-      "end": 162,
-      "value": "affected"
-   },
-   {
-      "time": 10575,
-      "type": "word",
-      "start": 163,
-      "end": 165,
+      "start": 123,
+      "end": 125,
       "value": "by"
    },
    {
-      "time": 10752,
+      "time": 8638,
       "type": "word",
-      "start": 166,
-      "end": 173,
-      "value": "various"
+      "start": 126,
+      "end": 131,
+      "value": "their"
    },
    {
-      "time": 11240,
+      "time": 8821,
       "type": "word",
-      "start": 174,
-      "end": 181,
-      "value": "factors"
+      "start": 132,
+      "end": 135,
+      "value": "tip"
    },
    {
-      "time": 11798,
+      "time": 9402,
       "type": "word",
-      "start": 182,
-      "end": 186,
-      "value": "such"
+      "start": 137,
+      "end": 142,
+      "value": "which"
    },
    {
-      "time": 12120,
+      "time": 9633,
       "type": "word",
-      "start": 187,
-      "end": 189,
-      "value": "as"
+      "start": 143,
+      "end": 145,
+      "value": "is"
    },
    {
-      "time": 12298,
+      "time": 9752,
       "type": "word",
-      "start": 190,
-      "end": 200,
-      "value": "technology"
+      "start": 146,
+      "end": 154,
+      "value": "designed"
    },
    {
-      "time": 13278,
+      "time": 10309,
       "type": "word",
-      "start": 202,
-      "end": 215,
-      "value": "globalization"
+      "start": 155,
+      "end": 157,
+      "value": "to"
    },
    {
-      "time": 14594,
+      "time": 10437,
       "type": "word",
-      "start": 217,
-      "end": 220,
-      "value": "and"
+      "start": 158,
+      "end": 161,
+      "value": "fit"
    },
    {
-      "time": 14747,
+      "time": 10721,
       "type": "word",
-      "start": 221,
-      "end": 224,
+      "start": 162,
+      "end": 165,
       "value": "the"
    },
    {
-      "time": 14799,
+      "time": 10825,
       "type": "word",
-      "start": 225,
-      "end": 234,
-      "value": "financial"
+      "start": 166,
+      "end": 179,
+      "value": "corresponding"
    },
    {
-      "time": 15432,
+      "time": 11701,
       "type": "word",
-      "start": 235,
-      "end": 241,
-      "value": "crisis"
+      "start": 180,
+      "end": 185,
+      "value": "screw"
    },
    {
-      "time": 16513,
+      "time": 12084,
       "type": "word",
-      "start": 243,
-      "end": 244,
+      "start": 186,
+      "end": 190,
+      "value": "head"
+   },
+   {
+      "time": 12884,
+      "type": "word",
+      "start": 192,
+      "end": 193,
       "value": "3"
    },
    {
-      "time": 17313,
+      "time": 13841,
       "type": "word",
-      "start": 246,
-      "end": 248,
-      "value": "It"
+      "start": 195,
+      "end": 207,
+      "value": "Screwdrivers"
    },
    {
-      "time": 17437,
+      "time": 14784,
       "type": "word",
-      "start": 249,
+      "start": 208,
+      "end": 212,
+      "value": "have"
+   },
+   {
+      "time": 14967,
+      "type": "word",
+      "start": 213,
+      "end": 220,
+      "value": "evolved"
+   },
+   {
+      "time": 15388,
+      "type": "word",
+      "start": 221,
+      "end": 225,
+      "value": "over"
+   },
+   {
+      "time": 15664,
+      "type": "word",
+      "start": 226,
+      "end": 230,
+      "value": "time"
+   },
+   {
+      "time": 16316,
+      "type": "word",
+      "start": 232,
+      "end": 236,
+      "value": "with"
+   },
+   {
+      "time": 16486,
+      "type": "word",
+      "start": 237,
+      "end": 246,
+      "value": "different"
+   },
+   {
+      "time": 16928,
+      "type": "word",
+      "start": 247,
+      "end": 254,
+      "value": "designs"
+   },
+   {
+      "time": 17519,
+      "type": "word",
+      "start": 255,
       "end": 258,
-      "value": "discusses"
-   },
-   {
-      "time": 18061,
-      "type": "word",
-      "start": 259,
-      "end": 262,
-      "value": "how"
-   },
-   {
-      "time": 18278,
-      "type": "word",
-      "start": 263,
-      "end": 266,
-      "value": "the"
-   },
-   {
-      "time": 18440,
-      "type": "word",
-      "start": 267,
-      "end": 274,
-      "value": "economy"
-   },
-   {
-      "time": 18997,
-      "type": "word",
-      "start": 275,
-      "end": 278,
-      "value": "has"
-   },
-   {
-      "time": 19170,
-      "type": "word",
-      "start": 279,
-      "end": 286,
-      "value": "changed"
-   },
-   {
-      "time": 19598,
-      "type": "word",
-      "start": 287,
-      "end": 290,
-      "value": "the"
-   },
-   {
-      "time": 19658,
-      "type": "word",
-      "start": 291,
-      "end": 294,
-      "value": "way"
-   },
-   {
-      "time": 19893,
-      "type": "word",
-      "start": 295,
-      "end": 304,
-      "value": "Americans"
-   },
-   {
-      "time": 20556,
-      "type": "word",
-      "start": 305,
-      "end": 309,
-      "value": "live"
-   },
-   {
-      "time": 20790,
-      "type": "word",
-      "start": 310,
-      "end": 313,
       "value": "and"
    },
    {
-      "time": 20961,
+      "time": 17653,
       "type": "word",
-      "start": 314,
-      "end": 318,
-      "value": "work"
+      "start": 259,
+      "end": 265,
+      "value": "handle"
    },
    {
-      "time": 21790,
+      "time": 17990,
       "type": "word",
-      "start": 320,
-      "end": 321,
+      "start": 266,
+      "end": 275,
+      "value": "materials"
+   },
+   {
+      "time": 18790,
+      "type": "word",
+      "start": 276,
+      "end": 281,
+      "value": "being"
+   },
+   {
+      "time": 19060,
+      "type": "word",
+      "start": 282,
+      "end": 286,
+      "value": "used"
+   },
+   {
+      "time": 19494,
+      "type": "word",
+      "start": 287,
+      "end": 290,
+      "value": "for"
+   },
+   {
+      "time": 19655,
+      "type": "word",
+      "start": 291,
+      "end": 300,
+      "value": "different"
+   },
+   {
+      "time": 20098,
+      "type": "word",
+      "start": 301,
+      "end": 309,
+      "value": "purposes"
+   },
+   {
+      "time": 21235,
+      "type": "word",
+      "start": 311,
+      "end": 312,
       "value": "4"
    },
    {
-      "time": 22517,
+      "time": 22132,
       "type": "word",
-      "start": 323,
-      "end": 325,
-      "value": "It"
+      "start": 314,
+      "end": 318,
+      "value": "Some"
    },
    {
-      "time": 22641,
+      "time": 22404,
       "type": "word",
-      "start": 326,
-      "end": 335,
-      "value": "discusses"
+      "start": 319,
+      "end": 331,
+      "value": "screwdrivers"
    },
    {
-      "time": 23265,
+      "time": 23313,
       "type": "word",
-      "start": 336,
-      "end": 339,
-      "value": "how"
+      "start": 332,
+      "end": 336,
+      "value": "have"
    },
    {
-      "time": 23487,
+      "time": 23469,
       "type": "word",
-      "start": 340,
-      "end": 343,
+      "start": 337,
+      "end": 345,
+      "value": "magnetic"
+   },
+   {
+      "time": 23964,
+      "type": "word",
+      "start": 346,
+      "end": 350,
+      "value": "tips"
+   },
+   {
+      "time": 24260,
+      "type": "word",
+      "start": 351,
+      "end": 353,
+      "value": "to"
+   },
+   {
+      "time": 24358,
+      "type": "word",
+      "start": 354,
+      "end": 358,
+      "value": "keep"
+   },
+   {
+      "time": 24655,
+      "type": "word",
+      "start": 359,
+      "end": 362,
       "value": "the"
    },
    {
-      "time": 23606,
+      "time": 24728,
       "type": "word",
-      "start": 344,
-      "end": 351,
-      "value": "economy"
-   },
-   {
-      "time": 24184,
-      "type": "word",
-      "start": 352,
-      "end": 355,
-      "value": "has"
-   },
-   {
-      "time": 24424,
-      "type": "word",
-      "start": 356,
-      "end": 364,
-      "value": "affected"
-   },
-   {
-      "time": 24935,
-      "type": "word",
-      "start": 365,
+      "start": 363,
       "end": 368,
-      "value": "the"
+      "value": "screw"
    },
    {
-      "time": 25071,
+      "time": 25166,
       "type": "word",
       "start": 369,
       "end": 377,
-      "value": "American"
+      "value": "attached"
    },
    {
-      "time": 25630,
+      "time": 25663,
       "type": "word",
       "start": 378,
-      "end": 383,
-      "value": "Dream"
+      "end": 380,
+      "value": "to"
    },
    {
-      "time": 26532,
+      "time": 25775,
+      "type": "word",
+      "start": 381,
+      "end": 384,
+      "value": "the"
+   },
+   {
+      "time": 25883,
       "type": "word",
       "start": 385,
-      "end": 386,
+      "end": 396,
+      "value": "screwdriver"
+   },
+   {
+      "time": 27147,
+      "type": "word",
+      "start": 398,
+      "end": 399,
       "value": "5"
    },
    {
-      "time": 27296,
-      "type": "word",
-      "start": 388,
-      "end": 390,
-      "value": "It"
-   },
-   {
-      "time": 27419,
-      "type": "word",
-      "start": 391,
-      "end": 400,
-      "value": "discusses"
-   },
-   {
-      "time": 28043,
+      "time": 28130,
       "type": "word",
       "start": 401,
-      "end": 404,
-      "value": "how"
+      "end": 413,
+      "value": "Screwdrivers"
    },
    {
-      "time": 28261,
+      "time": 28967,
       "type": "word",
-      "start": 405,
-      "end": 408,
-      "value": "the"
+      "start": 414,
+      "end": 417,
+      "value": "are"
    },
    {
-      "time": 28422,
+      "time": 29088,
       "type": "word",
-      "start": 409,
-      "end": 416,
-      "value": "economy"
+      "start": 418,
+      "end": 427,
+      "value": "available"
    },
    {
-      "time": 28979,
+      "time": 29745,
       "type": "word",
-      "start": 417,
-      "end": 420,
-      "value": "has"
-   },
-   {
-      "time": 29206,
-      "type": "word",
-      "start": 421,
-      "end": 428,
-      "value": "changed"
-   },
-   {
-      "time": 29687,
-      "type": "word",
-      "start": 429,
-      "end": 438,
-      "value": "America's"
-   },
-   {
-      "time": 30249,
-      "type": "word",
-      "start": 439,
-      "end": 444,
-      "value": "place"
-   },
-   {
-      "time": 30633,
-      "type": "word",
-      "start": 445,
-      "end": 447,
+      "start": 428,
+      "end": 430,
       "value": "in"
    },
    {
-      "time": 30720,
+      "time": 29851,
       "type": "word",
-      "start": 448,
-      "end": 451,
-      "value": "the"
+      "start": 431,
+      "end": 432,
+      "value": "a"
    },
    {
-      "time": 30795,
+      "time": 29918,
       "type": "word",
-      "start": 452,
-      "end": 457,
-      "value": "world"
+      "start": 433,
+      "end": 440,
+      "value": "variety"
+   },
+   {
+      "time": 30528,
+      "type": "word",
+      "start": 441,
+      "end": 443,
+      "value": "of"
+   },
+   {
+      "time": 30627,
+      "type": "word",
+      "start": 444,
+      "end": 449,
+      "value": "sizes"
+   },
+   {
+      "time": 31160,
+      "type": "word",
+      "start": 450,
+      "end": 452,
+      "value": "to"
+   },
+   {
+      "time": 31326,
+      "type": "word",
+      "start": 453,
+      "end": 464,
+      "value": "accommodate"
+   },
+   {
+      "time": 31962,
+      "type": "word",
+      "start": 465,
+      "end": 474,
+      "value": "different"
+   },
+   {
+      "time": 32310,
+      "type": "word",
+      "start": 475,
+      "end": 481,
+      "value": "screws"
    },
    "END"
 ]

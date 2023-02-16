@@ -10,36 +10,71 @@
       "time": 1164,
       "type": "sentence",
       "start": 18,
-      "end": 112,
-      "value": "1) The article discusses the history of the American economy and how it has changed over time."
+      "end": 20,
+      "value": "1."
    },
    {
-      "time": 7416,
+      "time": 2027,
       "type": "sentence",
-      "start": 113,
-      "end": 242,
-      "value": "2) It discusses how the economy has been affected by various factors such as technology, globalization, and the financial crisis."
+      "start": 21,
+      "end": 91,
+      "value": "The article discusses the history and different types of screwdrivers."
    },
    {
-      "time": 16506,
+      "time": 6037,
       "type": "sentence",
-      "start": 243,
-      "end": 319,
-      "value": "3) It discusses how the economy has changed the way Americans live and work."
+      "start": 92,
+      "end": 94,
+      "value": "2."
    },
    {
-      "time": 21783,
+      "time": 6747,
       "type": "sentence",
-      "start": 320,
-      "end": 384,
-      "value": "4) It discusses how the economy has affected the American Dream."
+      "start": 95,
+      "end": 191,
+      "value": "Screwdrivers are classified by their tip, which is designed to fit the corresponding screw head."
    },
    {
-      "time": 26525,
+      "time": 12877,
       "type": "sentence",
-      "start": 385,
-      "end": 458,
-      "value": "5) It discusses how the economy has changed America's place in the world."
+      "start": 192,
+      "end": 194,
+      "value": "3."
+   },
+   {
+      "time": 13834,
+      "type": "sentence",
+      "start": 195,
+      "end": 310,
+      "value": "Screwdrivers have evolved over time, with different designs and handle materials being used for different purposes."
+   },
+   {
+      "time": 21228,
+      "type": "sentence",
+      "start": 311,
+      "end": 313,
+      "value": "4."
+   },
+   {
+      "time": 22125,
+      "type": "sentence",
+      "start": 314,
+      "end": 397,
+      "value": "Some screwdrivers have magnetic tips to keep the screw attached to the screwdriver."
+   },
+   {
+      "time": 27141,
+      "type": "sentence",
+      "start": 398,
+      "end": 400,
+      "value": "5."
+   },
+   {
+      "time": 28123,
+      "type": "sentence",
+      "start": 401,
+      "end": 482,
+      "value": "Screwdrivers are available in a variety of sizes to accommodate different screws."
    },
    "END"
 ]

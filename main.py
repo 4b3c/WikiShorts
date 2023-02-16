@@ -1,6 +1,6 @@
 import Autofill, PollyTTS, WikiContent, CreateVideo, GetAllImages
 
-title = "Balls"
+title = "Screwdriver"
 trick_prompt1 = "\nPerson 1: Summarize in 5 points what this article is about, simply list the points, no intro is necessary.\n"
 trick_prompt2 = "\nList the facts with numbers and end parenthensis, examples: 1), 2), 3), etc. Also refrain from excessively listing years.\n"
 trick_prompt3 = "\nPerson 2:\n"
