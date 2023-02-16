@@ -77,445 +77,445 @@
       "value": "different"
    },
    {
-      "time": 4372,
+      "time": 4417,
       "type": "word",
       "start": 69,
-      "end": 74,
-      "value": "types"
+      "end": 73,
+      "value": "uses"
    },
    {
-      "time": 4678,
+      "time": 4775,
       "type": "word",
-      "start": 75,
-      "end": 77,
+      "start": 74,
+      "end": 76,
       "value": "of"
    },
    {
-      "time": 4758,
+      "time": 4883,
       "type": "word",
-      "start": 78,
-      "end": 90,
-      "value": "screwdrivers"
+      "start": 77,
+      "end": 82,
+      "value": "balls"
    },
    {
-      "time": 6045,
+      "time": 5803,
       "type": "word",
-      "start": 92,
-      "end": 93,
+      "start": 84,
+      "end": 85,
       "value": "2"
    },
    {
-      "time": 6754,
+      "time": 6512,
       "type": "word",
-      "start": 95,
-      "end": 107,
-      "value": "Screwdrivers"
+      "start": 87,
+      "end": 90,
+      "value": "The"
    },
    {
-      "time": 7596,
+      "time": 6649,
       "type": "word",
-      "start": 108,
-      "end": 111,
-      "value": "are"
+      "start": 91,
+      "end": 95,
+      "value": "word"
    },
    {
-      "time": 7728,
+      "time": 6976,
       "type": "word",
-      "start": 112,
-      "end": 122,
-      "value": "classified"
+      "start": 97,
+      "end": 101,
+      "value": "ball"
    },
    {
-      "time": 8473,
+      "time": 7339,
       "type": "word",
-      "start": 123,
-      "end": 125,
-      "value": "by"
-   },
-   {
-      "time": 8638,
-      "type": "word",
-      "start": 126,
-      "end": 131,
-      "value": "their"
-   },
-   {
-      "time": 8821,
-      "type": "word",
-      "start": 132,
-      "end": 135,
-      "value": "tip"
-   },
-   {
-      "time": 9402,
-      "type": "word",
-      "start": 137,
-      "end": 142,
-      "value": "which"
-   },
-   {
-      "time": 9633,
-      "type": "word",
-      "start": 143,
-      "end": 145,
+      "start": 103,
+      "end": 105,
       "value": "is"
    },
    {
-      "time": 9752,
+      "time": 7516,
       "type": "word",
-      "start": 146,
-      "end": 154,
-      "value": "designed"
-   },
-   {
-      "time": 10309,
-      "type": "word",
-      "start": 155,
-      "end": 157,
-      "value": "to"
-   },
-   {
-      "time": 10437,
-      "type": "word",
-      "start": 158,
-      "end": 161,
-      "value": "fit"
-   },
-   {
-      "time": 10721,
-      "type": "word",
-      "start": 162,
-      "end": 165,
-      "value": "the"
-   },
-   {
-      "time": 10825,
-      "type": "word",
-      "start": 166,
-      "end": 179,
-      "value": "corresponding"
-   },
-   {
-      "time": 11701,
-      "type": "word",
-      "start": 180,
-      "end": 185,
-      "value": "screw"
-   },
-   {
-      "time": 12084,
-      "type": "word",
-      "start": 186,
-      "end": 190,
-      "value": "head"
-   },
-   {
-      "time": 12884,
-      "type": "word",
-      "start": 192,
-      "end": 193,
-      "value": "3"
-   },
-   {
-      "time": 13841,
-      "type": "word",
-      "start": 195,
-      "end": 207,
-      "value": "Screwdrivers"
-   },
-   {
-      "time": 14784,
-      "type": "word",
-      "start": 208,
-      "end": 212,
-      "value": "have"
-   },
-   {
-      "time": 14967,
-      "type": "word",
-      "start": 213,
-      "end": 220,
-      "value": "evolved"
-   },
-   {
-      "time": 15388,
-      "type": "word",
-      "start": 221,
-      "end": 225,
-      "value": "over"
-   },
-   {
-      "time": 15664,
-      "type": "word",
-      "start": 226,
-      "end": 230,
-      "value": "time"
-   },
-   {
-      "time": 16316,
-      "type": "word",
-      "start": 232,
-      "end": 236,
-      "value": "with"
-   },
-   {
-      "time": 16486,
-      "type": "word",
-      "start": 237,
-      "end": 246,
-      "value": "different"
-   },
-   {
-      "time": 16928,
-      "type": "word",
-      "start": 247,
-      "end": 254,
-      "value": "designs"
-   },
-   {
-      "time": 17519,
-      "type": "word",
-      "start": 255,
-      "end": 258,
-      "value": "and"
-   },
-   {
-      "time": 17653,
-      "type": "word",
-      "start": 259,
-      "end": 265,
-      "value": "handle"
-   },
-   {
-      "time": 17990,
-      "type": "word",
-      "start": 266,
-      "end": 275,
-      "value": "materials"
-   },
-   {
-      "time": 18790,
-      "type": "word",
-      "start": 276,
-      "end": 281,
-      "value": "being"
-   },
-   {
-      "time": 19060,
-      "type": "word",
-      "start": 282,
-      "end": 286,
-      "value": "used"
-   },
-   {
-      "time": 19494,
-      "type": "word",
-      "start": 287,
-      "end": 290,
-      "value": "for"
-   },
-   {
-      "time": 19655,
-      "type": "word",
-      "start": 291,
-      "end": 300,
-      "value": "different"
-   },
-   {
-      "time": 20098,
-      "type": "word",
-      "start": 301,
-      "end": 309,
-      "value": "purposes"
-   },
-   {
-      "time": 21235,
-      "type": "word",
-      "start": 311,
-      "end": 312,
-      "value": "4"
-   },
-   {
-      "time": 22132,
-      "type": "word",
-      "start": 314,
-      "end": 318,
-      "value": "Some"
-   },
-   {
-      "time": 22404,
-      "type": "word",
-      "start": 319,
-      "end": 331,
-      "value": "screwdrivers"
-   },
-   {
-      "time": 23313,
-      "type": "word",
-      "start": 332,
-      "end": 336,
-      "value": "have"
-   },
-   {
-      "time": 23469,
-      "type": "word",
-      "start": 337,
-      "end": 345,
-      "value": "magnetic"
-   },
-   {
-      "time": 23964,
-      "type": "word",
-      "start": 346,
-      "end": 350,
-      "value": "tips"
-   },
-   {
-      "time": 24260,
-      "type": "word",
-      "start": 351,
-      "end": 353,
-      "value": "to"
-   },
-   {
-      "time": 24358,
-      "type": "word",
-      "start": 354,
-      "end": 358,
-      "value": "keep"
-   },
-   {
-      "time": 24655,
-      "type": "word",
-      "start": 359,
-      "end": 362,
-      "value": "the"
-   },
-   {
-      "time": 24728,
-      "type": "word",
-      "start": 363,
-      "end": 368,
-      "value": "screw"
-   },
-   {
-      "time": 25166,
-      "type": "word",
-      "start": 369,
-      "end": 377,
-      "value": "attached"
-   },
-   {
-      "time": 25663,
-      "type": "word",
-      "start": 378,
-      "end": 380,
-      "value": "to"
-   },
-   {
-      "time": 25775,
-      "type": "word",
-      "start": 381,
-      "end": 384,
-      "value": "the"
-   },
-   {
-      "time": 25883,
-      "type": "word",
-      "start": 385,
-      "end": 396,
-      "value": "screwdriver"
-   },
-   {
-      "time": 27147,
-      "type": "word",
-      "start": 398,
-      "end": 399,
-      "value": "5"
-   },
-   {
-      "time": 28130,
-      "type": "word",
-      "start": 401,
-      "end": 413,
-      "value": "Screwdrivers"
-   },
-   {
-      "time": 28967,
-      "type": "word",
-      "start": 414,
-      "end": 417,
-      "value": "are"
-   },
-   {
-      "time": 29088,
-      "type": "word",
-      "start": 418,
-      "end": 427,
-      "value": "available"
-   },
-   {
-      "time": 29745,
-      "type": "word",
-      "start": 428,
-      "end": 430,
-      "value": "in"
-   },
-   {
-      "time": 29851,
-      "type": "word",
-      "start": 431,
-      "end": 432,
-      "value": "a"
-   },
-   {
-      "time": 29918,
-      "type": "word",
-      "start": 433,
-      "end": 440,
-      "value": "variety"
-   },
-   {
-      "time": 30528,
-      "type": "word",
-      "start": 441,
-      "end": 443,
+      "start": 106,
+      "end": 108,
       "value": "of"
    },
    {
-      "time": 30627,
+      "time": 7656,
       "type": "word",
-      "start": 444,
-      "end": 449,
-      "value": "sizes"
+      "start": 109,
+      "end": 117,
+      "value": "Germanic"
    },
    {
-      "time": 31160,
+      "time": 8234,
       "type": "word",
-      "start": 450,
-      "end": 452,
+      "start": 118,
+      "end": 124,
+      "value": "origin"
+   },
+   {
+      "time": 8668,
+      "type": "word",
+      "start": 125,
+      "end": 128,
+      "value": "and"
+   },
+   {
+      "time": 8819,
+      "type": "word",
+      "start": 129,
+      "end": 132,
+      "value": "can"
+   },
+   {
+      "time": 9031,
+      "type": "word",
+      "start": 133,
+      "end": 135,
+      "value": "be"
+   },
+   {
+      "time": 9106,
+      "type": "word",
+      "start": 136,
+      "end": 140,
+      "value": "used"
+   },
+   {
+      "time": 9561,
+      "type": "word",
+      "start": 141,
+      "end": 143,
       "value": "to"
    },
    {
-      "time": 31326,
+      "time": 9694,
       "type": "word",
-      "start": 453,
-      "end": 464,
-      "value": "accommodate"
+      "start": 144,
+      "end": 149,
+      "value": "refer"
    },
    {
-      "time": 31962,
+      "time": 10132,
       "type": "word",
-      "start": 465,
-      "end": 474,
-      "value": "different"
+      "start": 150,
+      "end": 152,
+      "value": "to"
    },
    {
-      "time": 32310,
+      "time": 10251,
       "type": "word",
-      "start": 475,
-      "end": 481,
-      "value": "screws"
+      "start": 153,
+      "end": 160,
+      "value": "various"
+   },
+   {
+      "time": 10720,
+      "type": "word",
+      "start": 161,
+      "end": 170,
+      "value": "spherical"
+   },
+   {
+      "time": 11392,
+      "type": "word",
+      "start": 171,
+      "end": 178,
+      "value": "objects"
+   },
+   {
+      "time": 12420,
+      "type": "word",
+      "start": 180,
+      "end": 181,
+      "value": "3"
+   },
+   {
+      "time": 13377,
+      "type": "word",
+      "start": 183,
+      "end": 188,
+      "value": "Balls"
+   },
+   {
+      "time": 13851,
+      "type": "word",
+      "start": 189,
+      "end": 193,
+      "value": "have"
+   },
+   {
+      "time": 14027,
+      "type": "word",
+      "start": 194,
+      "end": 198,
+      "value": "been"
+   },
+   {
+      "time": 14201,
+      "type": "word",
+      "start": 199,
+      "end": 203,
+      "value": "used"
+   },
+   {
+      "time": 14555,
+      "type": "word",
+      "start": 204,
+      "end": 207,
+      "value": "for"
+   },
+   {
+      "time": 14756,
+      "type": "word",
+      "start": 208,
+      "end": 213,
+      "value": "games"
+   },
+   {
+      "time": 15162,
+      "type": "word",
+      "start": 214,
+      "end": 217,
+      "value": "and"
+   },
+   {
+      "time": 15348,
+      "type": "word",
+      "start": 218,
+      "end": 226,
+      "value": "exercise"
+   },
+   {
+      "time": 16050,
+      "type": "word",
+      "start": 227,
+      "end": 232,
+      "value": "since"
+   },
+   {
+      "time": 16357,
+      "type": "word",
+      "start": 233,
+      "end": 240,
+      "value": "ancient"
+   },
+   {
+      "time": 16775,
+      "type": "word",
+      "start": 241,
+      "end": 246,
+      "value": "times"
+   },
+   {
+      "time": 17738,
+      "type": "word",
+      "start": 248,
+      "end": 249,
+      "value": "4"
+   },
+   {
+      "time": 18635,
+      "type": "word",
+      "start": 251,
+      "end": 256,
+      "value": "There"
+   },
+   {
+      "time": 18875,
+      "type": "word",
+      "start": 257,
+      "end": 260,
+      "value": "are"
+   },
+   {
+      "time": 19006,
+      "type": "word",
+      "start": 261,
+      "end": 266,
+      "value": "three"
+   },
+   {
+      "time": 19365,
+      "type": "word",
+      "start": 267,
+      "end": 271,
+      "value": "main"
+   },
+   {
+      "time": 19706,
+      "type": "word",
+      "start": 272,
+      "end": 277,
+      "value": "types"
+   },
+   {
+      "time": 20036,
+      "type": "word",
+      "start": 278,
+      "end": 280,
+      "value": "of"
+   },
+   {
+      "time": 20152,
+      "type": "word",
+      "start": 281,
+      "end": 286,
+      "value": "balls"
+   },
+   {
+      "time": 20883,
+      "type": "word",
+      "start": 288,
+      "end": 293,
+      "value": "small"
+   },
+   {
+      "time": 21308,
+      "type": "word",
+      "start": 294,
+      "end": 299,
+      "value": "balls"
+   },
+   {
+      "time": 22051,
+      "type": "word",
+      "start": 301,
+      "end": 306,
+      "value": "heavy"
+   },
+   {
+      "time": 22356,
+      "type": "word",
+      "start": 307,
+      "end": 312,
+      "value": "balls"
+   },
+   {
+      "time": 23093,
+      "type": "word",
+      "start": 314,
+      "end": 317,
+      "value": "and"
+   },
+   {
+      "time": 23277,
+      "type": "word",
+      "start": 318,
+      "end": 323,
+      "value": "balls"
+   },
+   {
+      "time": 23674,
+      "type": "word",
+      "start": 324,
+      "end": 330,
+      "value": "filled"
+   },
+   {
+      "time": 23993,
+      "type": "word",
+      "start": 331,
+      "end": 335,
+      "value": "with"
+   },
+   {
+      "time": 24173,
+      "type": "word",
+      "start": 336,
+      "end": 339,
+      "value": "air"
+   },
+   {
+      "time": 24928,
+      "type": "word",
+      "start": 341,
+      "end": 342,
+      "value": "5"
+   },
+   {
+      "time": 25910,
+      "type": "word",
+      "start": 344,
+      "end": 351,
+      "value": "Several"
+   },
+   {
+      "time": 26306,
+      "type": "word",
+      "start": 352,
+      "end": 358,
+      "value": "modern"
+   },
+   {
+      "time": 26709,
+      "type": "word",
+      "start": 359,
+      "end": 365,
+      "value": "sports"
+   },
+   {
+      "time": 27157,
+      "type": "word",
+      "start": 366,
+      "end": 369,
+      "value": "use"
+   },
+   {
+      "time": 27436,
+      "type": "word",
+      "start": 370,
+      "end": 375,
+      "value": "balls"
+   },
+   {
+      "time": 27939,
+      "type": "word",
+      "start": 376,
+      "end": 378,
+      "value": "in"
+   },
+   {
+      "time": 28050,
+      "type": "word",
+      "start": 379,
+      "end": 382,
+      "value": "the"
+   },
+   {
+      "time": 28124,
+      "type": "word",
+      "start": 383,
+      "end": 388,
+      "value": "shape"
+   },
+   {
+      "time": 28442,
+      "type": "word",
+      "start": 389,
+      "end": 391,
+      "value": "of"
+   },
+   {
+      "time": 28570,
+      "type": "word",
+      "start": 392,
+      "end": 393,
+      "value": "a"
+   },
+   {
+      "time": 28614,
+      "type": "word",
+      "start": 394,
+      "end": 401,
+      "value": "prolate"
+   },
+   {
+      "time": 29146,
+      "type": "word",
+      "start": 402,
+      "end": 410,
+      "value": "spheroid"
    },
    "END"
 ]
