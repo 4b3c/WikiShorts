@@ -22,7 +22,7 @@ def timestamp_video():
 	imgnum = 0
 	for i in range(len(wordts) - 1):
 		text = wordts[i]["value"]
-		frame = np.full((1080, 1920, 3), 5, dtype=np.uint8)
+		frame = np.full((1920, 1080, 3), 5, dtype=np.uint8)
 
 		try:
 			duration = (wordts[i + 1]["time"] - wordts[i]["time"]) / 1000
@@ -37,8 +37,8 @@ def timestamp_video():
 			except:
 				pass
 			image_height, image_width, _ = images[imgnum].shape
-			y_pos = int((1080 - image_height) / 2)
-			x_pos = int((1920 - image_width) / 2)
+			y_pos = int((1920 - image_height) / 2)
+			x_pos = int((1080 - image_width) / 2)
 
 			frame[y_pos : y_pos + image_height, x_pos : x_pos + image_width, :] = images[imgnum]
 
@@ -59,3 +59,5 @@ def timestamp_video():
 	video.write_videofile("Final//final_out.mp4", codec="libx264")
 	for i in range(6):
 		os.remove("Temporary//image" + str(i) + ".jpg")
+
+	return "C:\\Users\\Abram P\\Desktop\\Programming\\Python_scripts\\WikiShorts\\Final\\final_out.mp4"

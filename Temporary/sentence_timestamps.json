@@ -10,71 +10,43 @@
       "time": 1164,
       "type": "sentence",
       "start": 18,
-      "end": 20,
-      "value": "1."
+      "end": 109,
+      "value": "1)Aaron Paul is an American actor best known for his role as Jesse Pinkman in Breaking Bad."
    },
    {
-      "time": 2027,
+      "time": 7240,
       "type": "sentence",
-      "start": 21,
-      "end": 83,
-      "value": "The article discusses the history and different uses of balls."
+      "start": 110,
+      "end": 349,
+      "value": "2)He has won several awards for his role in Breaking Bad, including the Critics' Choice Television Award for Best Supporting Actor in a Drama Series (2014) and three Saturn Awards for Best Supporting Actor on Television (2009, 2011, 2013)."
    },
    {
-      "time": 5795,
+      "time": 25430,
       "type": "sentence",
-      "start": 84,
-      "end": 86,
-      "value": "2."
+      "start": 350,
+      "end": 608,
+      "value": "3)In addition to his role in Breaking Bad, Paul has appeared in several other television shows and movies, including the HBO series Big Love (2006 2011), the Netflix animated series BoJack Horseman (2014 2020), and the Hulu drama series The Path (2016 2018)."
    },
    {
-      "time": 6505,
+      "time": 50047,
       "type": "sentence",
-      "start": 87,
-      "end": 179,
-      "value": "The word \"ball\" is of Germanic origin and can be used to refer to various spherical objects."
+      "start": 609,
+      "end": 682,
+      "value": "4)Paul was born in Emmett, Idaho, in 1979, the youngest of four children."
    },
    {
-      "time": 12414,
+      "time": 56071,
       "type": "sentence",
-      "start": 180,
-      "end": 182,
-      "value": "3."
+      "start": 683,
+      "end": 777,
+      "value": "He graduated from Centennial High School in Boise in 1997 and moved to Los Angeles soon after."
    },
    {
-      "time": 13370,
+      "time": 63079,
       "type": "sentence",
-      "start": 183,
-      "end": 247,
-      "value": "Balls have been used for games and exercise since ancient times."
-   },
-   {
-      "time": 17731,
-      "type": "sentence",
-      "start": 248,
-      "end": 250,
-      "value": "4."
-   },
-   {
-      "time": 18628,
-      "type": "sentence",
-      "start": 251,
-      "end": 340,
-      "value": "There are three main types of balls: small balls, heavy balls, and balls filled with air."
-   },
-   {
-      "time": 24921,
-      "type": "sentence",
-      "start": 341,
-      "end": 343,
-      "value": "5."
-   },
-   {
-      "time": 25904,
-      "type": "sentence",
-      "start": 344,
-      "end": 411,
-      "value": "Several modern sports use balls in the shape of a prolate spheroid."
+      "start": 778,
+      "end": 871,
+      "value": "5)Paul is married to actress and director Lauren Parsekian, and the couple have two children."
    },
    "END"
 ]

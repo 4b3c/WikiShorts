@@ -1,6 +1,7 @@
 import json, GoogleImage
 
 def store_images(title):
+
 	with open('Temporary//sentence_timestamps.json', 'r') as f:
 		sentencets = json.load(f)
 		f.close()
@@ -8,8 +9,9 @@ def store_images(title):
 		imgts = json.load(f)
 		f.close()
 
+	all_urls = []
 	for sentence, count in zip(sentencets, range(len(sentencets) - 1)):
-		GoogleImage.get_image(title + sentence["value"], count)
+		all_urls.append(GoogleImage.get_image(title + sentence["value"], count))
 
 	images = []
 	for img, count in zip(imgts, range(len(imgts))):
@@ -19,3 +21,5 @@ def store_images(title):
 
 	with open('Temporary//img_timestamps.json', 'w') as f:
 		json.dump(images, f, indent = 3)
+
+	return all_urls

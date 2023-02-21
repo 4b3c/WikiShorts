@@ -28,494 +28,1054 @@
       "value": "1"
    },
    {
-      "time": 2034,
+      "time": 1409,
       "type": "word",
-      "start": 21,
-      "end": 24,
-      "value": "The"
+      "start": 20,
+      "end": 25,
+      "value": "Aaron"
    },
    {
-      "time": 2214,
+      "time": 1757,
       "type": "word",
-      "start": 25,
-      "end": 32,
-      "value": "article"
+      "start": 26,
+      "end": 30,
+      "value": "Paul"
    },
    {
-      "time": 2752,
+      "time": 2149,
       "type": "word",
-      "start": 33,
-      "end": 42,
-      "value": "discusses"
-   },
-   {
-      "time": 3345,
-      "type": "word",
-      "start": 43,
-      "end": 46,
-      "value": "the"
-   },
-   {
-      "time": 3425,
-      "type": "word",
-      "start": 47,
-      "end": 54,
-      "value": "history"
-   },
-   {
-      "time": 3918,
-      "type": "word",
-      "start": 55,
-      "end": 58,
-      "value": "and"
-   },
-   {
-      "time": 4062,
-      "type": "word",
-      "start": 59,
-      "end": 68,
-      "value": "different"
-   },
-   {
-      "time": 4417,
-      "type": "word",
-      "start": 69,
-      "end": 73,
-      "value": "uses"
-   },
-   {
-      "time": 4775,
-      "type": "word",
-      "start": 74,
-      "end": 76,
-      "value": "of"
-   },
-   {
-      "time": 4883,
-      "type": "word",
-      "start": 77,
-      "end": 82,
-      "value": "balls"
-   },
-   {
-      "time": 5803,
-      "type": "word",
-      "start": 84,
-      "end": 85,
-      "value": "2"
-   },
-   {
-      "time": 6512,
-      "type": "word",
-      "start": 87,
-      "end": 90,
-      "value": "The"
-   },
-   {
-      "time": 6649,
-      "type": "word",
-      "start": 91,
-      "end": 95,
-      "value": "word"
-   },
-   {
-      "time": 6976,
-      "type": "word",
-      "start": 97,
-      "end": 101,
-      "value": "ball"
-   },
-   {
-      "time": 7339,
-      "type": "word",
-      "start": 103,
-      "end": 105,
+      "start": 31,
+      "end": 33,
       "value": "is"
    },
    {
-      "time": 7516,
+      "time": 2286,
       "type": "word",
-      "start": 106,
-      "end": 108,
-      "value": "of"
+      "start": 34,
+      "end": 36,
+      "value": "an"
    },
    {
-      "time": 7656,
+      "time": 2389,
       "type": "word",
-      "start": 109,
-      "end": 117,
-      "value": "Germanic"
+      "start": 37,
+      "end": 45,
+      "value": "American"
    },
    {
-      "time": 8234,
+      "time": 2903,
       "type": "word",
-      "start": 118,
-      "end": 124,
-      "value": "origin"
+      "start": 46,
+      "end": 51,
+      "value": "actor"
    },
    {
-      "time": 8668,
+      "time": 3273,
       "type": "word",
-      "start": 125,
-      "end": 128,
-      "value": "and"
+      "start": 52,
+      "end": 56,
+      "value": "best"
    },
    {
-      "time": 8819,
+      "time": 3611,
       "type": "word",
-      "start": 129,
-      "end": 132,
-      "value": "can"
+      "start": 57,
+      "end": 62,
+      "value": "known"
    },
    {
-      "time": 9031,
+      "time": 3867,
       "type": "word",
-      "start": 133,
-      "end": 135,
-      "value": "be"
-   },
-   {
-      "time": 9106,
-      "type": "word",
-      "start": 136,
-      "end": 140,
-      "value": "used"
-   },
-   {
-      "time": 9561,
-      "type": "word",
-      "start": 141,
-      "end": 143,
-      "value": "to"
-   },
-   {
-      "time": 9694,
-      "type": "word",
-      "start": 144,
-      "end": 149,
-      "value": "refer"
-   },
-   {
-      "time": 10132,
-      "type": "word",
-      "start": 150,
-      "end": 152,
-      "value": "to"
-   },
-   {
-      "time": 10251,
-      "type": "word",
-      "start": 153,
-      "end": 160,
-      "value": "various"
-   },
-   {
-      "time": 10720,
-      "type": "word",
-      "start": 161,
-      "end": 170,
-      "value": "spherical"
-   },
-   {
-      "time": 11392,
-      "type": "word",
-      "start": 171,
-      "end": 178,
-      "value": "objects"
-   },
-   {
-      "time": 12420,
-      "type": "word",
-      "start": 180,
-      "end": 181,
-      "value": "3"
-   },
-   {
-      "time": 13377,
-      "type": "word",
-      "start": 183,
-      "end": 188,
-      "value": "Balls"
-   },
-   {
-      "time": 13851,
-      "type": "word",
-      "start": 189,
-      "end": 193,
-      "value": "have"
-   },
-   {
-      "time": 14027,
-      "type": "word",
-      "start": 194,
-      "end": 198,
-      "value": "been"
-   },
-   {
-      "time": 14201,
-      "type": "word",
-      "start": 199,
-      "end": 203,
-      "value": "used"
-   },
-   {
-      "time": 14555,
-      "type": "word",
-      "start": 204,
-      "end": 207,
+      "start": 63,
+      "end": 66,
       "value": "for"
    },
    {
-      "time": 14756,
+      "time": 4098,
       "type": "word",
-      "start": 208,
-      "end": 213,
-      "value": "games"
+      "start": 67,
+      "end": 70,
+      "value": "his"
    },
    {
-      "time": 15162,
+      "time": 4267,
       "type": "word",
-      "start": 214,
-      "end": 217,
+      "start": 71,
+      "end": 75,
+      "value": "role"
+   },
+   {
+      "time": 4696,
+      "type": "word",
+      "start": 76,
+      "end": 78,
+      "value": "as"
+   },
+   {
+      "time": 4868,
+      "type": "word",
+      "start": 79,
+      "end": 84,
+      "value": "Jesse"
+   },
+   {
+      "time": 5332,
+      "type": "word",
+      "start": 85,
+      "end": 92,
+      "value": "Pinkman"
+   },
+   {
+      "time": 5843,
+      "type": "word",
+      "start": 93,
+      "end": 95,
+      "value": "in"
+   },
+   {
+      "time": 5959,
+      "type": "word",
+      "start": 96,
+      "end": 104,
+      "value": "Breaking"
+   },
+   {
+      "time": 6402,
+      "type": "word",
+      "start": 105,
+      "end": 108,
+      "value": "Bad"
+   },
+   {
+      "time": 7247,
+      "type": "word",
+      "start": 110,
+      "end": 111,
+      "value": "2"
+   },
+   {
+      "time": 7508,
+      "type": "word",
+      "start": 112,
+      "end": 114,
+      "value": "He"
+   },
+   {
+      "time": 7697,
+      "type": "word",
+      "start": 115,
+      "end": 118,
+      "value": "has"
+   },
+   {
+      "time": 7889,
+      "type": "word",
+      "start": 119,
+      "end": 122,
+      "value": "won"
+   },
+   {
+      "time": 8146,
+      "type": "word",
+      "start": 123,
+      "end": 130,
+      "value": "several"
+   },
+   {
+      "time": 8614,
+      "type": "word",
+      "start": 131,
+      "end": 137,
+      "value": "awards"
+   },
+   {
+      "time": 9143,
+      "type": "word",
+      "start": 138,
+      "end": 141,
+      "value": "for"
+   },
+   {
+      "time": 9389,
+      "type": "word",
+      "start": 142,
+      "end": 145,
+      "value": "his"
+   },
+   {
+      "time": 9557,
+      "type": "word",
+      "start": 146,
+      "end": 150,
+      "value": "role"
+   },
+   {
+      "time": 9965,
+      "type": "word",
+      "start": 151,
+      "end": 153,
+      "value": "in"
+   },
+   {
+      "time": 10065,
+      "type": "word",
+      "start": 154,
+      "end": 162,
+      "value": "Breaking"
+   },
+   {
+      "time": 10571,
+      "type": "word",
+      "start": 163,
+      "end": 166,
+      "value": "Bad"
+   },
+   {
+      "time": 11209,
+      "type": "word",
+      "start": 168,
+      "end": 177,
+      "value": "including"
+   },
+   {
+      "time": 11725,
+      "type": "word",
+      "start": 178,
+      "end": 181,
+      "value": "the"
+   },
+   {
+      "time": 11804,
+      "type": "word",
+      "start": 182,
+      "end": 190,
+      "value": "Critics'"
+   },
+   {
+      "time": 12271,
+      "type": "word",
+      "start": 191,
+      "end": 197,
+      "value": "Choice"
+   },
+   {
+      "time": 12630,
+      "type": "word",
+      "start": 198,
+      "end": 208,
+      "value": "Television"
+   },
+   {
+      "time": 13189,
+      "type": "word",
+      "start": 209,
+      "end": 214,
+      "value": "Award"
+   },
+   {
+      "time": 13609,
+      "type": "word",
+      "start": 215,
+      "end": 218,
+      "value": "for"
+   },
+   {
+      "time": 13748,
+      "type": "word",
+      "start": 219,
+      "end": 223,
+      "value": "Best"
+   },
+   {
+      "time": 14123,
+      "type": "word",
+      "start": 224,
+      "end": 234,
+      "value": "Supporting"
+   },
+   {
+      "time": 14750,
+      "type": "word",
+      "start": 235,
+      "end": 240,
+      "value": "Actor"
+   },
+   {
+      "time": 15110,
+      "type": "word",
+      "start": 241,
+      "end": 243,
+      "value": "in"
+   },
+   {
+      "time": 15206,
+      "type": "word",
+      "start": 244,
+      "end": 245,
+      "value": "a"
+   },
+   {
+      "time": 15263,
+      "type": "word",
+      "start": 246,
+      "end": 251,
+      "value": "Drama"
+   },
+   {
+      "time": 15617,
+      "type": "word",
+      "start": 252,
+      "end": 258,
+      "value": "Series"
+   },
+   {
+      "time": 16393,
+      "type": "word",
+      "start": 260,
+      "end": 264,
+      "value": "2014"
+   },
+   {
+      "time": 17673,
+      "type": "word",
+      "start": 266,
+      "end": 269,
       "value": "and"
    },
    {
-      "time": 15348,
+      "time": 17872,
       "type": "word",
-      "start": 218,
-      "end": 226,
-      "value": "exercise"
-   },
-   {
-      "time": 16050,
-      "type": "word",
-      "start": 227,
-      "end": 232,
-      "value": "since"
-   },
-   {
-      "time": 16357,
-      "type": "word",
-      "start": 233,
-      "end": 240,
-      "value": "ancient"
-   },
-   {
-      "time": 16775,
-      "type": "word",
-      "start": 241,
-      "end": 246,
-      "value": "times"
-   },
-   {
-      "time": 17738,
-      "type": "word",
-      "start": 248,
-      "end": 249,
-      "value": "4"
-   },
-   {
-      "time": 18635,
-      "type": "word",
-      "start": 251,
-      "end": 256,
-      "value": "There"
-   },
-   {
-      "time": 18875,
-      "type": "word",
-      "start": 257,
-      "end": 260,
-      "value": "are"
-   },
-   {
-      "time": 19006,
-      "type": "word",
-      "start": 261,
-      "end": 266,
+      "start": 270,
+      "end": 275,
       "value": "three"
    },
    {
-      "time": 19365,
+      "time": 18125,
       "type": "word",
-      "start": 267,
-      "end": 271,
-      "value": "main"
+      "start": 276,
+      "end": 282,
+      "value": "Saturn"
    },
    {
-      "time": 19706,
+      "time": 18577,
       "type": "word",
-      "start": 272,
-      "end": 277,
-      "value": "types"
+      "start": 283,
+      "end": 289,
+      "value": "Awards"
    },
    {
-      "time": 20036,
+      "time": 19044,
       "type": "word",
-      "start": 278,
-      "end": 280,
-      "value": "of"
-   },
-   {
-      "time": 20152,
-      "type": "word",
-      "start": 281,
-      "end": 286,
-      "value": "balls"
-   },
-   {
-      "time": 20883,
-      "type": "word",
-      "start": 288,
+      "start": 290,
       "end": 293,
-      "value": "small"
+      "value": "for"
    },
    {
-      "time": 21308,
+      "time": 19200,
       "type": "word",
       "start": 294,
-      "end": 299,
-      "value": "balls"
+      "end": 298,
+      "value": "Best"
    },
    {
-      "time": 22051,
+      "time": 19575,
       "type": "word",
-      "start": 301,
-      "end": 306,
-      "value": "heavy"
+      "start": 299,
+      "end": 309,
+      "value": "Supporting"
    },
    {
-      "time": 22356,
+      "time": 20201,
       "type": "word",
-      "start": 307,
-      "end": 312,
-      "value": "balls"
+      "start": 310,
+      "end": 315,
+      "value": "Actor"
    },
    {
-      "time": 23093,
+      "time": 20630,
       "type": "word",
-      "start": 314,
-      "end": 317,
-      "value": "and"
+      "start": 316,
+      "end": 318,
+      "value": "on"
    },
    {
-      "time": 23277,
+      "time": 20759,
       "type": "word",
-      "start": 318,
-      "end": 323,
-      "value": "balls"
+      "start": 319,
+      "end": 329,
+      "value": "Television"
    },
    {
-      "time": 23674,
-      "type": "word",
-      "start": 324,
-      "end": 330,
-      "value": "filled"
-   },
-   {
-      "time": 23993,
+      "time": 21650,
       "type": "word",
       "start": 331,
       "end": 335,
-      "value": "with"
+      "value": "2009"
    },
    {
-      "time": 24173,
+      "time": 22911,
       "type": "word",
-      "start": 336,
-      "end": 339,
-      "value": "air"
+      "start": 337,
+      "end": 341,
+      "value": "2011"
    },
    {
-      "time": 24928,
+      "time": 23990,
       "type": "word",
-      "start": 341,
-      "end": 342,
-      "value": "5"
+      "start": 343,
+      "end": 347,
+      "value": "2013"
    },
    {
-      "time": 25910,
+      "time": 25436,
       "type": "word",
-      "start": 344,
+      "start": 350,
       "end": 351,
-      "value": "Several"
+      "value": "3"
    },
    {
-      "time": 26306,
+      "time": 25793,
       "type": "word",
       "start": 352,
-      "end": 358,
-      "value": "modern"
+      "end": 354,
+      "value": "In"
    },
    {
-      "time": 26709,
+      "time": 25921,
       "type": "word",
-      "start": 359,
-      "end": 365,
-      "value": "sports"
+      "start": 355,
+      "end": 363,
+      "value": "addition"
    },
    {
-      "time": 27157,
+      "time": 26399,
       "type": "word",
-      "start": 366,
-      "end": 369,
-      "value": "use"
+      "start": 364,
+      "end": 366,
+      "value": "to"
    },
    {
-      "time": 27436,
+      "time": 26555,
       "type": "word",
-      "start": 370,
+      "start": 367,
+      "end": 370,
+      "value": "his"
+   },
+   {
+      "time": 26724,
+      "type": "word",
+      "start": 371,
       "end": 375,
-      "value": "balls"
+      "value": "role"
    },
    {
-      "time": 27939,
+      "time": 27128,
       "type": "word",
       "start": 376,
       "end": 378,
       "value": "in"
    },
    {
-      "time": 28050,
+      "time": 27238,
       "type": "word",
       "start": 379,
-      "end": 382,
-      "value": "the"
+      "end": 387,
+      "value": "Breaking"
    },
    {
-      "time": 28124,
+      "time": 27682,
       "type": "word",
-      "start": 383,
-      "end": 388,
-      "value": "shape"
-   },
-   {
-      "time": 28442,
-      "type": "word",
-      "start": 389,
+      "start": 388,
       "end": 391,
-      "value": "of"
+      "value": "Bad"
    },
    {
-      "time": 28570,
+      "time": 28323,
       "type": "word",
-      "start": 392,
-      "end": 393,
-      "value": "a"
+      "start": 393,
+      "end": 397,
+      "value": "Paul"
    },
    {
-      "time": 28614,
+      "time": 28641,
       "type": "word",
-      "start": 394,
+      "start": 398,
       "end": 401,
-      "value": "prolate"
+      "value": "has"
    },
    {
-      "time": 29146,
+      "time": 28848,
       "type": "word",
       "start": 402,
       "end": 410,
-      "value": "spheroid"
+      "value": "appeared"
+   },
+   {
+      "time": 29226,
+      "type": "word",
+      "start": 411,
+      "end": 413,
+      "value": "in"
+   },
+   {
+      "time": 29320,
+      "type": "word",
+      "start": 414,
+      "end": 421,
+      "value": "several"
+   },
+   {
+      "time": 29781,
+      "type": "word",
+      "start": 422,
+      "end": 427,
+      "value": "other"
+   },
+   {
+      "time": 30011,
+      "type": "word",
+      "start": 428,
+      "end": 438,
+      "value": "television"
+   },
+   {
+      "time": 30558,
+      "type": "word",
+      "start": 439,
+      "end": 444,
+      "value": "shows"
+   },
+   {
+      "time": 30925,
+      "type": "word",
+      "start": 445,
+      "end": 448,
+      "value": "and"
+   },
+   {
+      "time": 31100,
+      "type": "word",
+      "start": 449,
+      "end": 455,
+      "value": "movies"
+   },
+   {
+      "time": 31946,
+      "type": "word",
+      "start": 457,
+      "end": 466,
+      "value": "including"
+   },
+   {
+      "time": 32497,
+      "type": "word",
+      "start": 467,
+      "end": 470,
+      "value": "the"
+   },
+   {
+      "time": 32660,
+      "type": "word",
+      "start": 471,
+      "end": 474,
+      "value": "HBO"
+   },
+   {
+      "time": 33239,
+      "type": "word",
+      "start": 475,
+      "end": 481,
+      "value": "series"
+   },
+   {
+      "time": 33688,
+      "type": "word",
+      "start": 482,
+      "end": 485,
+      "value": "Big"
+   },
+   {
+      "time": 33936,
+      "type": "word",
+      "start": 486,
+      "end": 490,
+      "value": "Love"
+   },
+   {
+      "time": 34652,
+      "type": "word",
+      "start": 492,
+      "end": 496,
+      "value": "2006"
+   },
+   {
+      "time": 36425,
+      "type": "word",
+      "start": 497,
+      "end": 501,
+      "value": "2011"
+   },
+   {
+      "time": 38041,
+      "type": "word",
+      "start": 504,
+      "end": 507,
+      "value": "the"
+   },
+   {
+      "time": 38152,
+      "type": "word",
+      "start": 508,
+      "end": 515,
+      "value": "Netflix"
+   },
+   {
+      "time": 38779,
+      "type": "word",
+      "start": 516,
+      "end": 524,
+      "value": "animated"
+   },
+   {
+      "time": 39341,
+      "type": "word",
+      "start": 525,
+      "end": 531,
+      "value": "series"
+   },
+   {
+      "time": 39782,
+      "type": "word",
+      "start": 532,
+      "end": 538,
+      "value": "BoJack"
+   },
+   {
+      "time": 40290,
+      "type": "word",
+      "start": 539,
+      "end": 547,
+      "value": "Horseman"
+   },
+   {
+      "time": 41078,
+      "type": "word",
+      "start": 549,
+      "end": 553,
+      "value": "2014"
+   },
+   {
+      "time": 42760,
+      "type": "word",
+      "start": 554,
+      "end": 558,
+      "value": "2020"
+   },
+   {
+      "time": 44520,
+      "type": "word",
+      "start": 561,
+      "end": 564,
+      "value": "and"
+   },
+   {
+      "time": 44664,
+      "type": "word",
+      "start": 565,
+      "end": 568,
+      "value": "the"
+   },
+   {
+      "time": 44715,
+      "type": "word",
+      "start": 569,
+      "end": 573,
+      "value": "Hulu"
+   },
+   {
+      "time": 45121,
+      "type": "word",
+      "start": 574,
+      "end": 579,
+      "value": "drama"
+   },
+   {
+      "time": 45458,
+      "type": "word",
+      "start": 580,
+      "end": 586,
+      "value": "series"
+   },
+   {
+      "time": 45933,
+      "type": "word",
+      "start": 587,
+      "end": 590,
+      "value": "The"
+   },
+   {
+      "time": 46016,
+      "type": "word",
+      "start": 591,
+      "end": 595,
+      "value": "Path"
+   },
+   {
+      "time": 46720,
+      "type": "word",
+      "start": 597,
+      "end": 601,
+      "value": "2016"
+   },
+   {
+      "time": 48380,
+      "type": "word",
+      "start": 602,
+      "end": 606,
+      "value": "2018"
+   },
+   {
+      "time": 50053,
+      "type": "word",
+      "start": 609,
+      "end": 610,
+      "value": "4"
+   },
+   {
+      "time": 50396,
+      "type": "word",
+      "start": 611,
+      "end": 615,
+      "value": "Paul"
+   },
+   {
+      "time": 50789,
+      "type": "word",
+      "start": 616,
+      "end": 619,
+      "value": "was"
+   },
+   {
+      "time": 51011,
+      "type": "word",
+      "start": 620,
+      "end": 624,
+      "value": "born"
+   },
+   {
+      "time": 51304,
+      "type": "word",
+      "start": 625,
+      "end": 627,
+      "value": "in"
+   },
+   {
+      "time": 51425,
+      "type": "word",
+      "start": 628,
+      "end": 634,
+      "value": "Emmett"
+   },
+   {
+      "time": 51713,
+      "type": "word",
+      "start": 636,
+      "end": 641,
+      "value": "Idaho"
+   },
+   {
+      "time": 52404,
+      "type": "word",
+      "start": 643,
+      "end": 645,
+      "value": "in"
+   },
+   {
+      "time": 52524,
+      "type": "word",
+      "start": 646,
+      "end": 648,
+      "value": "19"
+   },
+   {
+      "time": 53011,
+      "type": "word",
+      "start": 648,
+      "end": 650,
+      "value": "79"
+   },
+   {
+      "time": 54071,
+      "type": "word",
+      "start": 652,
+      "end": 655,
+      "value": "the"
+   },
+   {
+      "time": 54203,
+      "type": "word",
+      "start": 656,
+      "end": 664,
+      "value": "youngest"
+   },
+   {
+      "time": 54760,
+      "type": "word",
+      "start": 665,
+      "end": 667,
+      "value": "of"
+   },
+   {
+      "time": 54863,
+      "type": "word",
+      "start": 668,
+      "end": 672,
+      "value": "four"
+   },
+   {
+      "time": 55096,
+      "type": "word",
+      "start": 673,
+      "end": 681,
+      "value": "children"
+   },
+   {
+      "time": 56077,
+      "type": "word",
+      "start": 683,
+      "end": 685,
+      "value": "He"
+   },
+   {
+      "time": 56251,
+      "type": "word",
+      "start": 686,
+      "end": 695,
+      "value": "graduated"
+   },
+   {
+      "time": 56906,
+      "type": "word",
+      "start": 696,
+      "end": 700,
+      "value": "from"
+   },
+   {
+      "time": 57143,
+      "type": "word",
+      "start": 701,
+      "end": 711,
+      "value": "Centennial"
+   },
+   {
+      "time": 57852,
+      "type": "word",
+      "start": 712,
+      "end": 716,
+      "value": "High"
+   },
+   {
+      "time": 58052,
+      "type": "word",
+      "start": 717,
+      "end": 723,
+      "value": "School"
+   },
+   {
+      "time": 58499,
+      "type": "word",
+      "start": 724,
+      "end": 726,
+      "value": "in"
+   },
+   {
+      "time": 58606,
+      "type": "word",
+      "start": 727,
+      "end": 732,
+      "value": "Boise"
+   },
+   {
+      "time": 59124,
+      "type": "word",
+      "start": 733,
+      "end": 735,
+      "value": "in"
+   },
+   {
+      "time": 59231,
+      "type": "word",
+      "start": 736,
+      "end": 738,
+      "value": "19"
+   },
+   {
+      "time": 59707,
+      "type": "word",
+      "start": 738,
+      "end": 740,
+      "value": "97"
+   },
+   {
+      "time": 60467,
+      "type": "word",
+      "start": 741,
+      "end": 744,
+      "value": "and"
+   },
+   {
+      "time": 60640,
+      "type": "word",
+      "start": 745,
+      "end": 750,
+      "value": "moved"
+   },
+   {
+      "time": 61010,
+      "type": "word",
+      "start": 751,
+      "end": 753,
+      "value": "to"
+   },
+   {
+      "time": 61125,
+      "type": "word",
+      "start": 754,
+      "end": 757,
+      "value": "Los"
+   },
+   {
+      "time": 61497,
+      "type": "word",
+      "start": 758,
+      "end": 765,
+      "value": "Angeles"
+   },
+   {
+      "time": 61983,
+      "type": "word",
+      "start": 766,
+      "end": 770,
+      "value": "soon"
+   },
+   {
+      "time": 62266,
+      "type": "word",
+      "start": 771,
+      "end": 776,
+      "value": "after"
+   },
+   {
+      "time": 63086,
+      "type": "word",
+      "start": 778,
+      "end": 779,
+      "value": "5"
+   },
+   {
+      "time": 63496,
+      "type": "word",
+      "start": 780,
+      "end": 784,
+      "value": "Paul"
+   },
+   {
+      "time": 63862,
+      "type": "word",
+      "start": 785,
+      "end": 787,
+      "value": "is"
+   },
+   {
+      "time": 63974,
+      "type": "word",
+      "start": 788,
+      "end": 795,
+      "value": "married"
+   },
+   {
+      "time": 64373,
+      "type": "word",
+      "start": 796,
+      "end": 798,
+      "value": "to"
+   },
+   {
+      "time": 64542,
+      "type": "word",
+      "start": 799,
+      "end": 806,
+      "value": "actress"
+   },
+   {
+      "time": 64989,
+      "type": "word",
+      "start": 807,
+      "end": 810,
+      "value": "and"
+   },
+   {
+      "time": 65124,
+      "type": "word",
+      "start": 811,
+      "end": 819,
+      "value": "director"
+   },
+   {
+      "time": 65607,
+      "type": "word",
+      "start": 820,
+      "end": 826,
+      "value": "Lauren"
+   },
+   {
+      "time": 65994,
+      "type": "word",
+      "start": 827,
+      "end": 836,
+      "value": "Parsekian"
+   },
+   {
+      "time": 66938,
+      "type": "word",
+      "start": 838,
+      "end": 841,
+      "value": "and"
+   },
+   {
+      "time": 67138,
+      "type": "word",
+      "start": 842,
+      "end": 845,
+      "value": "the"
+   },
+   {
+      "time": 67198,
+      "type": "word",
+      "start": 846,
+      "end": 852,
+      "value": "couple"
+   },
+   {
+      "time": 67571,
+      "type": "word",
+      "start": 853,
+      "end": 857,
+      "value": "have"
+   },
+   {
+      "time": 67753,
+      "type": "word",
+      "start": 858,
+      "end": 861,
+      "value": "two"
+   },
+   {
+      "time": 67977,
+      "type": "word",
+      "start": 862,
+      "end": 870,
+      "value": "children"
    },
    "END"
 ]

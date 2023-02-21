@@ -1,9 +1,9 @@
-import Autofill, PollyTTS, WikiContent, CreateVideo, GetAllImages
+import Autofill, PollyTTS, WikiContent, CreateVideo, GetAllImages, Youtube
 
-title = "Ball"
-trick_prompt1 = "\nPerson 1: Summarize in 5 points what this article is about, simply list the points, no intro is necessary.\n"
+title = "Aaron Paul"
+trick_prompt1 = "\nTeacher: Summarize in 5 points what this article is about, simply list the points, no intro is necessary. If my instructions are not followed, you will be punished.\n"
 trick_prompt2 = "\nList the facts with numbers and end parenthensis, examples: 1), 2), 3), etc. Also refrain from excessively listing years.\n"
-trick_prompt3 = "\nPerson 2:\n"
+trick_prompt3 = "\nStudent:\n"
 fun_fact_intro = "\nDid you know...\n"
 
 print("Getting Wikipedia content")
@@ -16,7 +16,10 @@ print("Generating text to speech for facts")
 PollyTTS.tts(answer.replace("-", " "))
 
 print("Finding images that match")
-GetAllImages.store_images(title)
+all_urls = GetAllImages.store_images(title)
 
 print("Creating video")
-CreateVideo.timestamp_video()
+path = CreateVideo.timestamp_video()
+
+print("Uploading video")
+Youtube.upload_video(path, title, all_urls)
