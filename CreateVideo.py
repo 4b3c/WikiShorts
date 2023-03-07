@@ -2,7 +2,7 @@ import cv2, json, os
 import numpy as np
 from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
 
-def timestamp_video():
+def timestamp_video(title):
 	with open('Temporary//word_timestamps.json', 'r') as f:
 		wordts = json.load(f)
 		f.close()
@@ -56,8 +56,8 @@ def timestamp_video():
 	audio = AudioFileClip("Temporary//test.mp3")
 	video = VideoFileClip("Temporary//output.mp4")
 	video = video.set_audio(audio)
-	video.write_videofile("Final//final_out.mp4", codec="libx264")
+	video.write_videofile("Final//" + title + ".mp4", codec="libx264")
 	for i in range(6):
 		os.remove("Temporary//image" + str(i) + ".jpg")
 
-	return "C:\\Users\\Abram P\\Desktop\\Programming\\Python_scripts\\WikiShorts\\Final\\final_out.mp4"
+	return "C:\\Users\\Abram P\\Desktop\\Programming\\Python_scripts\\WikiShorts\\Final\\" + title + ".mp4"

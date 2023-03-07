@@ -32,7 +32,7 @@ def upload_video(path, video_title, all_urls):
 	password_field = driver.find_element(By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')
 	password_field.send_keys(password)
 	password_field.send_keys(Keys.RETURN)
-	time.sleep(3)
+	time.sleep(2)
 
 	# try:
 	# 	verification_code_field = driver.find_element(By.XPATH, '//*[@id="idvPin"]')
@@ -64,7 +64,7 @@ def upload_video(path, video_title, all_urls):
 	time.sleep(6)
 	print("editing video title and description")
 	title_spot = driver.find_element(By.XPATH, '/html/body/ytcp-uploads-dialog/tp-yt-paper-dialog/div/ytcp-animatable[1]/ytcp-ve/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[1]/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div')
-	title_spot.send_keys("5 facts about " + video_title)
+	title_spot.send_keys("5 facts about ")
 
 	descript_spot = driver.find_element(By.XPATH, '/html/body/ytcp-uploads-dialog/tp-yt-paper-dialog/div/ytcp-animatable[1]/ytcp-ve/ytcp-video-metadata-editor/div/ytcp-video-metadata-editor-basics/div[2]/ytcp-social-suggestions-textbox/ytcp-form-input-container/div[1]/div[2]/div/ytcp-social-suggestion-input/div')
 	descript_spot.send_keys(description)
@@ -83,11 +83,9 @@ def upload_video(path, video_title, all_urls):
 	driver.find_element(By.XPATH, '/html/body/ytcp-uploads-dialog/tp-yt-paper-dialog/div/ytcp-animatable[2]/div/div[2]/ytcp-button[2]/div').click()
 	time.sleep(2)
 
-	# Click "Private"
-	driver.find_element(By.XPATH, '/html/body/ytcp-uploads-dialog/tp-yt-paper-dialog/div/ytcp-animatable[1]/ytcp-uploads-review/div[2]/div[1]/ytcp-video-visibility-select/div[2]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[1]/div[1]/div[1]').click()
+	# Click "Public"
+	driver.find_element(By.XPATH, '/html/body/ytcp-uploads-dialog/tp-yt-paper-dialog/div/ytcp-animatable[1]/ytcp-uploads-review/div[2]/div[1]/ytcp-video-visibility-select/div[2]/tp-yt-paper-radio-group/tp-yt-paper-radio-button[3]/div[1]/div[1]').click()
 	# Click "Save"
 	driver.find_element(By.XPATH, '/html/body/ytcp-uploads-dialog/tp-yt-paper-dialog/div/ytcp-animatable[2]/div/div[2]/ytcp-button[3]/div').click()
 	time.sleep(10)
-	# Click "Close"
-	driver.find_element(By.XPATH, '/html/body/ytcp-uploads-still-processing-dialog/ytcp-dialog/tp-yt-paper-dialog/div[3]/ytcp-button/div').click()
-	time.sleep(10)
+

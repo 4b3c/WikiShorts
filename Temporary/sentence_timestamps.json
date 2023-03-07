@@ -10,36 +10,50 @@
       "time": 1164,
       "type": "sentence",
       "start": 18,
-      "end": 174,
-      "value": "1) The article discusses actualism, the view that being is restricted to actual being, and possibilism, the view that being also includes possible entities."
+      "end": 106,
+      "value": "1) Syria is a Western Asian country located in the Eastern Mediterranean and the Levant."
    },
    {
-      "time": 12142,
+      "time": 7296,
       "type": "sentence",
-      "start": 175,
-      "end": 357,
-      "value": "2) The article discusses how actualists have proposed different strategies for different types of expressions in order to avoid the conclusion that these expressions are meaningless."
+      "start": 107,
+      "end": 352,
+      "value": "2) It is a unitary republic that consists of 14 governorates (subdivisions), and is bordered by the Mediterranean Sea to the west, Turkey to the north, Iraq to the east and southeast, Jordan to the south, and Israel and Lebanon to the southwest."
    },
    {
-      "time": 22839,
+      "time": 24427,
       "type": "sentence",
-      "start": 358,
-      "end": 499,
-      "value": "3) The article discusses truthmaker theory and how actualists have proposed various solutions to account for the truthmakers of modal truths."
+      "start": 354,
+      "end": 580,
+      "value": "3) A country of fertile plains, high mountains, and deserts, Syria is home to diverse ethnic and religious groups, including the majority Syrian Arabs, Kurds, Turkmens, Assyrians, Armenians, Circassians, Albanians, and Greeks."
    },
    {
-      "time": 32127,
+      "time": 42188,
       "type": "sentence",
-      "start": 500,
-      "end": 666,
-      "value": "4) The article discusses how actualists have proposed to view intentional attitudes not as relations between a subject and an object but as properties of the subject."
+      "start": 581,
+      "end": 656,
+      "value": "Religious groups include Muslims, Christians, Alawites, Druze, and Yazidis."
    },
    {
-      "time": 42475,
+      "time": 48169,
       "type": "sentence",
-      "start": 667,
-      "end": 802,
-      "value": "5) The article discusses how possibilists can interpret the intentional attitude as a relation between a subject and a possible object."
+      "start": 658,
+      "end": 711,
+      "value": "4) The capital and largest city of Syria is Damascus."
+   },
+   {
+      "time": 52587,
+      "type": "sentence",
+      "start": 712,
+      "end": 792,
+      "value": "Arabs are the largest ethnic group, and Muslims are the largest religious group."
+   },
+   {
+      "time": 57776,
+      "type": "sentence",
+      "start": 794,
+      "end": 917,
+      "value": "5) Syria is the only country that is governed by Ba'athism, an ideology that advocates Arab socialism and Arab nationalism."
    },
    "END"
 ]

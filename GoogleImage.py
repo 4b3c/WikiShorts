@@ -1,4 +1,5 @@
 import os, time, requests, json, time, cv2
+import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -6,8 +7,12 @@ from selenium.webdriver.chrome.options import Options
 def get_top_img_url(query, wd, sleep_time, pick = 0):
 	search_url = "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q={q}&oq={q}&gs_l=img"
 	wd.get(search_url.format(q=query))
+	count = 0
 
 	while True:
+		count += 1
+		if count == 20:
+			return None
 		top_img = wd.find_elements(By.CSS_SELECTOR, "img.Q4LuWd")
 		if len(top_img) - 1 == pick:
 			return None
@@ -27,8 +32,12 @@ def get_top_img_url(query, wd, sleep_time, pick = 0):
 def get_image(query, num = 0, pick = 0):
 	chrome_options = Options()
 	chrome_options.add_argument("--headless")
+	count = 0
 
 	while True:
+		count += 1
+		if count == 20:
+			return None
 		with webdriver.Chrome(options = chrome_options, executable_path = './chromedriver') as wd:
 			image_url = get_top_img_url(query, wd, 0.5, pick)
 		if image_url == None:
