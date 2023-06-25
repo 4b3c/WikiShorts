@@ -2,1017 +2,1129 @@
    {
       "time": 6,
       "type": "word",
-      "start": 1,
-      "end": 4,
-      "value": "Did"
+      "start": 2,
+      "end": 9,
+      "value": "Welcome"
    },
    {
-      "time": 235,
+      "time": 388,
       "type": "word",
-      "start": 5,
-      "end": 8,
-      "value": "you"
+      "start": 10,
+      "end": 12,
+      "value": "to"
    },
    {
-      "time": 358,
+      "time": 479,
       "type": "word",
-      "start": 9,
-      "end": 13,
-      "value": "know"
+      "start": 13,
+      "end": 15,
+      "value": "my"
    },
    {
-      "time": 1171,
+      "time": 641,
       "type": "word",
-      "start": 18,
-      "end": 19,
-      "value": "1"
+      "start": 16,
+      "end": 23,
+      "value": "channel"
    },
    {
-      "time": 1888,
+      "time": 1548,
       "type": "word",
-      "start": 21,
-      "end": 26,
-      "value": "Syria"
-   },
-   {
-      "time": 2380,
-      "type": "word",
-      "start": 27,
-      "end": 29,
-      "value": "is"
-   },
-   {
-      "time": 2579,
-      "type": "word",
-      "start": 30,
+      "start": 26,
       "end": 31,
+      "value": "Today"
+   },
+   {
+      "time": 2247,
+      "type": "word",
+      "start": 33,
+      "end": 37,
+      "value": "I'll"
+   },
+   {
+      "time": 2388,
+      "type": "word",
+      "start": 38,
+      "end": 40,
+      "value": "be"
+   },
+   {
+      "time": 2527,
+      "type": "word",
+      "start": 41,
+      "end": 51,
+      "value": "discussing"
+   },
+   {
+      "time": 3067,
+      "type": "word",
+      "start": 52,
+      "end": 53,
       "value": "a"
    },
    {
-      "time": 2638,
-      "type": "word",
-      "start": 32,
-      "end": 39,
-      "value": "Western"
-   },
-   {
-      "time": 3144,
-      "type": "word",
-      "start": 40,
-      "end": 45,
-      "value": "Asian"
-   },
-   {
-      "time": 3514,
-      "type": "word",
-      "start": 46,
-      "end": 53,
-      "value": "country"
-   },
-   {
-      "time": 3973,
+      "time": 3143,
       "type": "word",
       "start": 54,
-      "end": 61,
-      "value": "located"
+      "end": 58,
+      "value": "very"
    },
    {
-      "time": 4577,
+      "time": 3421,
       "type": "word",
-      "start": 62,
-      "end": 64,
+      "start": 59,
+      "end": 68,
+      "value": "important"
+   },
+   {
+      "time": 3922,
+      "type": "word",
+      "start": 69,
+      "end": 74,
+      "value": "topic"
+   },
+   {
+      "time": 4685,
+      "type": "word",
+      "start": 77,
+      "end": 86,
+      "value": "education"
+   },
+   {
+      "time": 5861,
+      "type": "word",
+      "start": 89,
+      "end": 93,
+      "value": "It's"
+   },
+   {
+      "time": 6061,
+      "type": "word",
+      "start": 94,
+      "end": 96,
+      "value": "no"
+   },
+   {
+      "time": 6228,
+      "type": "word",
+      "start": 97,
+      "end": 103,
+      "value": "secret"
+   },
+   {
+      "time": 6644,
+      "type": "word",
+      "start": 104,
+      "end": 108,
+      "value": "that"
+   },
+   {
+      "time": 6778,
+      "type": "word",
+      "start": 109,
+      "end": 118,
+      "value": "education"
+   },
+   {
+      "time": 7405,
+      "type": "word",
+      "start": 119,
+      "end": 121,
+      "value": "is"
+   },
+   {
+      "time": 7557,
+      "type": "word",
+      "start": 122,
+      "end": 127,
+      "value": "vital"
+   },
+   {
+      "time": 7832,
+      "type": "word",
+      "start": 128,
+      "end": 130,
+      "value": "to"
+   },
+   {
+      "time": 7962,
+      "type": "word",
+      "start": 131,
+      "end": 138,
+      "value": "success"
+   },
+   {
+      "time": 8487,
+      "type": "word",
+      "start": 139,
+      "end": 141,
       "value": "in"
    },
    {
-      "time": 4684,
+      "time": 8606,
       "type": "word",
-      "start": 65,
-      "end": 68,
-      "value": "the"
+      "start": 142,
+      "end": 146,
+      "value": "life"
    },
    {
-      "time": 4813,
+      "time": 9405,
       "type": "word",
-      "start": 69,
-      "end": 76,
-      "value": "Eastern"
+      "start": 148,
+      "end": 151,
+      "value": "But"
    },
    {
-      "time": 5167,
+      "time": 9512,
       "type": "word",
-      "start": 77,
-      "end": 90,
-      "value": "Mediterranean"
+      "start": 152,
+      "end": 156,
+      "value": "what"
    },
    {
-      "time": 6013,
+      "time": 9708,
       "type": "word",
-      "start": 91,
-      "end": 94,
-      "value": "and"
+      "start": 157,
+      "end": 161,
+      "value": "many"
    },
    {
-      "time": 6150,
+      "time": 9958,
       "type": "word",
-      "start": 95,
-      "end": 98,
-      "value": "the"
+      "start": 162,
+      "end": 168,
+      "value": "people"
    },
    {
-      "time": 6245,
+      "time": 10293,
       "type": "word",
-      "start": 99,
-      "end": 105,
-      "value": "Levant"
+      "start": 169,
+      "end": 174,
+      "value": "don't"
    },
    {
-      "time": 7303,
+      "time": 10550,
       "type": "word",
-      "start": 107,
-      "end": 108,
-      "value": "2"
+      "start": 175,
+      "end": 182,
+      "value": "realize"
    },
    {
-      "time": 7880,
+      "time": 11071,
       "type": "word",
-      "start": 110,
-      "end": 112,
-      "value": "It"
-   },
-   {
-      "time": 7995,
-      "type": "word",
-      "start": 113,
-      "end": 115,
+      "start": 183,
+      "end": 185,
       "value": "is"
    },
    {
-      "time": 8158,
+      "time": 11181,
       "type": "word",
-      "start": 116,
-      "end": 117,
-      "value": "a"
-   },
-   {
-      "time": 8202,
-      "type": "word",
-      "start": 118,
-      "end": 125,
-      "value": "unitary"
-   },
-   {
-      "time": 8778,
-      "type": "word",
-      "start": 126,
-      "end": 134,
-      "value": "republic"
-   },
-   {
-      "time": 9402,
-      "type": "word",
-      "start": 135,
-      "end": 139,
+      "start": 186,
+      "end": 190,
       "value": "that"
    },
    {
-      "time": 9589,
-      "type": "word",
-      "start": 140,
-      "end": 148,
-      "value": "consists"
-   },
-   {
-      "time": 10096,
-      "type": "word",
-      "start": 149,
-      "end": 151,
-      "value": "of"
-   },
-   {
-      "time": 10203,
-      "type": "word",
-      "start": 152,
-      "end": 154,
-      "value": "14"
-   },
-   {
-      "time": 10802,
-      "type": "word",
-      "start": 155,
-      "end": 167,
-      "value": "governorates"
-   },
-   {
-      "time": 11910,
-      "type": "word",
-      "start": 169,
-      "end": 181,
-      "value": "subdivisions"
-   },
-   {
-      "time": 13137,
-      "type": "word",
-      "start": 184,
-      "end": 187,
-      "value": "and"
-   },
-   {
-      "time": 13320,
-      "type": "word",
-      "start": 188,
-      "end": 190,
-      "value": "is"
-   },
-   {
-      "time": 13432,
+      "time": 11321,
       "type": "word",
       "start": 191,
-      "end": 199,
-      "value": "bordered"
+      "end": 200,
+      "value": "education"
    },
    {
-      "time": 13908,
+      "time": 11986,
       "type": "word",
-      "start": 200,
-      "end": 202,
-      "value": "by"
+      "start": 201,
+      "end": 208,
+      "value": "doesn't"
    },
    {
-      "time": 14074,
+      "time": 12287,
       "type": "word",
-      "start": 203,
-      "end": 206,
-      "value": "the"
+      "start": 209,
+      "end": 213,
+      "value": "just"
    },
    {
-      "time": 14165,
+      "time": 12537,
       "type": "word",
-      "start": 207,
+      "start": 214,
       "end": 220,
-      "value": "Mediterranean"
+      "value": "happen"
    },
    {
-      "time": 14927,
+      "time": 12906,
       "type": "word",
       "start": 221,
-      "end": 224,
-      "value": "Sea"
+      "end": 223,
+      "value": "in"
    },
    {
-      "time": 15142,
+      "time": 12997,
       "type": "word",
-      "start": 225,
+      "start": 224,
       "end": 227,
-      "value": "to"
+      "value": "the"
    },
    {
-      "time": 15279,
+      "time": 13071,
       "type": "word",
       "start": 228,
-      "end": 231,
-      "value": "the"
+      "end": 237,
+      "value": "classroom"
    },
    {
-      "time": 15374,
+      "time": 14411,
       "type": "word",
-      "start": 232,
-      "end": 236,
-      "value": "west"
+      "start": 240,
+      "end": 245,
+      "value": "There"
    },
    {
-      "time": 16163,
+      "time": 14555,
       "type": "word",
-      "start": 238,
-      "end": 244,
-      "value": "Turkey"
+      "start": 246,
+      "end": 249,
+      "value": "are"
    },
    {
-      "time": 16507,
+      "time": 14629,
       "type": "word",
-      "start": 245,
-      "end": 247,
+      "start": 250,
+      "end": 254,
+      "value": "many"
+   },
+   {
+      "time": 14895,
+      "type": "word",
+      "start": 255,
+      "end": 264,
+      "value": "different"
+   },
+   {
+      "time": 15273,
+      "type": "word",
+      "start": 265,
+      "end": 269,
+      "value": "ways"
+   },
+   {
+      "time": 15557,
+      "type": "word",
+      "start": 270,
+      "end": 272,
       "value": "to"
    },
    {
-      "time": 16668,
+      "time": 15653,
       "type": "word",
-      "start": 248,
-      "end": 251,
-      "value": "the"
+      "start": 273,
+      "end": 278,
+      "value": "learn"
    },
    {
-      "time": 16756,
-      "type": "word",
-      "start": 252,
-      "end": 257,
-      "value": "north"
-   },
-   {
-      "time": 17402,
-      "type": "word",
-      "start": 259,
-      "end": 263,
-      "value": "Iraq"
-   },
-   {
-      "time": 17813,
-      "type": "word",
-      "start": 264,
-      "end": 266,
-      "value": "to"
-   },
-   {
-      "time": 17946,
-      "type": "word",
-      "start": 267,
-      "end": 270,
-      "value": "the"
-   },
-   {
-      "time": 18130,
-      "type": "word",
-      "start": 271,
-      "end": 275,
-      "value": "east"
-   },
-   {
-      "time": 18584,
-      "type": "word",
-      "start": 276,
-      "end": 279,
-      "value": "and"
-   },
-   {
-      "time": 18809,
+      "time": 16232,
       "type": "word",
       "start": 280,
-      "end": 289,
-      "value": "southeast"
+      "end": 283,
+      "value": "and"
    },
    {
-      "time": 19871,
+      "time": 16369,
       "type": "word",
-      "start": 291,
-      "end": 297,
-      "value": "Jordan"
+      "start": 284,
+      "end": 288,
+      "value": "it's"
    },
    {
-      "time": 20387,
+      "time": 16535,
       "type": "word",
-      "start": 298,
-      "end": 300,
+      "start": 289,
+      "end": 298,
+      "value": "important"
+   },
+   {
+      "time": 16971,
+      "type": "word",
+      "start": 299,
+      "end": 301,
       "value": "to"
    },
    {
-      "time": 20525,
+      "time": 17040,
       "type": "word",
-      "start": 301,
-      "end": 304,
+      "start": 302,
+      "end": 306,
+      "value": "find"
+   },
+   {
+      "time": 17300,
+      "type": "word",
+      "start": 307,
+      "end": 310,
       "value": "the"
    },
    {
-      "time": 20624,
+      "time": 17374,
       "type": "word",
-      "start": 305,
-      "end": 310,
-      "value": "south"
+      "start": 311,
+      "end": 316,
+      "value": "right"
    },
    {
-      "time": 21317,
+      "time": 17629,
       "type": "word",
-      "start": 312,
-      "end": 315,
-      "value": "and"
+      "start": 317,
+      "end": 323,
+      "value": "method"
    },
    {
-      "time": 21539,
+      "time": 17948,
       "type": "word",
-      "start": 316,
-      "end": 322,
-      "value": "Israel"
+      "start": 324,
+      "end": 327,
+      "value": "for"
    },
    {
-      "time": 22042,
+      "time": 18092,
       "type": "word",
-      "start": 323,
-      "end": 326,
-      "value": "and"
+      "start": 328,
+      "end": 331,
+      "value": "you"
    },
    {
-      "time": 22280,
+      "time": 19114,
       "type": "word",
-      "start": 327,
-      "end": 334,
-      "value": "Lebanon"
-   },
-   {
-      "time": 22691,
-      "type": "word",
-      "start": 335,
+      "start": 334,
       "end": 337,
-      "value": "to"
+      "value": "One"
    },
    {
-      "time": 22820,
+      "time": 19276,
       "type": "word",
       "start": 338,
       "end": 341,
-      "value": "the"
+      "value": "way"
    },
    {
-      "time": 22906,
+      "time": 19507,
       "type": "word",
       "start": 342,
-      "end": 351,
-      "value": "southwest"
-   },
-   {
-      "time": 24434,
-      "type": "word",
-      "start": 354,
-      "end": 355,
-      "value": "3"
-   },
-   {
-      "time": 25235,
-      "type": "word",
-      "start": 357,
-      "end": 358,
-      "value": "A"
-   },
-   {
-      "time": 25324,
-      "type": "word",
-      "start": 359,
-      "end": 366,
-      "value": "country"
-   },
-   {
-      "time": 25757,
-      "type": "word",
-      "start": 367,
-      "end": 369,
-      "value": "of"
-   },
-   {
-      "time": 25871,
-      "type": "word",
-      "start": 370,
-      "end": 377,
-      "value": "fertile"
-   },
-   {
-      "time": 26272,
-      "type": "word",
-      "start": 378,
-      "end": 384,
-      "value": "plains"
-   },
-   {
-      "time": 27041,
-      "type": "word",
-      "start": 386,
-      "end": 390,
-      "value": "high"
-   },
-   {
-      "time": 27282,
-      "type": "word",
-      "start": 391,
-      "end": 400,
-      "value": "mountains"
-   },
-   {
-      "time": 28116,
-      "type": "word",
-      "start": 402,
-      "end": 405,
-      "value": "and"
-   },
-   {
-      "time": 28333,
-      "type": "word",
-      "start": 406,
-      "end": 413,
-      "value": "deserts"
-   },
-   {
-      "time": 29102,
-      "type": "word",
-      "start": 415,
-      "end": 420,
-      "value": "Syria"
-   },
-   {
-      "time": 29642,
-      "type": "word",
-      "start": 421,
-      "end": 423,
-      "value": "is"
-   },
-   {
-      "time": 29891,
-      "type": "word",
-      "start": 424,
-      "end": 428,
-      "value": "home"
-   },
-   {
-      "time": 30143,
-      "type": "word",
-      "start": 429,
-      "end": 431,
+      "end": 344,
       "value": "to"
    },
    {
-      "time": 30281,
+      "time": 19603,
       "type": "word",
-      "start": 432,
-      "end": 439,
-      "value": "diverse"
+      "start": 345,
+      "end": 350,
+      "value": "learn"
    },
    {
-      "time": 30805,
+      "time": 19868,
       "type": "word",
-      "start": 440,
-      "end": 446,
-      "value": "ethnic"
-   },
-   {
-      "time": 31207,
-      "type": "word",
-      "start": 447,
-      "end": 450,
-      "value": "and"
-   },
-   {
-      "time": 31345,
-      "type": "word",
-      "start": 451,
-      "end": 460,
-      "value": "religious"
-   },
-   {
-      "time": 31808,
-      "type": "word",
-      "start": 461,
-      "end": 467,
-      "value": "groups"
-   },
-   {
-      "time": 32487,
-      "type": "word",
-      "start": 469,
-      "end": 478,
-      "value": "including"
-   },
-   {
-      "time": 33026,
-      "type": "word",
-      "start": 479,
-      "end": 482,
-      "value": "the"
-   },
-   {
-      "time": 33131,
-      "type": "word",
-      "start": 483,
-      "end": 491,
-      "value": "majority"
-   },
-   {
-      "time": 33713,
-      "type": "word",
-      "start": 492,
-      "end": 498,
-      "value": "Syrian"
-   },
-   {
-      "time": 34268,
-      "type": "word",
-      "start": 499,
-      "end": 504,
-      "value": "Arabs"
-   },
-   {
-      "time": 35007,
-      "type": "word",
-      "start": 506,
-      "end": 511,
-      "value": "Kurds"
-   },
-   {
-      "time": 35784,
-      "type": "word",
-      "start": 513,
-      "end": 521,
-      "value": "Turkmens"
-   },
-   {
-      "time": 36811,
-      "type": "word",
-      "start": 523,
-      "end": 532,
-      "value": "Assyrians"
-   },
-   {
-      "time": 37863,
-      "type": "word",
-      "start": 534,
-      "end": 543,
-      "value": "Armenians"
-   },
-   {
-      "time": 38834,
-      "type": "word",
-      "start": 545,
-      "end": 556,
-      "value": "Circassians"
-   },
-   {
-      "time": 40044,
-      "type": "word",
-      "start": 558,
-      "end": 567,
-      "value": "Albanians"
-   },
-   {
-      "time": 41042,
-      "type": "word",
-      "start": 569,
-      "end": 572,
-      "value": "and"
-   },
-   {
-      "time": 41255,
-      "type": "word",
-      "start": 573,
-      "end": 579,
-      "value": "Greeks"
-   },
-   {
-      "time": 42194,
-      "type": "word",
-      "start": 581,
-      "end": 590,
-      "value": "Religious"
-   },
-   {
-      "time": 42666,
-      "type": "word",
-      "start": 591,
-      "end": 597,
-      "value": "groups"
-   },
-   {
-      "time": 43033,
-      "type": "word",
-      "start": 598,
-      "end": 605,
-      "value": "include"
-   },
-   {
-      "time": 43474,
-      "type": "word",
-      "start": 606,
-      "end": 613,
-      "value": "Muslims"
-   },
-   {
-      "time": 44300,
-      "type": "word",
-      "start": 615,
-      "end": 625,
-      "value": "Christians"
-   },
-   {
-      "time": 45096,
-      "type": "word",
-      "start": 627,
-      "end": 635,
-      "value": "Alawites"
-   },
-   {
-      "time": 46090,
-      "type": "word",
-      "start": 637,
-      "end": 642,
-      "value": "Druze"
-   },
-   {
-      "time": 46756,
-      "type": "word",
-      "start": 644,
-      "end": 647,
-      "value": "and"
-   },
-   {
-      "time": 46896,
-      "type": "word",
-      "start": 648,
-      "end": 655,
-      "value": "Yazidis"
-   },
-   {
-      "time": 48175,
-      "type": "word",
-      "start": 658,
-      "end": 659,
-      "value": "4"
-   },
-   {
-      "time": 48873,
-      "type": "word",
-      "start": 661,
-      "end": 664,
-      "value": "The"
-   },
-   {
-      "time": 48971,
-      "type": "word",
-      "start": 665,
-      "end": 672,
-      "value": "capital"
-   },
-   {
-      "time": 49539,
-      "type": "word",
-      "start": 673,
-      "end": 676,
-      "value": "and"
-   },
-   {
-      "time": 49734,
-      "type": "word",
-      "start": 677,
-      "end": 684,
-      "value": "largest"
-   },
-   {
-      "time": 50235,
-      "type": "word",
-      "start": 685,
-      "end": 689,
-      "value": "city"
-   },
-   {
-      "time": 50593,
-      "type": "word",
-      "start": 690,
-      "end": 692,
-      "value": "of"
-   },
-   {
-      "time": 50700,
-      "type": "word",
-      "start": 693,
-      "end": 698,
-      "value": "Syria"
-   },
-   {
-      "time": 51182,
-      "type": "word",
-      "start": 699,
-      "end": 701,
+      "start": 351,
+      "end": 353,
       "value": "is"
    },
    {
-      "time": 51375,
+      "time": 19992,
       "type": "word",
-      "start": 702,
-      "end": 710,
-      "value": "Damascus"
-   },
-   {
-      "time": 52594,
-      "type": "word",
-      "start": 712,
-      "end": 717,
-      "value": "Arabs"
-   },
-   {
-      "time": 52976,
-      "type": "word",
-      "start": 718,
-      "end": 721,
-      "value": "are"
-   },
-   {
-      "time": 53090,
-      "type": "word",
-      "start": 722,
-      "end": 725,
-      "value": "the"
-   },
-   {
-      "time": 53185,
-      "type": "word",
-      "start": 726,
-      "end": 733,
-      "value": "largest"
-   },
-   {
-      "time": 53726,
-      "type": "word",
-      "start": 734,
-      "end": 740,
-      "value": "ethnic"
-   },
-   {
-      "time": 54080,
-      "type": "word",
-      "start": 741,
-      "end": 746,
-      "value": "group"
-   },
-   {
-      "time": 54627,
-      "type": "word",
-      "start": 748,
-      "end": 751,
-      "value": "and"
-   },
-   {
-      "time": 54847,
-      "type": "word",
-      "start": 752,
-      "end": 759,
-      "value": "Muslims"
-   },
-   {
-      "time": 55366,
-      "type": "word",
-      "start": 760,
-      "end": 763,
-      "value": "are"
-   },
-   {
-      "time": 55464,
-      "type": "word",
-      "start": 764,
-      "end": 767,
-      "value": "the"
-   },
-   {
-      "time": 55564,
-      "type": "word",
-      "start": 768,
-      "end": 775,
-      "value": "largest"
-   },
-   {
-      "time": 56101,
-      "type": "word",
-      "start": 776,
-      "end": 785,
-      "value": "religious"
-   },
-   {
-      "time": 56635,
-      "type": "word",
-      "start": 786,
-      "end": 791,
-      "value": "group"
-   },
-   {
-      "time": 57783,
-      "type": "word",
-      "start": 794,
-      "end": 795,
-      "value": "5"
-   },
-   {
-      "time": 58574,
-      "type": "word",
-      "start": 797,
-      "end": 802,
-      "value": "Syria"
-   },
-   {
-      "time": 59070,
-      "type": "word",
-      "start": 803,
-      "end": 805,
-      "value": "is"
-   },
-   {
-      "time": 59273,
-      "type": "word",
-      "start": 806,
-      "end": 809,
-      "value": "the"
-   },
-   {
-      "time": 59394,
-      "type": "word",
-      "start": 810,
-      "end": 814,
-      "value": "only"
-   },
-   {
-      "time": 59718,
-      "type": "word",
-      "start": 815,
-      "end": 822,
-      "value": "country"
-   },
-   {
-      "time": 60191,
-      "type": "word",
-      "start": 823,
-      "end": 827,
-      "value": "that"
-   },
-   {
-      "time": 60342,
-      "type": "word",
-      "start": 828,
-      "end": 830,
-      "value": "is"
-   },
-   {
-      "time": 60488,
-      "type": "word",
-      "start": 831,
-      "end": 839,
-      "value": "governed"
-   },
-   {
-      "time": 60911,
-      "type": "word",
-      "start": 840,
-      "end": 842,
+      "start": 354,
+      "end": 356,
       "value": "by"
    },
    {
-      "time": 61106,
+      "time": 20153,
       "type": "word",
-      "start": 843,
-      "end": 852,
-      "value": "Ba'athism"
+      "start": 357,
+      "end": 366,
+      "value": "listening"
    },
    {
-      "time": 61912,
+      "time": 20561,
       "type": "word",
-      "start": 854,
-      "end": 856,
-      "value": "an"
+      "start": 367,
+      "end": 369,
+      "value": "to"
    },
    {
-      "time": 62100,
+      "time": 20644,
       "type": "word",
-      "start": 857,
-      "end": 865,
-      "value": "ideology"
+      "start": 370,
+      "end": 378,
+      "value": "podcasts"
    },
    {
-      "time": 62865,
+      "time": 21892,
       "type": "word",
-      "start": 866,
-      "end": 870,
-      "value": "that"
+      "start": 380,
+      "end": 388,
+      "value": "Podcasts"
    },
    {
-      "time": 63007,
+      "time": 22537,
       "type": "word",
-      "start": 871,
-      "end": 880,
-      "value": "advocates"
+      "start": 389,
+      "end": 392,
+      "value": "are"
    },
    {
-      "time": 63641,
+      "time": 22671,
       "type": "word",
-      "start": 881,
-      "end": 885,
-      "value": "Arab"
+      "start": 393,
+      "end": 394,
+      "value": "a"
    },
    {
-      "time": 63943,
+      "time": 22712,
       "type": "word",
-      "start": 886,
-      "end": 895,
-      "value": "socialism"
+      "start": 395,
+      "end": 400,
+      "value": "great"
    },
    {
-      "time": 64725,
+      "time": 22970,
       "type": "word",
-      "start": 896,
-      "end": 899,
+      "start": 401,
+      "end": 404,
+      "value": "way"
+   },
+   {
+      "time": 23141,
+      "type": "word",
+      "start": 405,
+      "end": 407,
+      "value": "to"
+   },
+   {
+      "time": 23238,
+      "type": "word",
+      "start": 408,
+      "end": 413,
+      "value": "learn"
+   },
+   {
+      "time": 23498,
+      "type": "word",
+      "start": 414,
+      "end": 417,
+      "value": "new"
+   },
+   {
+      "time": 23669,
+      "type": "word",
+      "start": 418,
+      "end": 429,
+      "value": "information"
+   },
+   {
+      "time": 24325,
+      "type": "word",
+      "start": 430,
+      "end": 433,
       "value": "and"
    },
    {
-      "time": 64953,
+      "time": 24465,
       "type": "word",
-      "start": 900,
-      "end": 904,
-      "value": "Arab"
+      "start": 434,
+      "end": 438,
+      "value": "gain"
    },
    {
-      "time": 65323,
+      "time": 24684,
+      "type": "word",
+      "start": 439,
+      "end": 442,
+      "value": "new"
+   },
+   {
+      "time": 24835,
+      "type": "word",
+      "start": 443,
+      "end": 455,
+      "value": "perspectives"
+   },
+   {
+      "time": 26364,
+      "type": "word",
+      "start": 458,
+      "end": 465,
+      "value": "Another"
+   },
+   {
+      "time": 26720,
+      "type": "word",
+      "start": 466,
+      "end": 469,
+      "value": "way"
+   },
+   {
+      "time": 26951,
+      "type": "word",
+      "start": 470,
+      "end": 472,
+      "value": "to"
+   },
+   {
+      "time": 27091,
+      "type": "word",
+      "start": 473,
+      "end": 478,
+      "value": "learn"
+   },
+   {
+      "time": 27356,
+      "type": "word",
+      "start": 479,
+      "end": 481,
+      "value": "is"
+   },
+   {
+      "time": 27480,
+      "type": "word",
+      "start": 482,
+      "end": 484,
+      "value": "by"
+   },
+   {
+      "time": 27708,
+      "type": "word",
+      "start": 485,
+      "end": 492,
+      "value": "reading"
+   },
+   {
+      "time": 28052,
+      "type": "word",
+      "start": 493,
+      "end": 498,
+      "value": "books"
+   },
+   {
+      "time": 28939,
+      "type": "word",
+      "start": 500,
+      "end": 505,
+      "value": "Books"
+   },
+   {
+      "time": 29190,
+      "type": "word",
+      "start": 506,
+      "end": 509,
+      "value": "can"
+   },
+   {
+      "time": 29339,
+      "type": "word",
+      "start": 510,
+      "end": 517,
+      "value": "provide"
+   },
+   {
+      "time": 29726,
+      "type": "word",
+      "start": 518,
+      "end": 521,
+      "value": "you"
+   },
+   {
+      "time": 29816,
+      "type": "word",
+      "start": 522,
+      "end": 526,
+      "value": "with"
+   },
+   {
+      "time": 29975,
+      "type": "word",
+      "start": 527,
+      "end": 528,
+      "value": "a"
+   },
+   {
+      "time": 30014,
+      "type": "word",
+      "start": 529,
+      "end": 535,
+      "value": "wealth"
+   },
+   {
+      "time": 30345,
+      "type": "word",
+      "start": 536,
+      "end": 538,
+      "value": "of"
+   },
+   {
+      "time": 30467,
+      "type": "word",
+      "start": 539,
+      "end": 548,
+      "value": "knowledge"
+   },
+   {
+      "time": 30909,
+      "type": "word",
+      "start": 549,
+      "end": 552,
+      "value": "and"
+   },
+   {
+      "time": 31030,
+      "type": "word",
+      "start": 553,
+      "end": 556,
+      "value": "can"
+   },
+   {
+      "time": 31188,
+      "type": "word",
+      "start": 557,
+      "end": 561,
+      "value": "help"
+   },
+   {
+      "time": 31467,
+      "type": "word",
+      "start": 562,
+      "end": 565,
+      "value": "you"
+   },
+   {
+      "time": 31563,
+      "type": "word",
+      "start": 566,
+      "end": 573,
+      "value": "develop"
+   },
+   {
+      "time": 31984,
+      "type": "word",
+      "start": 574,
+      "end": 577,
+      "value": "new"
+   },
+   {
+      "time": 32141,
+      "type": "word",
+      "start": 578,
+      "end": 584,
+      "value": "skills"
+   },
+   {
+      "time": 33349,
+      "type": "word",
+      "start": 587,
+      "end": 594,
+      "value": "Finally"
+   },
+   {
+      "time": 34159,
+      "type": "word",
+      "start": 596,
+      "end": 599,
+      "value": "you"
+   },
+   {
+      "time": 34286,
+      "type": "word",
+      "start": 600,
+      "end": 603,
+      "value": "can"
+   },
+   {
+      "time": 34432,
+      "type": "word",
+      "start": 604,
+      "end": 608,
+      "value": "also"
+   },
+   {
+      "time": 34747,
+      "type": "word",
+      "start": 609,
+      "end": 614,
+      "value": "learn"
+   },
+   {
+      "time": 35065,
+      "type": "word",
+      "start": 615,
+      "end": 617,
+      "value": "by"
+   },
+   {
+      "time": 35255,
+      "type": "word",
+      "start": 618,
+      "end": 629,
+      "value": "interacting"
+   },
+   {
+      "time": 35895,
+      "type": "word",
+      "start": 630,
+      "end": 634,
+      "value": "with"
+   },
+   {
+      "time": 36052,
+      "type": "word",
+      "start": 635,
+      "end": 640,
+      "value": "other"
+   },
+   {
+      "time": 36247,
+      "type": "word",
+      "start": 641,
+      "end": 647,
+      "value": "people"
+   },
+   {
+      "time": 37166,
+      "type": "word",
+      "start": 649,
+      "end": 653,
+      "value": "This"
+   },
+   {
+      "time": 37366,
+      "type": "word",
+      "start": 654,
+      "end": 657,
+      "value": "can"
+   },
+   {
+      "time": 37520,
+      "type": "word",
+      "start": 658,
+      "end": 660,
+      "value": "be"
+   },
+   {
+      "time": 37639,
+      "type": "word",
+      "start": 661,
+      "end": 665,
+      "value": "done"
+   },
+   {
+      "time": 37910,
+      "type": "word",
+      "start": 666,
+      "end": 668,
+      "value": "by"
+   },
+   {
+      "time": 38071,
+      "type": "word",
+      "start": 669,
+      "end": 676,
+      "value": "joining"
+   },
+   {
+      "time": 38458,
+      "type": "word",
+      "start": 677,
+      "end": 683,
+      "value": "forums"
+   },
+   {
+      "time": 38913,
+      "type": "word",
+      "start": 684,
+      "end": 687,
+      "value": "and"
+   },
+   {
+      "time": 39032,
+      "type": "word",
+      "start": 688,
+      "end": 701,
+      "value": "participating"
+   },
+   {
+      "time": 39898,
+      "type": "word",
+      "start": 702,
+      "end": 704,
+      "value": "in"
+   },
+   {
+      "time": 39998,
+      "type": "word",
+      "start": 705,
+      "end": 716,
+      "value": "discussions"
+   },
+   {
+      "time": 41437,
+      "type": "word",
+      "start": 719,
+      "end": 721,
+      "value": "So"
+   },
+   {
+      "time": 42062,
+      "type": "word",
+      "start": 723,
+      "end": 728,
+      "value": "there"
+   },
+   {
+      "time": 42191,
+      "type": "word",
+      "start": 729,
+      "end": 732,
+      "value": "you"
+   },
+   {
+      "time": 42349,
+      "type": "word",
+      "start": 733,
+      "end": 737,
+      "value": "have"
+   },
+   {
+      "time": 42565,
+      "type": "word",
+      "start": 738,
+      "end": 740,
+      "value": "it"
+   },
+   {
+      "time": 43183,
+      "type": "word",
+      "start": 742,
+      "end": 747,
+      "value": "Three"
+   },
+   {
+      "time": 43485,
+      "type": "word",
+      "start": 748,
+      "end": 757,
+      "value": "different"
+   },
+   {
+      "time": 43857,
+      "type": "word",
+      "start": 758,
+      "end": 762,
+      "value": "ways"
+   },
+   {
+      "time": 44172,
+      "type": "word",
+      "start": 763,
+      "end": 765,
+      "value": "to"
+   },
+   {
+      "time": 44263,
+      "type": "word",
+      "start": 766,
+      "end": 771,
+      "value": "learn"
+   },
+   {
+      "time": 44537,
+      "type": "word",
+      "start": 772,
+      "end": 779,
+      "value": "outside"
+   },
+   {
+      "time": 44933,
+      "type": "word",
+      "start": 780,
+      "end": 782,
+      "value": "of"
+   },
+   {
+      "time": 45024,
+      "type": "word",
+      "start": 783,
+      "end": 786,
+      "value": "the"
+   },
+   {
+      "time": 45099,
+      "type": "word",
+      "start": 787,
+      "end": 796,
+      "value": "classroom"
+   },
+   {
+      "time": 46443,
+      "type": "word",
+      "start": 799,
+      "end": 800,
+      "value": "I"
+   },
+   {
+      "time": 46549,
+      "type": "word",
+      "start": 801,
+      "end": 805,
+      "value": "hope"
+   },
+   {
+      "time": 46754,
+      "type": "word",
+      "start": 806,
+      "end": 809,
+      "value": "you"
+   },
+   {
+      "time": 46838,
+      "type": "word",
+      "start": 810,
+      "end": 815,
+      "value": "found"
+   },
+   {
+      "time": 47109,
+      "type": "word",
+      "start": 816,
+      "end": 820,
+      "value": "this"
+   },
+   {
+      "time": 47289,
+      "type": "word",
+      "start": 821,
+      "end": 826,
+      "value": "video"
+   },
+   {
+      "time": 47672,
+      "type": "word",
+      "start": 827,
+      "end": 834,
+      "value": "helpful"
+   },
+   {
+      "time": 48633,
+      "type": "word",
+      "start": 836,
+      "end": 838,
+      "value": "If"
+   },
+   {
+      "time": 48734,
+      "type": "word",
+      "start": 839,
+      "end": 842,
+      "value": "you"
+   },
+   {
+      "time": 48823,
+      "type": "word",
+      "start": 843,
+      "end": 846,
+      "value": "did"
+   },
+   {
+      "time": 49446,
+      "type": "word",
+      "start": 848,
+      "end": 854,
+      "value": "please"
+   },
+   {
+      "time": 49728,
+      "type": "word",
+      "start": 855,
+      "end": 859,
+      "value": "give"
+   },
+   {
+      "time": 49941,
+      "type": "word",
+      "start": 860,
+      "end": 862,
+      "value": "it"
+   },
+   {
+      "time": 50009,
+      "type": "word",
+      "start": 863,
+      "end": 864,
+      "value": "a"
+   },
+   {
+      "time": 50064,
+      "type": "word",
+      "start": 865,
+      "end": 871,
+      "value": "thumbs"
+   },
+   {
+      "time": 50431,
+      "type": "word",
+      "start": 872,
+      "end": 874,
+      "value": "up"
+   },
+   {
+      "time": 50609,
+      "type": "word",
+      "start": 875,
+      "end": 878,
+      "value": "and"
+   },
+   {
+      "time": 50726,
+      "type": "word",
+      "start": 879,
+      "end": 888,
+      "value": "subscribe"
+   },
+   {
+      "time": 51281,
+      "type": "word",
+      "start": 889,
+      "end": 891,
+      "value": "to"
+   },
+   {
+      "time": 51362,
+      "type": "word",
+      "start": 892,
+      "end": 894,
+      "value": "my"
+   },
+   {
+      "time": 51534,
+      "type": "word",
+      "start": 895,
+      "end": 902,
+      "value": "channel"
+   },
+   {
+      "time": 52697,
       "type": "word",
       "start": 905,
-      "end": 916,
-      "value": "nationalism"
+      "end": 911,
+      "value": "Thanks"
+   },
+   {
+      "time": 52986,
+      "type": "word",
+      "start": 912,
+      "end": 915,
+      "value": "for"
+   },
+   {
+      "time": 53140,
+      "type": "word",
+      "start": 916,
+      "end": 924,
+      "value": "watching"
    },
    "END"
 ]

@@ -24,15 +24,23 @@ def upload_video(path, video_title, all_urls):
 	# Log in to YouTube
 	driver.get('https://www.youtube.com/upload')
 	time.sleep(2)
-	email_field = driver.find_element(By.XPATH, '//*[@id="identifierId"]')
-	email_field.send_keys(username)
-	email_field.send_keys(Keys.RETURN)
-	time.sleep(2)
 
-	password_field = driver.find_element(By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')
-	password_field.send_keys(password)
-	password_field.send_keys(Keys.RETURN)
-	time.sleep(2)
+	while True:
+		email_field = driver.find_element(By.XPATH, '//*[@id="identifierId"]')
+		email_field.send_keys(username)
+		email_field.send_keys(Keys.RETURN)
+		time.sleep(3)
+
+		try:
+			password_field = driver.find_element(By.XPATH, '//*[@id="password"]/div[1]/div/div[1]/input')
+			password_field.send_keys(password)
+			password_field.send_keys(Keys.RETURN)
+			time.sleep(2)
+			break
+		except:
+			driver.find_element(By.XPATH, '//*[@id="next"]/div/div/a').click()
+			time.sleep(3)
+
 
 	# try:
 	# 	verification_code_field = driver.find_element(By.XPATH, '//*[@id="idvPin"]')

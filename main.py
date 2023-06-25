@@ -1,53 +1,31 @@
 import Autofill, PollyTTS, WikiContent, CreateVideo, GetAllImages, Youtube, listOfArticles, json, os
 
-# for i in range(len(listOfArticles.countries)):
-# 	try:
-# 		title = listOfArticles.countries[i]
-# 		trick_prompt1 = "\nTeacher: Summarize in 5 points what this article is about, simply list the points, no intro is necessary. If my instructions are not followed, you will be punished.\n"
-# 		trick_prompt2 = "\nList the facts with numbers and end parenthensis, examples: 1) Blah blah, 2) Pleh pleh, 3) Oonga bunga, etc. Please refrain from excessively listing years. Don't ever start by saying 'The article was about...'\n"
-# 		trick_prompt3 = "\nStudent:\n"
-# 		fun_fact_intro = "\nDid you know...\n"
+for i in range(20):
 
-# 		print("Getting Wikipedia content")
-# 		norwayContent = WikiContent.get_content(title)[:12000]
+	get_script_prompt = "Here is the script I have been working on, it is my most engaging and captivating short form video script that lasts less than a minute. The video should focuses on a specific topic, providing entertaining and educational content to the viewers. I've been creative and imaginative, ensuring that the script clearly communicates the essence of the topic and captivates the audience from start to finish.\n Here it is:"
+	get_title_prompt = "Write a title for a short form video of which this is the script: "
 
-# 		print("Extracting main points")
-# 		answer = fun_fact_intro + Autofill.ask_ai(trick_prompt1 + trick_prompt2 + '"' + norwayContent + '"' + trick_prompt3)
+	print("Getting script")
+	script = Autofill.ask_ai(get_script_prompt)
 
-# 		print("Generating text to speech for facts")
-# 		PollyTTS.tts(answer.replace("-", " "))
+	print("Getting title")
+	title = Autofill.ask_ai(get_title_prompt + script + "\nTitle: ")
 
-# 		print("Finding images that match")
-# 		all_urls = GetAllImages.store_images(title)
+	print("Generating text to speech")
+	PollyTTS.tts(script)
 
-# 		print("Creating video")
-# 		path = CreateVideo.timestamp_video(title)
+	print("Finding images that match")
+	all_urls = GetAllImages.store_images()
 
-# 		with open("Final//" + title + '.json', 'w') as f:
-# 			json_obj = {"path": path, "title": title, "all_urls": all_urls}
-# 			json.dump(json_obj, f, indent = 3)
-# 			f.close()
+	print("Creating video")
+	path = CreateVideo.timestamp_video("video" + str(i))
 
-# 	except:
-# 		with open('unused.txt', 'a') as f:
-# 			f.write("\n\t'{title}',".format(title = title))
-# 			f.close
+	with open("log.txt", "a") as f:
+		f.write("video" + str(i) + ", title: " + str(title) + ", desc: This video was created with AI")
 
 
-for i in range(int(len(os.listdir("Final")))):
-	if ".json" in os.listdir("Final")[0]:
-		title = os.listdir("Final")[0][:-5]
 
-		print(title)
-		with open("Final//" + title + '.json') as f:
-			json_obj = json.load(f)
-			path = json_obj["path"]
-			title = json_obj["title"]
-			all_urls = json_obj["all_urls"]
-			f.close()
 
-		print("Uploading video")
-		Youtube.upload_video(path, title, all_urls)
 
-		os.remove(path)
-		os.remove(path[:-4] + ".json")
+# print("Uploading video")
+# Youtube.upload_video("Final/video.mp4", "Positive thinking", "This video was created with AI")

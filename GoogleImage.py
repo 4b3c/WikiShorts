@@ -1,65 +1,70 @@
-import os, time, requests, json, time, cv2
+import os, time, requests, json, time, cv2, base64
 import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
-def get_top_img_url(query, wd, sleep_time, pick = 0):
+def get_top_img_url(query, wd, sleep_time, pick):
 	search_url = "https://www.google.com/search?safe=off&site=&tbm=isch&source=hp&q={q}&oq={q}&gs_l=img"
 	wd.get(search_url.format(q=query))
-	count = 0
+	
+	# Wait for the page to load and the image results to be displayed
+	WebDriverWait(wd, sleep_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#islrg')))
+	
+	# Find the image element using the provided selector
+	image_element = wd.find_elements(By.CSS_SELECTOR, '#islrg > div.islrc > div')[pick]
+	image_url = image_element.find_element(By.CSS_SELECTOR, 'a.wXeWr.islib.nfEiy > div.bRMDJf.islir > img').get_attribute('src')
+	
+	return image_url
 
-	while True:
-		count += 1
-		if count == 20:
+
+def download_image(url, save_path):
+	if url[0] == 'h':
+		response = requests.get(url)
+		
+		if response.status_code == 200:
+			with open(save_path, 'wb') as file:
+				file.write(response.content)
+			
+			return save_path
+		
+		return None
+	elif url[0] == 'd':
+		try:
+			# Extract the base64-encoded image data from the URL
+			image_data = url.split(',')[1]
+			
+			# Decode the base64 data
+			image_bytes = base64.b64decode(image_data)
+			
+			# Save the image to the specified path
+			with open(save_path, 'wb') as file:
+				file.write(image_bytes)
+			
+			return save_path
+		
+		except Exception as e:
+			print("Failed to download the image:", str(e))
 			return None
-		top_img = wd.find_elements(By.CSS_SELECTOR, "img.Q4LuWd")
-		if len(top_img) - 1 == pick:
-			return None
-		else:
-			top_img = top_img[pick]
-		top_img.click()
+	else:
+		print("\n\nuhh oh:", url)
 
-		time.sleep(sleep_time)
-
-		actual_images = wd.find_elements(By.CSS_SELECTOR, "img.n3VNCb")
-		for actual_image in actual_images:
-			if actual_image.get_attribute('src') and 'http' in actual_image.get_attribute('src'):
-				return actual_image.get_attribute('src')
-			else:
-				pick += 1
 
 def get_image(query, num = 0, pick = 0):
 	chrome_options = Options()
 	chrome_options.add_argument("--headless")
-	count = 0
 
-	while True:
-		count += 1
-		if count == 20:
-			return None
-		with webdriver.Chrome(options = chrome_options, executable_path = './chromedriver') as wd:
-			image_url = get_top_img_url(query, wd, 0.5, pick)
-		if image_url == None:
-			print("No images found:", num)
-			img = np.zeros((100, 100, 3), np.uint8)
-			cv2.imwrite("Temporary//sample" + str(num) + ".jpg", img)
-			return image_url
+	with webdriver.Chrome(options = chrome_options, executable_path = './chromedriver') as wd:
+		image_url = get_top_img_url(query, wd, 1, pick)
 
-		response = requests.get(image_url)
-		if response.status_code == 200:
-			print("\tLink valid:", num)
-			with open("Temporary//sample" + str(num) + ".jpg", 'wb') as f:
-				f.write(response.content)
-				return image_url
-		else:
-			print("\t\tLink invalid:", pick)
-			pick += 1
+	download_image(image_url, "Temporary//sample" + str(num) + ".jpg")
+	return image_url
 
 def resize_images(num = 0):
 	image = cv2.imread("Temporary//sample" + str(num) + ".jpg")
 	height, width, _ = image.shape
-	print(height, width, "\n")
 	new_height = int(height * 1000 / width)
 	resized_image = cv2.resize(image, (900, new_height))
 	if resized_image.shape[0] > 1900:

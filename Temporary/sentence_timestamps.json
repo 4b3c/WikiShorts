@@ -2,58 +2,114 @@
    {
       "time": 0,
       "type": "sentence",
-      "start": 1,
-      "end": 16,
-      "value": "Did you know..."
+      "start": 2,
+      "end": 24,
+      "value": "Welcome to my channel!"
    },
    {
-      "time": 1164,
+      "time": 1541,
       "type": "sentence",
-      "start": 18,
-      "end": 106,
-      "value": "1) Syria is a Western Asian country located in the Eastern Mediterranean and the Levant."
+      "start": 26,
+      "end": 87,
+      "value": "Today, I'll be discussing a very important topic - education."
    },
    {
-      "time": 7296,
+      "time": 5854,
       "type": "sentence",
-      "start": 107,
-      "end": 352,
-      "value": "2) It is a unitary republic that consists of 14 governorates (subdivisions), and is bordered by the Mediterranean Sea to the west, Turkey to the north, Iraq to the east and southeast, Jordan to the south, and Israel and Lebanon to the southwest."
+      "start": 89,
+      "end": 147,
+      "value": "It's no secret that education is vital to success in life."
    },
    {
-      "time": 24427,
+      "time": 9398,
       "type": "sentence",
-      "start": 354,
-      "end": 580,
-      "value": "3) A country of fertile plains, high mountains, and deserts, Syria is home to diverse ethnic and religious groups, including the majority Syrian Arabs, Kurds, Turkmens, Assyrians, Armenians, Circassians, Albanians, and Greeks."
+      "start": 148,
+      "end": 238,
+      "value": "But what many people don't realize is that education doesn't just happen in the classroom."
    },
    {
-      "time": 42188,
+      "time": 14405,
       "type": "sentence",
-      "start": 581,
-      "end": 656,
-      "value": "Religious groups include Muslims, Christians, Alawites, Druze, and Yazidis."
+      "start": 240,
+      "end": 332,
+      "value": "There are many different ways to learn, and it's important to find the right method for you."
    },
    {
-      "time": 48169,
+      "time": 19108,
       "type": "sentence",
-      "start": 658,
-      "end": 711,
-      "value": "4) The capital and largest city of Syria is Damascus."
+      "start": 334,
+      "end": 379,
+      "value": "One way to learn is by listening to podcasts."
    },
    {
-      "time": 52587,
+      "time": 21886,
       "type": "sentence",
-      "start": 712,
-      "end": 792,
-      "value": "Arabs are the largest ethnic group, and Muslims are the largest religious group."
+      "start": 380,
+      "end": 456,
+      "value": "Podcasts are a great way to learn new information and gain new perspectives."
    },
    {
-      "time": 57776,
+      "time": 26357,
       "type": "sentence",
-      "start": 794,
-      "end": 917,
-      "value": "5) Syria is the only country that is governed by Ba'athism, an ideology that advocates Arab socialism and Arab nationalism."
+      "start": 458,
+      "end": 499,
+      "value": "Another way to learn is by reading books."
+   },
+   {
+      "time": 28932,
+      "type": "sentence",
+      "start": 500,
+      "end": 585,
+      "value": "Books can provide you with a wealth of knowledge and can help you develop new skills."
+   },
+   {
+      "time": 33342,
+      "type": "sentence",
+      "start": 587,
+      "end": 648,
+      "value": "Finally, you can also learn by interacting with other people."
+   },
+   {
+      "time": 37159,
+      "type": "sentence",
+      "start": 649,
+      "end": 717,
+      "value": "This can be done by joining forums and participating in discussions."
+   },
+   {
+      "time": 41431,
+      "type": "sentence",
+      "start": 719,
+      "end": 741,
+      "value": "So, there you have it!"
+   },
+   {
+      "time": 43176,
+      "type": "sentence",
+      "start": 742,
+      "end": 797,
+      "value": "Three different ways to learn outside of the classroom."
+   },
+   {
+      "time": 46436,
+      "type": "sentence",
+      "start": 799,
+      "end": 835,
+      "value": "I hope you found this video helpful."
+   },
+   {
+      "time": 48626,
+      "type": "sentence",
+      "start": 836,
+      "end": 903,
+      "value": "If you did, please give it a thumbs up and subscribe to my channel."
+   },
+   {
+      "time": 52691,
+      "type": "sentence",
+      "start": 905,
+      "end": 925,
+      "value": "Thanks for watching!"
    },
    "END"
 ]

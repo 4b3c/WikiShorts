@@ -10,7 +10,7 @@ def tts(text):
 	client = boto3.client('polly', aws_access_key_id=ACCESS_KEY_ID,
 	                      aws_secret_access_key=SECRET_ACCESS_KEY, region_name='us-west-1')
 
-	voice = 'Joey'
+	voice = 'Joanna'
 	response = client.synthesize_speech(Text=text, OutputFormat='mp3', VoiceId=voice)
 
 	file = open('Temporary//test.mp3', 'wb')
