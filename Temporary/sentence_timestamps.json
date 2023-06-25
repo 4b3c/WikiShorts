@@ -3,113 +3,36 @@
       "time": 0,
       "type": "sentence",
       "start": 2,
-      "end": 24,
-      "value": "Welcome to my channel!"
+      "end": 92,
+      "value": "Hi, my name is ____________ and in this video, I'm going to be talking about ____________."
    },
    {
-      "time": 1541,
+      "time": 5265,
       "type": "sentence",
-      "start": 26,
-      "end": 87,
-      "value": "Today, I'll be discussing a very important topic - education."
+      "start": 95,
+      "end": 184,
+      "value": "This is a topic that I'm passionate about and I'm excited to share my knowledge with you."
    },
    {
-      "time": 5854,
+      "time": 9969,
       "type": "sentence",
-      "start": 89,
-      "end": 147,
-      "value": "It's no secret that education is vital to success in life."
+      "start": 187,
+      "end": 289,
+      "value": "____________ is a really important topic and I believe that it's something everyone should know about."
    },
    {
-      "time": 9398,
+      "time": 15073,
       "type": "sentence",
-      "start": 148,
-      "end": 238,
-      "value": "But what many people don't realize is that education doesn't just happen in the classroom."
+      "start": 292,
+      "end": 362,
+      "value": "I'm going to be covering everything from ____________ to ____________."
    },
    {
-      "time": 14405,
+      "time": 18727,
       "type": "sentence",
-      "start": 240,
-      "end": 332,
-      "value": "There are many different ways to learn, and it's important to find the right method for you."
-   },
-   {
-      "time": 19108,
-      "type": "sentence",
-      "start": 334,
-      "end": 379,
-      "value": "One way to learn is by listening to podcasts."
-   },
-   {
-      "time": 21886,
-      "type": "sentence",
-      "start": 380,
-      "end": 456,
-      "value": "Podcasts are a great way to learn new information and gain new perspectives."
-   },
-   {
-      "time": 26357,
-      "type": "sentence",
-      "start": 458,
-      "end": 499,
-      "value": "Another way to learn is by reading books."
-   },
-   {
-      "time": 28932,
-      "type": "sentence",
-      "start": 500,
-      "end": 585,
-      "value": "Books can provide you with a wealth of knowledge and can help you develop new skills."
-   },
-   {
-      "time": 33342,
-      "type": "sentence",
-      "start": 587,
-      "end": 648,
-      "value": "Finally, you can also learn by interacting with other people."
-   },
-   {
-      "time": 37159,
-      "type": "sentence",
-      "start": 649,
-      "end": 717,
-      "value": "This can be done by joining forums and participating in discussions."
-   },
-   {
-      "time": 41431,
-      "type": "sentence",
-      "start": 719,
-      "end": 741,
-      "value": "So, there you have it!"
-   },
-   {
-      "time": 43176,
-      "type": "sentence",
-      "start": 742,
-      "end": 797,
-      "value": "Three different ways to learn outside of the classroom."
-   },
-   {
-      "time": 46436,
-      "type": "sentence",
-      "start": 799,
-      "end": 835,
-      "value": "I hope you found this video helpful."
-   },
-   {
-      "time": 48626,
-      "type": "sentence",
-      "start": 836,
-      "end": 903,
-      "value": "If you did, please give it a thumbs up and subscribe to my channel."
-   },
-   {
-      "time": 52691,
-      "type": "sentence",
-      "start": 905,
-      "end": 925,
-      "value": "Thanks for watching!"
+      "start": 365,
+      "end": 405,
+      "value": "So sit back, relax, and enjoy the video."
    },
    "END"
 ]
