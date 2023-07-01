@@ -44,10 +44,10 @@ def timestamp_video(title):
 
 			frame[y_pos : y_pos + image_height, x_pos : x_pos + image_width, :] = images[imgnum]
 
-		text_size = cv2.getTextSize(text, font, 3, 3)[0]
+		text_size = cv2.getTextSize(text, font, 4, 9)[0]
 		text_x = int((frame.shape[1] - text_size[0]) / 2)
-		cv2.putText(frame, text, (text_x, 730), font, 3, (0, 0, 0), 7, cv2.LINE_AA)
-		cv2.putText(frame, text, (text_x, 730), font, 3, (255, 255, 255), 3, cv2.LINE_AA)
+		cv2.putText(frame, text, (text_x, 430), font, 4, (0, 0, 0), 15, cv2.LINE_AA)
+		cv2.putText(frame, text, (text_x, 430), font, 4, (255, 255, 255), 9, cv2.LINE_AA)
 		frames.append([frame, duration])
 
 	clips = [ImageClip(frame[0]).set_duration(frame[1]) for frame in frames]
@@ -59,7 +59,8 @@ def timestamp_video(title):
 	video = VideoFileClip("Temporary//output.mp4")
 	video = video.set_audio(audio)
 	video.write_videofile("Final//" + title + ".mp4")
-	for i in range(6):
-		os.remove("Temporary//image" + str(i) + ".jpg")
+	for jpg in os.listdir("Temporary"):
+		if jpg.endswith(".jpg"):
+			os.remove("Temporary//" + jpg)
 
 	return "C:\\Users\\Abram P\\Desktop\\Programming\\Python_scripts\\WikiShorts\\Final\\" + title + ".mp4"

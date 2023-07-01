@@ -15,9 +15,9 @@ def store_images():
 		print("\tFound image", count)
 
 	images = []
-	for img, count in zip(imgts, range(len(imgts))):
+	for timets, count in zip(sentencets, range(len(sentencets) - 1)):
 		name = GoogleImage.resize_images(count)
-		time = img[1]
+		time = timets["time"]
 		images.append([name, time])
 		print("\tResized image", count)
 

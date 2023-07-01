@@ -1,4 +1,4 @@
-import os, time, requests, json, time, cv2, base64
+import os, time, requests, json, time, cv2, base64, random
 import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -52,12 +52,12 @@ def download_image(url, save_path):
 		print("\n\nuhh oh:", url)
 
 
-def get_image(query, num = 0, pick = 0):
+def get_image(query, num = 0):
 	chrome_options = Options()
 	chrome_options.add_argument("--headless")
 
 	with webdriver.Chrome(options = chrome_options, executable_path = './chromedriver') as wd:
-		image_url = get_top_img_url(query, wd, 1, pick)
+		image_url = get_top_img_url(query, wd, 0.3, random.randint(2, 6))
 
 	download_image(image_url, "Temporary//sample" + str(num) + ".jpg")
 	return image_url

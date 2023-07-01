@@ -1,0 +1,127 @@
+video0, title: The Power of a Strong Start, desc: This video was created with AI
+video0, title: The Brain: Using Only 10% of Its Capacity, desc: This video was created with AI
+video1, title: The History of the American Penny, desc: This video was created with AI
+video2, title: The Mysterious and Fascinating World of Dark Matter, desc: This video was created with AI
+video3, title: The Round World: How Our Galaxy Gave Us a Uniquely Shaped Planet, desc: This video was created with AI
+video4, title: The Benefits of Black Garlic, desc: This video was created with AI
+video5, title: Top 10 Obscure Things You Never Knew Existed, desc: This video was created with AI
+video6, title: Jason's Unique and Obscure Topic, desc: This video was created with AI
+video7, title: Welcome to my video about the amazing world of ___., desc: This video was created with AI
+video8, title: The Universe, desc: This video was created with AI
+video9, title: The Land of the Midnight Sun, desc: This video was created with AI
+video10, title: A Brief Introduction to the Durian: Asia's Strange but Delicious Fruit, desc: This video was created with AI
+video11, title: The Baader-Meinhof Phenomenon, desc: This video was created with AI
+video12, title: The Fascinating and Little-Known History of [ Topic ], desc: This video was created with AI
+video13, title: Surströmming: A Traditional Swedish Dish, desc: This video was created with AI
+video14, title: Jason's Minute: The Pygmy Marmoset, desc: This video was created with AI
+video15, title: The Importance of Death Scenes in Movies, desc: This video was created with AI
+video16, title: The Beauty of Fireflies: More Than Just Flies, desc: This video was created with AI
+video17, title: The World of Online Video Games, desc: This video was created with AI
+video18, title: Lemuria: The Lost Continent, desc: This video was created with AI
+video19, title: The story of the phoenix and the wizard Merlin., desc: This video was created with AI
+video20, title: Reducing Screen Time for a Healthier Life, desc: This video was created with AI
+video21, title: Mangrove Rivulus: The Only Fish That Can Change Its Gender, desc: This video was created with AI
+video22, title: Atoms: The Basic Units of Matter, desc: This video was created with AI
+video23, title: The Lucky Tradition of Touching Bald People, desc: This video was created with AI
+video24, title: Bats of North America, desc: This video was created with AI
+video25, title: Welcome to my experimental short form video about an obscure topic!, desc: This video was created with AI
+video26, title: Soap Carving: The Ultra-Obscure Art Form, desc: This video was created with AI
+video27, title: What Happens to Lost Space Objects?, desc: This video was created with AI
+video28, title: The Top 10 Most Obscure Things You Never Knew Existed, desc: This video was created with AI
+video29, title: The World of the Occult, desc: This video was created with AI
+video30, title: A Brief History of Coca Cola, desc: This video was created with AI
+video31, title: The Blood Moon: A Rare Lunar Event, desc: This video was created with AI
+video32, title: Welcome to Jason's World of Wonders: Strange and Unusual Animals, desc: This video was created with AI
+video33, title: "The Aardvark: A Hidden Gem of the Animal Kingdom", desc: This video was created with AI
+video34, title: The True History of the Sunken City of Atlantis, desc: This video was created with AI
+video35, title: The Dangers of Quicksand, desc: This video was created with AI
+video36, title: The Hidden World of Plasma, desc: This video was created with AI
+video37, title: The Von Neumann Architecture, desc: This video was created with AI
+video38, title: The Faraday Suit: Protecting You from Electrical Shocks, desc: This video was created with AI
+video39, title: The Mandela Effect: When Groups of People Remember Something That Never Happened, desc: This video was created with AI
+video40, title: The History of Coffee, desc: This video was created with AI
+video41, title: Are You a Conformist? The Asch Conformity Experiments, desc: This video was created with AI
+video42, title: Common Form of Dwarfism: Achondroplasia, desc: This video was created with AI
+video43, title: The Maunder Minimum: A Little-Known Cause of the Little Ice Age, desc: This video was created with AI
+video44, title: The World of Dreams: A Short Form Video, desc: This video was created with AI
+video45, title: The Importance of Bacteria, desc: This video was created with AI
+video46, title: The Crazy People Who Believe the Earth Is Flat, desc: This video was created with AI
+video47, title: Quokkas, desc: This video was created with AI
+video48, title: Aerial Photography - A Unique Perspective, desc: This video was created with AI
+video49, title: The Pygmy Hieroglyphic Bat: The World's Smallest Mammal, desc: This video was created with AI
+video50, title: The Reverse Parabola: An Optical Illusion, desc: This video was created with AI
+video51, title: There's More Than One Jason in the World, desc: This video was created with AI
+video52, title: The Amundsen-Scott South Pole Station: One of the Most Isolated Places on Earth, desc: This video was created with AI
+video53, title: The Bizarre and Fascinating Bufo Toad, desc: This video was created with AI
+video54, title: Jason's World: Chameleons, desc: This video was created with AI
+video55, title: Astrology: More than just a nonsense?, desc: This video was created with AI
+video56, title: Jason's World: The Difference Between Alligators and Crocodiles, desc: This video was created with AI
+video57, title: Black holes: A beginner's guide, desc: This video was created with AI
+video58, title: The Secret World Beneath Our Feet: The Root Zone, desc: This video was created with AI
+video59, title: Project Mogul: The Top Secret Soviet Spy Program, desc: This video was created with AI
+video60, title: The Top 10 Most Bizarre Things Found on Earth, desc: This video was created with AI
+video61, title: The Carnivorous Pitcher Plant: Bugs Beware!, desc: This video was created with AI
+video62, title: Owls: Seeing in the Dark, desc: This video was created with AI
+video63, title: "An Interesting and Obscure Topic You've Likely Never Heard About", desc: This video was created with AI
+video64, title: The Universe: Always Expanding, desc: This video was created with AI
+video65, title: The Land of the Midnight Sun: A Place Where the Sun Never Sets, desc: This video was created with AI
+video66, title:  Rock Snot: What It Is and How to Prevent Its Spread, desc: This video was created with AI
+video67, title: The Internet: A Brief History, desc: This video was created with AI
+video68, title: The Journey into the Unknown, desc: This video was created with AI
+video69, title: The Dangers of Darkness, desc: This video was created with AI
+video70, title: The Fascinating Condition of Synesthesia, desc: This video was created with AI
+video71, title: Top 10 Things You Didn't Know About the Internet, desc: This video was created with AI
+video72, title: The Secret History of the World, desc: This video was created with AI
+video73, title: The Methuselah Tree: The World's Oldest Living Tree, desc: This video was created with AI
+video74, title: Phobonkleptomania: The Fear of Stealing From People Who Are Afraid of Thieves, desc: This video was created with AI
+video75, title: 10 Obscure Facts About the History of the World, desc: This video was created with AI
+video76, title: The Top 5 Most Engaging and Captivating Short Form Video Scripts, desc: This video was created with AI
+video77, title: What is the ketogenic diet?, desc: This video was created with AI
+video78, title: How Much Time Should You Spend on the Toilet?, desc: This video was created with AI
+video79, title: The Fascinating History of an Obscure Topic, desc: This video was created with AI
+video80, title: The World's Biggest Egg, desc: This video was created with AI
+video81, title: What is Synesthesia?, desc: This video was created with AI
+video82, title: Recreational Fishing vs. Commercial Fishing, desc: This video was created with AI
+video83, title: The Great Pacific Garbage Patch: A growing problem harming marine life., desc: This video was created with AI
+video84, title: Obscure World: The Fascinating World of the Little Known, desc: This video was created with AI
+video85, title: Things That Glow in the Dark, desc: This video was created with AI
+video86, title: Jason's guide to the obscure, desc: This video was created with AI
+video87, title: Earwax: The Good, The Bad, and The Ugly, desc: This video was created with AI
+video88, title: The Crazy World of Competitive Eating, desc: This video was created with AI
+video89, title: The Baader-Meinhof Phenomenon: Why You Start Seeing Things After You Learn About Them, desc: This video was created with AI
+video90, title: The History of the Word "Obscure", desc: This video was created with AI
+video91, title: Benin: A Forgotten Country, desc: This video was created with AI
+video92, title: Geocaching: The Real-World Treasure Hunt, desc: This video was created with AI
+video93, title: The Remarkable Thing We Call Fire, desc: This video was created with AI
+video94, title: The Gut Bacteria Balance, desc: This video was created with AI
+video95, title: The Polar Night: A Time of Darkness and Magic, desc: This video was created with AI
+video96, title: The Benefits of Phytosphingosine, desc: This video was created with AI
+video97, title: The Top 5 Obscure Facts About the History of the World, desc: This video was created with AI
+video98, title: The Many Benefits of Saliva, desc: This video was created with AI
+video99, title: Things You Didn't Know Existed: Quokkas, desc: This video was created with AI
+video100, title: The Odd and Unusual Bassoon, desc: This video was created with AI
+video101, title: Hypnagogia: A State of Consciousness Between Wakefulness and Sleep, desc: This video was created with AI
+video102, title: You Might Not Know What a Water Bear Is, But You'll Be Impressed By What They Can Do, desc: This video was created with AI
+video103, title: Welcome to the World of the Chambered Nautilus, desc: This video was created with AI
+video104, title: The Dark Web: An Exploration, desc: This video was created with AI
+video105, title: Net Neutrality: What it is and why it matters, desc: This video was created with AI
+video106, title: Breatharianism: A Fascinating Look at an Obscure Topic, desc: This video was created with AI
+video107, title: TheEscherian Stairwell: A never-ending staircase that appears to defy the laws of physics, desc: This video was created with AI
+video108, title: The Little-Known Topic of Involuntary Muscle Contractions, desc: This video was created with AI
+video109, title: "An Obscure Topic Most People Don't Know About", desc: This video was created with AI
+video110, title: Who knew? An introduction to obscure topic, desc: This video was created with AI
+video111, title: The Top 10 Things You Didn't Know About the Internet, desc: This video was created with AI
+video112, title: The World of the Unknown: Where the Impossible Becomes Possible, desc: This video was created with AI
+video113, title: The Invention of the Can Opener, desc: This video was created with AI
+video114, title: A Day in the Life of a Pyongyang Resident, desc: This video was created with AI
+video115, title: The Mandela Effect: What is it and why does it happen?, desc: This video was created with AI
+video116, title: Did You Know Camels Can Swim?, desc: This video was created with AI
+video117, title: Geoid: The World's Bumpy Surface, desc: This video was created with AI
+video118, title: The History of the Pencil, desc: This video was created with AI
+video119, title: Welcome to Jason's World of the Obscure: Ball Lightning, desc: This video was created with AI
+video120, title: The Top 5 Most Obscure Animals You Didn't Know Existed, desc: This video was created with AI
+video121, title: Water Striders: The Bugs That Walk on Water, desc: This video was created with AI
+video122, title: Welcome to My Obscure and Captivating Short Form Video!, desc: This video was created with AI
+video12, title: Famous People Don't Exist to Some People, desc: This video was created with AI
+video0, title: Famous Person 1: I'm sorry, I don't know who you are.Famous Person 2: Oh, I'm just a fan. I love your work.Famous Person 1: Thank you.Famous Person 2: Can I get a selfie with you?Famous Person 1: Sure.Selfie with a Fan, desc: This video was created with AI
+video0, title: Who's Funny? Trump vs. Obama, desc: This video was created with AI
