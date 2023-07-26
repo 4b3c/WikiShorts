@@ -17,11 +17,11 @@ def store_images():
 	images = []
 	for timets, count in zip(sentencets, range(len(sentencets) - 1)):
 		name = GoogleImage.resize_images(count)
-		time = timets["time"]
+		time = timets["start"]
 		images.append([name, time])
 		print("\tResized image", count)
 
 	with open('Temporary//img_timestamps.json', 'w') as f:
-		json.dump(images, f, indent = 3)
+		json.dump(images, f, indent = 4)
 
 	return all_urls

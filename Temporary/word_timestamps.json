@@ -1,745 +1,962 @@
 [
-   {
-      "time": 6,
-      "type": "word",
-      "start": 2,
-      "end": 7,
-      "value": "Trump"
-   },
-   {
-      "time": 708,
-      "type": "word",
-      "start": 9,
-      "end": 12,
-      "value": "I'm"
-   },
-   {
-      "time": 835,
-      "type": "word",
-      "start": 13,
-      "end": 16,
-      "value": "the"
-   },
-   {
-      "time": 919,
-      "type": "word",
-      "start": 17,
-      "end": 21,
-      "value": "best"
-   },
-   {
-      "time": 1260,
-      "type": "word",
-      "start": 22,
-      "end": 24,
-      "value": "at"
-   },
-   {
-      "time": 1358,
-      "type": "word",
-      "start": 25,
-      "end": 31,
-      "value": "comedy"
-   },
-   {
-      "time": 2356,
-      "type": "word",
-      "start": 34,
-      "end": 39,
-      "value": "Obama"
-   },
-   {
-      "time": 3172,
-      "type": "word",
-      "start": 41,
-      "end": 43,
-      "value": "Oh"
-   },
-   {
-      "time": 3719,
-      "type": "word",
-      "start": 45,
-      "end": 51,
-      "value": "really"
-   },
-   {
-      "time": 4551,
-      "type": "word",
-      "start": 54,
-      "end": 59,
-      "value": "Trump"
-   },
-   {
-      "time": 5260,
-      "type": "word",
-      "start": 61,
-      "end": 71,
-      "value": "Absolutely"
-   },
-   {
-      "time": 6426,
-      "type": "word",
-      "start": 73,
-      "end": 77,
-      "value": "Just"
-   },
-   {
-      "time": 6679,
-      "type": "word",
-      "start": 78,
-      "end": 82,
-      "value": "look"
-   },
-   {
-      "time": 6876,
-      "type": "word",
-      "start": 83,
-      "end": 85,
-      "value": "at"
-   },
-   {
-      "time": 6957,
-      "type": "word",
-      "start": 86,
-      "end": 88,
-      "value": "my"
-   },
-   {
-      "time": 7090,
-      "type": "word",
-      "start": 89,
-      "end": 94,
-      "value": "track"
-   },
-   {
-      "time": 7426,
-      "type": "word",
-      "start": 95,
-      "end": 101,
-      "value": "record"
-   },
-   {
-      "time": 8286,
-      "type": "word",
-      "start": 103,
-      "end": 107,
-      "value": "I've"
-   },
-   {
-      "time": 8447,
-      "type": "word",
-      "start": 108,
-      "end": 112,
-      "value": "made"
-   },
-   {
-      "time": 8699,
-      "type": "word",
-      "start": 113,
-      "end": 117,
-      "value": "more"
-   },
-   {
-      "time": 8900,
-      "type": "word",
-      "start": 118,
-      "end": 123,
-      "value": "jokes"
-   },
-   {
-      "time": 9271,
-      "type": "word",
-      "start": 124,
-      "end": 129,
-      "value": "about"
-   },
-   {
-      "time": 9521,
-      "type": "word",
-      "start": 130,
-      "end": 133,
-      "value": "you"
-   },
-   {
-      "time": 9639,
-      "type": "word",
-      "start": 134,
-      "end": 138,
-      "value": "than"
-   },
-   {
-      "time": 9813,
-      "type": "word",
-      "start": 139,
-      "end": 145,
-      "value": "anyone"
-   },
-   {
-      "time": 10160,
-      "type": "word",
-      "start": 146,
-      "end": 150,
-      "value": "else"
-   },
-   {
-      "time": 10959,
-      "type": "word",
-      "start": 153,
-      "end": 158,
-      "value": "Obama"
-   },
-   {
-      "time": 11711,
-      "type": "word",
-      "start": 160,
-      "end": 163,
-      "value": "But"
-   },
-   {
-      "time": 11854,
-      "type": "word",
-      "start": 164,
-      "end": 166,
-      "value": "do"
-   },
-   {
-      "time": 11976,
-      "type": "word",
-      "start": 167,
-      "end": 171,
-      "value": "they"
-   },
-   {
-      "time": 12129,
-      "type": "word",
-      "start": 172,
-      "end": 180,
-      "value": "actually"
-   },
-   {
-      "time": 12579,
-      "type": "word",
-      "start": 181,
-      "end": 185,
-      "value": "land"
-   },
-   {
-      "time": 13480,
-      "type": "word",
-      "start": 188,
-      "end": 193,
-      "value": "Trump"
-   },
-   {
-      "time": 14189,
-      "type": "word",
-      "start": 195,
-      "end": 199,
-      "value": "They"
-   },
-   {
-      "time": 14326,
-      "type": "word",
-      "start": 200,
-      "end": 204,
-      "value": "land"
-   },
-   {
-      "time": 14641,
-      "type": "word",
-      "start": 205,
-      "end": 211,
-      "value": "better"
-   },
-   {
-      "time": 14919,
-      "type": "word",
-      "start": 212,
-      "end": 216,
-      "value": "than"
-   },
-   {
-      "time": 15075,
-      "type": "word",
-      "start": 217,
-      "end": 221,
-      "value": "your"
-   },
-   {
-      "time": 15189,
-      "type": "word",
-      "start": 222,
-      "end": 227,
-      "value": "jokes"
-   },
-   {
-      "time": 16099,
-      "type": "word",
-      "start": 230,
-      "end": 235,
-      "value": "Obama"
-   },
-   {
-      "time": 16859,
-      "type": "word",
-      "start": 237,
-      "end": 240,
-      "value": "But"
-   },
-   {
-      "time": 16985,
-      "type": "word",
-      "start": 241,
-      "end": 244,
-      "value": "are"
-   },
-   {
-      "time": 17069,
-      "type": "word",
-      "start": 245,
-      "end": 249,
-      "value": "they"
-   },
-   {
-      "time": 17200,
-      "type": "word",
-      "start": 250,
-      "end": 255,
-      "value": "funny"
-   },
-   {
-      "time": 17972,
-      "type": "word",
-      "start": 258,
-      "end": 263,
-      "value": "Trump"
-   },
-   {
-      "time": 18674,
-      "type": "word",
-      "start": 265,
-      "end": 272,
-      "value": "They're"
-   },
-   {
-      "time": 18815,
-      "type": "word",
-      "start": 273,
-      "end": 280,
-      "value": "funnier"
-   },
-   {
-      "time": 19208,
-      "type": "word",
-      "start": 281,
-      "end": 285,
-      "value": "than"
-   },
-   {
-      "time": 19396,
-      "type": "word",
-      "start": 286,
-      "end": 290,
-      "value": "your"
-   },
-   {
-      "time": 19517,
-      "type": "word",
-      "start": 291,
-      "end": 296,
-      "value": "jokes"
-   },
-   {
-      "time": 20419,
-      "type": "word",
-      "start": 299,
-      "end": 304,
-      "value": "Obama"
-   },
-   {
-      "time": 21156,
-      "type": "word",
-      "start": 306,
-      "end": 309,
-      "value": "But"
-   },
-   {
-      "time": 21292,
-      "type": "word",
-      "start": 310,
-      "end": 312,
-      "value": "do"
-   },
-   {
-      "time": 21405,
-      "type": "word",
-      "start": 313,
-      "end": 319,
-      "value": "people"
-   },
-   {
-      "time": 21742,
-      "type": "word",
-      "start": 320,
-      "end": 328,
-      "value": "actually"
-   },
-   {
-      "time": 22204,
-      "type": "word",
-      "start": 329,
-      "end": 334,
-      "value": "laugh"
-   },
-   {
-      "time": 22563,
-      "type": "word",
-      "start": 335,
-      "end": 337,
-      "value": "at"
-   },
-   {
-      "time": 22689,
-      "type": "word",
-      "start": 338,
-      "end": 342,
-      "value": "them"
-   },
-   {
-      "time": 23358,
-      "type": "word",
-      "start": 345,
-      "end": 350,
-      "value": "Trump"
-   },
-   {
-      "time": 24060,
-      "type": "word",
-      "start": 352,
-      "end": 356,
-      "value": "They"
-   },
-   {
-      "time": 24153,
-      "type": "word",
-      "start": 357,
-      "end": 362,
-      "value": "laugh"
-   },
-   {
-      "time": 24439,
-      "type": "word",
-      "start": 363,
-      "end": 369,
-      "value": "harder"
-   },
-   {
-      "time": 24783,
-      "type": "word",
-      "start": 370,
-      "end": 372,
-      "value": "at"
-   },
-   {
-      "time": 24868,
-      "type": "word",
-      "start": 373,
-      "end": 375,
-      "value": "my"
-   },
-   {
-      "time": 25042,
-      "type": "word",
-      "start": 376,
-      "end": 381,
-      "value": "jokes"
-   },
-   {
-      "time": 25954,
-      "type": "word",
-      "start": 384,
-      "end": 389,
-      "value": "Obama"
-   },
-   {
-      "time": 26730,
-      "type": "word",
-      "start": 391,
-      "end": 394,
-      "value": "But"
-   },
-   {
-      "time": 26856,
-      "type": "word",
-      "start": 395,
-      "end": 398,
-      "value": "are"
-   },
-   {
-      "time": 26935,
-      "type": "word",
-      "start": 399,
-      "end": 403,
-      "value": "they"
-   },
-   {
-      "time": 27080,
-      "type": "word",
-      "start": 404,
-      "end": 412,
-      "value": "actually"
-   },
-   {
-      "time": 27519,
-      "type": "word",
-      "start": 413,
-      "end": 422,
-      "value": "memorable"
-   },
-   {
-      "time": 28604,
-      "type": "word",
-      "start": 425,
-      "end": 430,
-      "value": "Trump"
-   },
-   {
-      "time": 29312,
-      "type": "word",
-      "start": 432,
-      "end": 439,
-      "value": "They're"
-   },
-   {
-      "time": 29448,
-      "type": "word",
-      "start": 440,
-      "end": 444,
-      "value": "more"
-   },
-   {
-      "time": 29658,
-      "type": "word",
-      "start": 445,
-      "end": 454,
-      "value": "memorable"
-   },
-   {
-      "time": 30157,
-      "type": "word",
-      "start": 455,
-      "end": 459,
-      "value": "than"
-   },
-   {
-      "time": 30319,
-      "type": "word",
-      "start": 460,
-      "end": 464,
-      "value": "your"
-   },
-   {
-      "time": 30439,
-      "type": "word",
-      "start": 465,
-      "end": 470,
-      "value": "jokes"
-   },
-   {
-      "time": 31341,
-      "type": "word",
-      "start": 473,
-      "end": 478,
-      "value": "Obama"
-   },
-   {
-      "time": 32118,
-      "type": "word",
-      "start": 480,
-      "end": 483,
-      "value": "But"
-   },
-   {
-      "time": 32244,
-      "type": "word",
-      "start": 484,
-      "end": 487,
-      "value": "are"
-   },
-   {
-      "time": 32323,
-      "type": "word",
-      "start": 488,
-      "end": 492,
-      "value": "they"
-   },
-   {
-      "time": 32468,
-      "type": "word",
-      "start": 493,
-      "end": 501,
-      "value": "actually"
-   },
-   {
-      "time": 32883,
-      "type": "word",
-      "start": 502,
-      "end": 508,
-      "value": "clever"
-   },
-   {
-      "time": 33713,
-      "type": "word",
-      "start": 511,
-      "end": 516,
-      "value": "Trump"
-   },
-   {
-      "time": 34422,
-      "type": "word",
-      "start": 518,
-      "end": 533,
-      "value": "They'reCleverer"
-   },
-   {
-      "time": 35021,
-      "type": "word",
-      "start": 534,
-      "end": 538,
-      "value": "than"
-   },
-   {
-      "time": 35204,
-      "type": "word",
-      "start": 539,
-      "end": 543,
-      "value": "your"
-   },
-   {
-      "time": 35324,
-      "type": "word",
-      "start": 544,
-      "end": 549,
-      "value": "jokes"
-   },
-   {
-      "time": 36226,
-      "type": "word",
-      "start": 552,
-      "end": 557,
-      "value": "Obama"
-   },
-   {
-      "time": 36978,
-      "type": "word",
-      "start": 559,
-      "end": 562,
-      "value": "But"
-   },
-   {
-      "time": 37121,
-      "type": "word",
-      "start": 563,
-      "end": 565,
-      "value": "do"
-   },
-   {
-      "time": 37282,
-      "type": "word",
-      "start": 566,
-      "end": 570,
-      "value": "they"
-   },
-   {
-      "time": 37414,
-      "type": "word",
-      "start": 571,
-      "end": 575,
-      "value": "make"
-   },
-   {
-      "time": 37666,
-      "type": "word",
-      "start": 576,
-      "end": 582,
-      "value": "people"
-   },
-   {
-      "time": 37973,
-      "type": "word",
-      "start": 583,
-      "end": 588,
-      "value": "think"
-   },
-   {
-      "time": 38799,
-      "type": "word",
-      "start": 591,
-      "end": 596,
-      "value": "Trump"
-   },
-   {
-      "time": 39508,
-      "type": "word",
-      "start": 598,
-      "end": 602,
-      "value": "They"
-   },
-   {
-      "time": 39620,
-      "type": "word",
-      "start": 603,
-      "end": 607,
-      "value": "make"
-   },
-   {
-      "time": 39853,
-      "type": "word",
-      "start": 608,
-      "end": 614,
-      "value": "people"
-   },
-   {
-      "time": 40186,
-      "type": "word",
-      "start": 615,
-      "end": 620,
-      "value": "think"
-   },
-   {
-      "time": 40478,
-      "type": "word",
-      "start": 621,
-      "end": 624,
-      "value": "I'm"
-   },
-   {
-      "time": 40624,
-      "type": "word",
-      "start": 625,
-      "end": 628,
-      "value": "the"
-   },
-   {
-      "time": 40702,
-      "type": "word",
-      "start": 629,
-      "end": 633,
-      "value": "best"
-   },
-   {
-      "time": 41047,
-      "type": "word",
-      "start": 634,
-      "end": 636,
-      "value": "at"
-   },
-   {
-      "time": 41145,
-      "type": "word",
-      "start": 637,
-      "end": 643,
-      "value": "comedy"
-   },
-   "END"
+    {
+        "type": "word",
+        "start": 0.03,
+        "end": 0.51,
+        "value": "welcome"
+    },
+    {
+        "type": "word",
+        "start": 0.51,
+        "end": 0.63,
+        "value": "to"
+    },
+    {
+        "type": "word",
+        "start": 0.63,
+        "end": 1.23,
+        "value": "jason's"
+    },
+    {
+        "type": "word",
+        "start": 1.23,
+        "end": 1.65,
+        "value": "channel"
+    },
+    {
+        "type": "word",
+        "start": 1.86,
+        "end": 2.31,
+        "value": "today's"
+    },
+    {
+        "type": "word",
+        "start": 2.31,
+        "end": 2.73,
+        "value": "topic"
+    },
+    {
+        "type": "word",
+        "start": 2.73,
+        "end": 2.85,
+        "value": "is"
+    },
+    {
+        "type": "word",
+        "start": 2.85,
+        "end": 3.09,
+        "value": "one"
+    },
+    {
+        "type": "word",
+        "start": 3.09,
+        "end": 3.21,
+        "value": "that"
+    },
+    {
+        "type": "word",
+        "start": 3.21,
+        "end": 3.39,
+        "value": "you've"
+    },
+    {
+        "type": "word",
+        "start": 3.39,
+        "end": 3.78,
+        "value": "likely"
+    },
+    {
+        "type": "word",
+        "start": 3.78,
+        "end": 4.02,
+        "value": "never"
+    },
+    {
+        "type": "word",
+        "start": 4.02,
+        "end": 4.26,
+        "value": "heard"
+    },
+    {
+        "type": "word",
+        "start": 4.26,
+        "end": 4.5,
+        "value": "about"
+    },
+    {
+        "type": "word",
+        "start": 4.5,
+        "end": 5.04,
+        "value": "before"
+    },
+    {
+        "type": "word",
+        "start": 5.19,
+        "end": 5.4,
+        "value": "but"
+    },
+    {
+        "type": "word",
+        "start": 5.4,
+        "end": 5.517988,
+        "value": "is"
+    },
+    {
+        "type": "word",
+        "start": 5.517988,
+        "end": 6.18,
+        "value": "nonetheless"
+    },
+    {
+        "type": "word",
+        "start": 6.18,
+        "end": 6.96,
+        "value": "fascinating"
+    },
+    {
+        "type": "word",
+        "start": 7.47,
+        "end": 7.62,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 7.623496,
+        "end": 7.89,
+        "value": "many"
+    },
+    {
+        "type": "word",
+        "start": 7.89,
+        "end": 8.4,
+        "value": "uses"
+    },
+    {
+        "type": "word",
+        "start": 8.4,
+        "end": 8.64,
+        "value": "of"
+    },
+    {
+        "type": "word",
+        "start": 8.82,
+        "end": 9.63,
+        "value": "language"
+    },
+    {
+        "type": "word",
+        "start": 10.11,
+        "end": 10.65,
+        "value": "language"
+    },
+    {
+        "type": "word",
+        "start": 10.65,
+        "end": 10.74,
+        "value": "is"
+    },
+    {
+        "type": "word",
+        "start": 10.74,
+        "end": 10.95,
+        "value": "not"
+    },
+    {
+        "type": "word",
+        "start": 10.95,
+        "end": 11.19,
+        "value": "just"
+    },
+    {
+        "type": "word",
+        "start": 11.19,
+        "end": 11.25,
+        "value": "a"
+    },
+    {
+        "type": "word",
+        "start": 11.25,
+        "end": 11.58,
+        "value": "tool"
+    },
+    {
+        "type": "word",
+        "start": 11.58,
+        "end": 11.73,
+        "value": "for"
+    },
+    {
+        "type": "word",
+        "start": 11.73,
+        "end": 12.45,
+        "value": "communicating"
+    },
+    {
+        "type": "word",
+        "start": 12.45,
+        "end": 13.23,
+        "value": "information"
+    },
+    {
+        "type": "word",
+        "start": 13.41,
+        "end": 13.59,
+        "value": "but"
+    },
+    {
+        "type": "word",
+        "start": 13.59,
+        "end": 13.74,
+        "value": "can"
+    },
+    {
+        "type": "word",
+        "start": 13.74,
+        "end": 14.07,
+        "value": "also"
+    },
+    {
+        "type": "word",
+        "start": 14.07,
+        "end": 14.22,
+        "value": "be"
+    },
+    {
+        "type": "word",
+        "start": 14.22,
+        "end": 14.67,
+        "value": "used"
+    },
+    {
+        "type": "word",
+        "start": 14.67,
+        "end": 14.85,
+        "value": "for"
+    },
+    {
+        "type": "word",
+        "start": 14.85,
+        "end": 14.91,
+        "value": "a"
+    },
+    {
+        "type": "word",
+        "start": 14.91,
+        "end": 15.51,
+        "value": "variety"
+    },
+    {
+        "type": "word",
+        "start": 15.51,
+        "end": 15.63,
+        "value": "of"
+    },
+    {
+        "type": "word",
+        "start": 15.63,
+        "end": 15.81,
+        "value": "other"
+    },
+    {
+        "type": "word",
+        "start": 15.81,
+        "end": 16.5,
+        "value": "purposes"
+    },
+    {
+        "type": "word",
+        "start": 16.68,
+        "end": 16.98,
+        "value": "such"
+    },
+    {
+        "type": "word",
+        "start": 16.98,
+        "end": 17.13,
+        "value": "as"
+    },
+    {
+        "type": "word",
+        "start": 17.13,
+        "end": 17.55,
+        "value": "shaping"
+    },
+    {
+        "type": "word",
+        "start": 17.55,
+        "end": 17.7,
+        "value": "our"
+    },
+    {
+        "type": "word",
+        "start": 17.7,
+        "end": 18.39,
+        "value": "perceptions"
+    },
+    {
+        "type": "word",
+        "start": 18.39,
+        "end": 18.51,
+        "value": "and"
+    },
+    {
+        "type": "word",
+        "start": 18.51,
+        "end": 19.2,
+        "value": "emotions"
+    },
+    {
+        "type": "word",
+        "start": 19.68,
+        "end": 19.89,
+        "value": "for"
+    },
+    {
+        "type": "word",
+        "start": 19.89,
+        "end": 20.16,
+        "value": "exam"
+    },
+    {
+        "type": "word",
+        "start": 20.16,
+        "end": 20.4,
+        "value": "apple"
+    },
+    {
+        "type": "word",
+        "start": 20.64,
+        "end": 20.88,
+        "value": "did"
+    },
+    {
+        "type": "word",
+        "start": 20.88,
+        "end": 21.0,
+        "value": "you"
+    },
+    {
+        "type": "word",
+        "start": 21.0,
+        "end": 21.24,
+        "value": "know"
+    },
+    {
+        "type": "word",
+        "start": 21.24,
+        "end": 21.42,
+        "value": "that"
+    },
+    {
+        "type": "word",
+        "start": 21.42,
+        "end": 21.51,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 21.51,
+        "end": 21.87,
+        "value": "words"
+    },
+    {
+        "type": "word",
+        "start": 21.87,
+        "end": 22.05,
+        "value": "we"
+    },
+    {
+        "type": "word",
+        "start": 22.05,
+        "end": 22.47,
+        "value": "use"
+    },
+    {
+        "type": "word",
+        "start": 22.47,
+        "end": 22.65,
+        "value": "can"
+    },
+    {
+        "type": "word",
+        "start": 22.65,
+        "end": 22.95,
+        "value": "affect"
+    },
+    {
+        "type": "word",
+        "start": 22.95,
+        "end": 23.16,
+        "value": "how"
+    },
+    {
+        "type": "word",
+        "start": 23.16,
+        "end": 23.34,
+        "value": "we"
+    },
+    {
+        "type": "word",
+        "start": 23.34,
+        "end": 23.64,
+        "value": "see"
+    },
+    {
+        "type": "word",
+        "start": 23.64,
+        "end": 23.76,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 23.76,
+        "end": 24.09,
+        "value": "world"
+    },
+    {
+        "type": "word",
+        "start": 24.09,
+        "end": 24.51,
+        "value": "around"
+    },
+    {
+        "type": "word",
+        "start": 24.51,
+        "end": 24.84,
+        "value": "us"
+    },
+    {
+        "type": "word",
+        "start": 25.71,
+        "end": 25.86,
+        "value": "a"
+    },
+    {
+        "type": "word",
+        "start": 25.86,
+        "end": 26.22,
+        "value": "study"
+    },
+    {
+        "type": "word",
+        "start": 26.22,
+        "end": 26.73,
+        "value": "conducted"
+    },
+    {
+        "type": "word",
+        "start": 26.73,
+        "end": 26.91,
+        "value": "by"
+    },
+    {
+        "type": "word",
+        "start": 26.91,
+        "end": 27.33,
+        "value": "john"
+    },
+    {
+        "type": "word",
+        "start": 27.33,
+        "end": 27.75,
+        "value": "bargh"
+    },
+    {
+        "type": "word",
+        "start": 27.75,
+        "end": 27.87,
+        "value": "and"
+    },
+    {
+        "type": "word",
+        "start": 27.87,
+        "end": 28.17,
+        "value": "tony"
+    },
+    {
+        "type": "word",
+        "start": 28.17,
+        "end": 28.59,
+        "value": "cheney"
+    },
+    {
+        "type": "word",
+        "start": 28.59,
+        "end": 28.89,
+        "value": "found"
+    },
+    {
+        "type": "word",
+        "start": 28.89,
+        "end": 29.07,
+        "value": "that"
+    },
+    {
+        "type": "word",
+        "start": 29.07,
+        "end": 29.73,
+        "value": "subjects"
+    },
+    {
+        "type": "word",
+        "start": 29.73,
+        "end": 29.85,
+        "value": "who"
+    },
+    {
+        "type": "word",
+        "start": 29.85,
+        "end": 30.0,
+        "value": "were"
+    },
+    {
+        "type": "word",
+        "start": 30.0,
+        "end": 30.33,
+        "value": "asked"
+    },
+    {
+        "type": "word",
+        "start": 30.33,
+        "end": 30.42,
+        "value": "to"
+    },
+    {
+        "type": "word",
+        "start": 30.42,
+        "end": 30.81,
+        "value": "complete"
+    },
+    {
+        "type": "word",
+        "start": 30.81,
+        "end": 30.87,
+        "value": "a"
+    },
+    {
+        "type": "word",
+        "start": 30.87,
+        "end": 31.35,
+        "value": "task"
+    },
+    {
+        "type": "word",
+        "start": 31.35,
+        "end": 31.5,
+        "value": "that"
+    },
+    {
+        "type": "word",
+        "start": 31.5,
+        "end": 32.01,
+        "value": "required"
+    },
+    {
+        "type": "word",
+        "start": 32.01,
+        "end": 32.25,
+        "value": "them"
+    },
+    {
+        "type": "word",
+        "start": 32.25,
+        "end": 32.37,
+        "value": "to"
+    },
+    {
+        "type": "word",
+        "start": 32.37,
+        "end": 32.67,
+        "value": "use"
+    },
+    {
+        "type": "word",
+        "start": 32.67,
+        "end": 32.79,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 32.79,
+        "end": 33.09,
+        "value": "word"
+    },
+    {
+        "type": "word",
+        "start": 33.12,
+        "end": 33.84,
+        "value": "elderly"
+    },
+    {
+        "type": "word",
+        "start": 33.99,
+        "end": 34.74,
+        "value": "subsequently"
+    },
+    {
+        "type": "word",
+        "start": 34.74,
+        "end": 35.37,
+        "value": "behaved"
+    },
+    {
+        "type": "word",
+        "start": 35.37,
+        "end": 35.52,
+        "value": "in"
+    },
+    {
+        "type": "word",
+        "start": 35.52,
+        "end": 35.58,
+        "value": "a"
+    },
+    {
+        "type": "word",
+        "start": 35.58,
+        "end": 35.79,
+        "value": "more"
+    },
+    {
+        "type": "word",
+        "start": 35.79,
+        "end": 36.27,
+        "value": "slow"
+    },
+    {
+        "type": "word",
+        "start": 36.27,
+        "end": 36.42,
+        "value": "and"
+    },
+    {
+        "type": "word",
+        "start": 36.42,
+        "end": 36.99,
+        "value": "cautious"
+    },
+    {
+        "type": "word",
+        "start": 36.99,
+        "end": 37.38,
+        "value": "manner"
+    },
+    {
+        "type": "word",
+        "start": 37.38,
+        "end": 37.59,
+        "value": "than"
+    },
+    {
+        "type": "word",
+        "start": 37.59,
+        "end": 37.98,
+        "value": "those"
+    },
+    {
+        "type": "word",
+        "start": 37.98,
+        "end": 38.07,
+        "value": "who"
+    },
+    {
+        "type": "word",
+        "start": 38.07,
+        "end": 38.19,
+        "value": "were"
+    },
+    {
+        "type": "word",
+        "start": 38.19,
+        "end": 38.46,
+        "value": "not"
+    },
+    {
+        "type": "word",
+        "start": 38.46,
+        "end": 38.82,
+        "value": "asked"
+    },
+    {
+        "type": "word",
+        "start": 38.82,
+        "end": 38.94,
+        "value": "to"
+    },
+    {
+        "type": "word",
+        "start": 38.94,
+        "end": 39.27,
+        "value": "use"
+    },
+    {
+        "type": "word",
+        "start": 39.27,
+        "end": 39.54,
+        "value": "that"
+    },
+    {
+        "type": "word",
+        "start": 39.54,
+        "end": 39.9,
+        "value": "word"
+    },
+    {
+        "type": "word",
+        "start": 40.47,
+        "end": 40.77,
+        "value": "this"
+    },
+    {
+        "type": "word",
+        "start": 40.77,
+        "end": 41.49,
+        "value": "demonstrates"
+    },
+    {
+        "type": "word",
+        "start": 41.49,
+        "end": 41.64,
+        "value": "how"
+    },
+    {
+        "type": "word",
+        "start": 41.64,
+        "end": 41.76,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 41.76,
+        "end": 42.09,
+        "value": "words"
+    },
+    {
+        "type": "word",
+        "start": 42.09,
+        "end": 42.24,
+        "value": "we"
+    },
+    {
+        "type": "word",
+        "start": 42.24,
+        "end": 42.72,
+        "value": "use"
+    },
+    {
+        "type": "word",
+        "start": 42.72,
+        "end": 42.9,
+        "value": "can"
+    },
+    {
+        "type": "word",
+        "start": 42.9,
+        "end": 43.5,
+        "value": "influence"
+    },
+    {
+        "type": "word",
+        "start": 43.5,
+        "end": 43.68,
+        "value": "our"
+    },
+    {
+        "type": "word",
+        "start": 43.68,
+        "end": 44.34,
+        "value": "actions"
+    },
+    {
+        "type": "word",
+        "start": 44.49,
+        "end": 44.7,
+        "value": "and"
+    },
+    {
+        "type": "word",
+        "start": 44.7,
+        "end": 44.85,
+        "value": "how"
+    },
+    {
+        "type": "word",
+        "start": 44.85,
+        "end": 45.0,
+        "value": "we"
+    },
+    {
+        "type": "word",
+        "start": 45.0,
+        "end": 45.27,
+        "value": "see"
+    },
+    {
+        "type": "word",
+        "start": 45.27,
+        "end": 45.39,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 45.39,
+        "end": 45.84,
+        "value": "world"
+    },
+    {
+        "type": "word",
+        "start": 46.14,
+        "end": 46.35,
+        "value": "so"
+    },
+    {
+        "type": "word",
+        "start": 46.35,
+        "end": 46.44,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 46.44,
+        "end": 46.71,
+        "value": "next"
+    },
+    {
+        "type": "word",
+        "start": 46.71,
+        "end": 46.95,
+        "value": "time"
+    },
+    {
+        "type": "word",
+        "start": 46.95,
+        "end": 47.1,
+        "value": "you're"
+    },
+    {
+        "type": "word",
+        "start": 47.1,
+        "end": 47.76,
+        "value": "communicating"
+    },
+    {
+        "type": "word",
+        "start": 47.76,
+        "end": 47.91,
+        "value": "with"
+    },
+    {
+        "type": "word",
+        "start": 47.91,
+        "end": 48.33,
+        "value": "someone"
+    },
+    {
+        "type": "word",
+        "start": 48.48,
+        "end": 48.78,
+        "value": "think"
+    },
+    {
+        "type": "word",
+        "start": 48.78,
+        "end": 49.02,
+        "value": "about"
+    },
+    {
+        "type": "word",
+        "start": 49.02,
+        "end": 49.11,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 49.11,
+        "end": 49.47,
+        "value": "words"
+    },
+    {
+        "type": "word",
+        "start": 49.47,
+        "end": 49.62,
+        "value": "you're"
+    },
+    {
+        "type": "word",
+        "start": 49.62,
+        "end": 50.19,
+        "value": "using"
+    },
+    {
+        "type": "word",
+        "start": 50.28,
+        "end": 50.46,
+        "value": "and"
+    },
+    {
+        "type": "word",
+        "start": 50.46,
+        "end": 50.61,
+        "value": "how"
+    },
+    {
+        "type": "word",
+        "start": 50.61,
+        "end": 50.76,
+        "value": "they"
+    },
+    {
+        "type": "word",
+        "start": 50.76,
+        "end": 51.03,
+        "value": "might"
+    },
+    {
+        "type": "word",
+        "start": 51.03,
+        "end": 51.15,
+        "value": "be"
+    },
+    {
+        "type": "word",
+        "start": 51.15,
+        "end": 51.63,
+        "value": "affecting"
+    },
+    {
+        "type": "word",
+        "start": 51.63,
+        "end": 51.75,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 51.75,
+        "end": 51.93,
+        "value": "other"
+    },
+    {
+        "type": "word",
+        "start": 51.93,
+        "end": 52.44,
+        "value": "person"
+    },
+    {
+        "type": "word",
+        "start": 52.68,
+        "end": 53.01,
+        "value": "thanks"
+    },
+    {
+        "type": "word",
+        "start": 53.01,
+        "end": 53.13,
+        "value": "for"
+    },
+    {
+        "type": "word",
+        "start": 53.13,
+        "end": 53.67,
+        "value": "watching"
+    }
 ]

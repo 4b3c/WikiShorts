@@ -22,15 +22,15 @@ def timestamp_video(title):
 
 	frames = []
 	imgnum = 0
-	for i in range(len(wordts) - 1):
+	for i in range(len(wordts)):
 		text = wordts[i]["value"]
 		frame = np.full((1920, 1080, 3), 5, dtype=np.uint8)
 
 		try:
-			duration = (wordts[i + 1]["time"] - wordts[i]["time"]) / 1000
+			duration = (wordts[i]["end"] - wordts[i]["start"])
 		except:
 			duration = 0.1
-		time = wordts[i]["time"]
+		time = wordts[i]["start"]
 
 		if time > imgts[imgnum][1]:
 			try:
@@ -53,6 +53,8 @@ def timestamp_video(title):
 	clips = [ImageClip(frame[0]).set_duration(frame[1]) for frame in frames]
 	video = concatenate_videoclips(clips)
 
+	print(frames)
+
 	video.write_videofile("Temporary//output.mp4", fps=15)
 
 	audio = AudioFileClip("Temporary//test.mp3")
@@ -64,3 +66,4 @@ def timestamp_video(title):
 			os.remove("Temporary//" + jpg)
 
 	return "C:\\Users\\Abram P\\Desktop\\Programming\\Python_scripts\\WikiShorts\\Final\\" + title + ".mp4"
+

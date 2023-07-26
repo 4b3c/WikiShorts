@@ -1,122 +1,32 @@
 [
-   {
-      "time": 0,
-      "type": "sentence",
-      "start": 2,
-      "end": 32,
-      "value": "Trump: I'm the best at comedy!"
-   },
-   {
-      "time": 2349,
-      "type": "sentence",
-      "start": 34,
-      "end": 52,
-      "value": "Obama: Oh, really?"
-   },
-   {
-      "time": 4544,
-      "type": "sentence",
-      "start": 54,
-      "end": 72,
-      "value": "Trump: Absolutely!"
-   },
-   {
-      "time": 6419,
-      "type": "sentence",
-      "start": 73,
-      "end": 102,
-      "value": "Just look at my track record."
-   },
-   {
-      "time": 8279,
-      "type": "sentence",
-      "start": 103,
-      "end": 151,
-      "value": "I've made more jokes about you than anyone else."
-   },
-   {
-      "time": 10953,
-      "type": "sentence",
-      "start": 153,
-      "end": 186,
-      "value": "Obama: But do they actually land?"
-   },
-   {
-      "time": 13473,
-      "type": "sentence",
-      "start": 188,
-      "end": 228,
-      "value": "Trump: They land better than your jokes."
-   },
-   {
-      "time": 16093,
-      "type": "sentence",
-      "start": 230,
-      "end": 256,
-      "value": "Obama: But are they funny?"
-   },
-   {
-      "time": 17966,
-      "type": "sentence",
-      "start": 258,
-      "end": 297,
-      "value": "Trump: They're funnier than your jokes."
-   },
-   {
-      "time": 20412,
-      "type": "sentence",
-      "start": 299,
-      "end": 343,
-      "value": "Obama: But do people actually laugh at them?"
-   },
-   {
-      "time": 23351,
-      "type": "sentence",
-      "start": 345,
-      "end": 382,
-      "value": "Trump: They laugh harder at my jokes."
-   },
-   {
-      "time": 25947,
-      "type": "sentence",
-      "start": 384,
-      "end": 423,
-      "value": "Obama: But are they actually memorable?"
-   },
-   {
-      "time": 28597,
-      "type": "sentence",
-      "start": 425,
-      "end": 471,
-      "value": "Trump: They're more memorable than your jokes."
-   },
-   {
-      "time": 31335,
-      "type": "sentence",
-      "start": 473,
-      "end": 509,
-      "value": "Obama: But are they actually clever?"
-   },
-   {
-      "time": 33706,
-      "type": "sentence",
-      "start": 511,
-      "end": 550,
-      "value": "Trump: They'reCleverer than your jokes."
-   },
-   {
-      "time": 36220,
-      "type": "sentence",
-      "start": 552,
-      "end": 589,
-      "value": "Obama: But do they make people think?"
-   },
-   {
-      "time": 38792,
-      "type": "sentence",
-      "start": 591,
-      "end": 644,
-      "value": "Trump: They make people think I'm the best at comedy!"
-   },
-   "END"
+    {
+        "type": "sentence",
+        "start": 0.03,
+        "value": "Welcome to Jason's channel",
+        "end": 1.65
+    },
+    {
+        "type": "sentence",
+        "start": 1.86,
+        "value": "Today's topic is one that you've likely never heard about before but is nonetheless fascinating \u2013 the many uses oflanguage",
+        "end": 9.63
+    },
+    {
+        "type": "sentence",
+        "start": 10.11,
+        "value": "Language is not just a tool for communicating information but can also be used for a variety of other purposes",
+        "end": 16.5
+    },
+    {
+        "type": "sentence",
+        "start": 16.68,
+        "value": "such as shaping our perceptions and emotions",
+        "end": 19.2
+    },
+    {
+        "type": "sentence",
+        "start": 19.68,
+        "value": "For example",
+        "end": 34.74
+    }
 ]
