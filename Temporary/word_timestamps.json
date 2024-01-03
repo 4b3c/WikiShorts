@@ -2,961 +2,433 @@
     {
         "type": "word",
         "start": 0.03,
-        "end": 0.51,
-        "value": "welcome"
-    },
-    {
-        "type": "word",
-        "start": 0.51,
-        "end": 0.63,
-        "value": "to"
-    },
-    {
-        "type": "word",
-        "start": 0.63,
-        "end": 1.23,
-        "value": "jason's"
-    },
-    {
-        "type": "word",
-        "start": 1.23,
-        "end": 1.65,
-        "value": "channel"
-    },
-    {
-        "type": "word",
-        "start": 1.86,
-        "end": 2.31,
-        "value": "today's"
-    },
-    {
-        "type": "word",
-        "start": 2.31,
-        "end": 2.73,
-        "value": "topic"
-    },
-    {
-        "type": "word",
-        "start": 2.73,
-        "end": 2.85,
-        "value": "is"
-    },
-    {
-        "type": "word",
-        "start": 2.85,
-        "end": 3.09,
-        "value": "one"
-    },
-    {
-        "type": "word",
-        "start": 3.09,
-        "end": 3.21,
-        "value": "that"
-    },
-    {
-        "type": "word",
-        "start": 3.21,
-        "end": 3.39,
-        "value": "you've"
-    },
-    {
-        "type": "word",
-        "start": 3.39,
-        "end": 3.78,
-        "value": "likely"
-    },
-    {
-        "type": "word",
-        "start": 3.78,
-        "end": 4.02,
-        "value": "never"
-    },
-    {
-        "type": "word",
-        "start": 4.02,
-        "end": 4.26,
-        "value": "heard"
-    },
-    {
-        "type": "word",
-        "start": 4.26,
-        "end": 4.5,
-        "value": "about"
-    },
-    {
-        "type": "word",
-        "start": 4.5,
-        "end": 5.04,
-        "value": "before"
-    },
-    {
-        "type": "word",
-        "start": 5.19,
-        "end": 5.4,
-        "value": "but"
-    },
-    {
-        "type": "word",
-        "start": 5.4,
-        "end": 5.517988,
-        "value": "is"
-    },
-    {
-        "type": "word",
-        "start": 5.517988,
-        "end": 6.18,
-        "value": "nonetheless"
-    },
-    {
-        "type": "word",
-        "start": 6.18,
-        "end": 6.96,
-        "value": "fascinating"
-    },
-    {
-        "type": "word",
-        "start": 7.47,
-        "end": 7.62,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 7.623496,
-        "end": 7.89,
-        "value": "many"
-    },
-    {
-        "type": "word",
-        "start": 7.89,
-        "end": 8.4,
-        "value": "uses"
-    },
-    {
-        "type": "word",
-        "start": 8.4,
-        "end": 8.64,
-        "value": "of"
-    },
-    {
-        "type": "word",
-        "start": 8.82,
-        "end": 9.63,
-        "value": "language"
-    },
-    {
-        "type": "word",
-        "start": 10.11,
-        "end": 10.65,
-        "value": "language"
-    },
-    {
-        "type": "word",
-        "start": 10.65,
-        "end": 10.74,
-        "value": "is"
-    },
-    {
-        "type": "word",
-        "start": 10.74,
-        "end": 10.95,
-        "value": "not"
-    },
-    {
-        "type": "word",
-        "start": 10.95,
-        "end": 11.19,
-        "value": "just"
-    },
-    {
-        "type": "word",
-        "start": 11.19,
-        "end": 11.25,
-        "value": "a"
-    },
-    {
-        "type": "word",
-        "start": 11.25,
-        "end": 11.58,
-        "value": "tool"
-    },
-    {
-        "type": "word",
-        "start": 11.58,
-        "end": 11.73,
-        "value": "for"
-    },
-    {
-        "type": "word",
-        "start": 11.73,
-        "end": 12.45,
-        "value": "communicating"
-    },
-    {
-        "type": "word",
-        "start": 12.45,
-        "end": 13.23,
-        "value": "information"
-    },
-    {
-        "type": "word",
-        "start": 13.41,
-        "end": 13.59,
-        "value": "but"
-    },
-    {
-        "type": "word",
-        "start": 13.59,
-        "end": 13.74,
-        "value": "can"
-    },
-    {
-        "type": "word",
-        "start": 13.74,
-        "end": 14.07,
-        "value": "also"
-    },
-    {
-        "type": "word",
-        "start": 14.07,
-        "end": 14.22,
-        "value": "be"
-    },
-    {
-        "type": "word",
-        "start": 14.22,
-        "end": 14.67,
-        "value": "used"
-    },
-    {
-        "type": "word",
-        "start": 14.67,
-        "end": 14.85,
-        "value": "for"
-    },
-    {
-        "type": "word",
-        "start": 14.85,
-        "end": 14.91,
-        "value": "a"
-    },
-    {
-        "type": "word",
-        "start": 14.91,
-        "end": 15.51,
-        "value": "variety"
-    },
-    {
-        "type": "word",
-        "start": 15.51,
-        "end": 15.63,
-        "value": "of"
-    },
-    {
-        "type": "word",
-        "start": 15.63,
-        "end": 15.81,
-        "value": "other"
-    },
-    {
-        "type": "word",
-        "start": 15.81,
-        "end": 16.5,
-        "value": "purposes"
-    },
-    {
-        "type": "word",
-        "start": 16.68,
-        "end": 16.98,
-        "value": "such"
-    },
-    {
-        "type": "word",
-        "start": 16.98,
-        "end": 17.13,
-        "value": "as"
-    },
-    {
-        "type": "word",
-        "start": 17.13,
-        "end": 17.55,
-        "value": "shaping"
-    },
-    {
-        "type": "word",
-        "start": 17.55,
-        "end": 17.7,
-        "value": "our"
-    },
-    {
-        "type": "word",
-        "start": 17.7,
-        "end": 18.39,
-        "value": "perceptions"
-    },
-    {
-        "type": "word",
-        "start": 18.39,
-        "end": 18.51,
-        "value": "and"
-    },
-    {
-        "type": "word",
-        "start": 18.51,
-        "end": 19.2,
-        "value": "emotions"
-    },
-    {
-        "type": "word",
-        "start": 19.68,
-        "end": 19.89,
-        "value": "for"
-    },
-    {
-        "type": "word",
-        "start": 19.89,
-        "end": 20.16,
-        "value": "exam"
-    },
-    {
-        "type": "word",
-        "start": 20.16,
-        "end": 20.4,
-        "value": "apple"
-    },
-    {
-        "type": "word",
-        "start": 20.64,
-        "end": 20.88,
-        "value": "did"
-    },
-    {
-        "type": "word",
-        "start": 20.88,
-        "end": 21.0,
-        "value": "you"
-    },
-    {
-        "type": "word",
-        "start": 21.0,
-        "end": 21.24,
-        "value": "know"
-    },
-    {
-        "type": "word",
-        "start": 21.24,
-        "end": 21.42,
-        "value": "that"
-    },
-    {
-        "type": "word",
-        "start": 21.42,
-        "end": 21.51,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 21.51,
-        "end": 21.87,
-        "value": "words"
-    },
-    {
-        "type": "word",
-        "start": 21.87,
-        "end": 22.05,
-        "value": "we"
-    },
-    {
-        "type": "word",
-        "start": 22.05,
-        "end": 22.47,
-        "value": "use"
-    },
-    {
-        "type": "word",
-        "start": 22.47,
-        "end": 22.65,
-        "value": "can"
-    },
-    {
-        "type": "word",
-        "start": 22.65,
-        "end": 22.95,
-        "value": "affect"
-    },
-    {
-        "type": "word",
-        "start": 22.95,
-        "end": 23.16,
-        "value": "how"
-    },
-    {
-        "type": "word",
-        "start": 23.16,
-        "end": 23.34,
-        "value": "we"
-    },
-    {
-        "type": "word",
-        "start": 23.34,
-        "end": 23.64,
-        "value": "see"
-    },
-    {
-        "type": "word",
-        "start": 23.64,
-        "end": 23.76,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 23.76,
-        "end": 24.09,
-        "value": "world"
-    },
-    {
-        "type": "word",
-        "start": 24.09,
-        "end": 24.51,
-        "value": "around"
-    },
-    {
-        "type": "word",
-        "start": 24.51,
-        "end": 24.84,
-        "value": "us"
-    },
-    {
-        "type": "word",
-        "start": 25.71,
-        "end": 25.86,
-        "value": "a"
-    },
-    {
-        "type": "word",
-        "start": 25.86,
-        "end": 26.22,
-        "value": "study"
-    },
-    {
-        "type": "word",
-        "start": 26.22,
-        "end": 26.73,
-        "value": "conducted"
-    },
-    {
-        "type": "word",
-        "start": 26.73,
-        "end": 26.91,
-        "value": "by"
-    },
-    {
-        "type": "word",
-        "start": 26.91,
-        "end": 27.33,
-        "value": "john"
-    },
-    {
-        "type": "word",
-        "start": 27.33,
-        "end": 27.75,
-        "value": "bargh"
-    },
-    {
-        "type": "word",
-        "start": 27.75,
-        "end": 27.87,
-        "value": "and"
-    },
-    {
-        "type": "word",
-        "start": 27.87,
-        "end": 28.17,
-        "value": "tony"
-    },
-    {
-        "type": "word",
-        "start": 28.17,
-        "end": 28.59,
-        "value": "cheney"
-    },
-    {
-        "type": "word",
-        "start": 28.59,
-        "end": 28.89,
-        "value": "found"
-    },
-    {
-        "type": "word",
-        "start": 28.89,
-        "end": 29.07,
-        "value": "that"
-    },
-    {
-        "type": "word",
-        "start": 29.07,
-        "end": 29.73,
-        "value": "subjects"
-    },
-    {
-        "type": "word",
-        "start": 29.73,
-        "end": 29.85,
-        "value": "who"
-    },
-    {
-        "type": "word",
-        "start": 29.85,
-        "end": 30.0,
-        "value": "were"
-    },
-    {
-        "type": "word",
-        "start": 30.0,
-        "end": 30.33,
-        "value": "asked"
-    },
-    {
-        "type": "word",
-        "start": 30.33,
-        "end": 30.42,
-        "value": "to"
-    },
-    {
-        "type": "word",
-        "start": 30.42,
-        "end": 30.81,
-        "value": "complete"
-    },
-    {
-        "type": "word",
-        "start": 30.81,
-        "end": 30.87,
-        "value": "a"
-    },
-    {
-        "type": "word",
-        "start": 30.87,
-        "end": 31.35,
-        "value": "task"
-    },
-    {
-        "type": "word",
-        "start": 31.35,
-        "end": 31.5,
-        "value": "that"
-    },
-    {
-        "type": "word",
-        "start": 31.5,
-        "end": 32.01,
-        "value": "required"
-    },
-    {
-        "type": "word",
-        "start": 32.01,
-        "end": 32.25,
-        "value": "them"
-    },
-    {
-        "type": "word",
-        "start": 32.25,
-        "end": 32.37,
-        "value": "to"
-    },
-    {
-        "type": "word",
-        "start": 32.37,
-        "end": 32.67,
-        "value": "use"
-    },
-    {
-        "type": "word",
-        "start": 32.67,
-        "end": 32.79,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 32.79,
-        "end": 33.09,
-        "value": "word"
-    },
-    {
-        "type": "word",
-        "start": 33.12,
-        "end": 33.84,
-        "value": "elderly"
-    },
-    {
-        "type": "word",
-        "start": 33.99,
-        "end": 34.74,
-        "value": "subsequently"
-    },
-    {
-        "type": "word",
-        "start": 34.74,
-        "end": 35.37,
-        "value": "behaved"
-    },
-    {
-        "type": "word",
-        "start": 35.37,
-        "end": 35.52,
+        "end": 0.21,
         "value": "in"
     },
     {
         "type": "word",
-        "start": 35.52,
-        "end": 35.58,
+        "start": 0.21,
+        "end": 0.27,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 0.27,
+        "end": 0.69,
+        "value": "solemn"
+    },
+    {
+        "type": "word",
+        "start": 0.69,
+        "end": 1.32,
+        "value": "aftermath"
+    },
+    {
+        "type": "word",
+        "start": 1.32,
+        "end": 1.41,
+        "value": "of"
+    },
+    {
+        "type": "word",
+        "start": 1.41,
+        "end": 1.53,
+        "value": "my"
+    },
+    {
+        "type": "word",
+        "start": 1.53,
+        "end": 2.16,
+        "value": "grandfather's"
+    },
+    {
+        "type": "word",
+        "start": 2.16,
+        "end": 2.79,
+        "value": "departure"
+    },
+    {
+        "type": "word",
+        "start": 3.12,
+        "end": 3.24,
         "value": "a"
     },
     {
         "type": "word",
-        "start": 35.58,
-        "end": 35.79,
-        "value": "more"
+        "start": 3.24,
+        "end": 3.87,
+        "value": "strange"
     },
     {
         "type": "word",
-        "start": 35.79,
-        "end": 36.27,
-        "value": "slow"
+        "start": 3.87,
+        "end": 4.47,
+        "value": "stillness"
     },
     {
         "type": "word",
-        "start": 36.27,
-        "end": 36.42,
-        "value": "and"
+        "start": 4.47,
+        "end": 4.83,
+        "value": "settled"
     },
     {
         "type": "word",
-        "start": 36.42,
-        "end": 36.99,
-        "value": "cautious"
+        "start": 4.83,
+        "end": 5.13,
+        "value": "around"
     },
     {
         "type": "word",
-        "start": 36.99,
-        "end": 37.38,
-        "value": "manner"
+        "start": 5.13,
+        "end": 5.22,
+        "value": "the"
     },
     {
         "type": "word",
-        "start": 37.38,
-        "end": 37.59,
-        "value": "than"
+        "start": 5.22,
+        "end": 5.7,
+        "value": "shelter"
     },
     {
         "type": "word",
-        "start": 37.59,
-        "end": 37.98,
-        "value": "those"
+        "start": 5.91,
+        "end": 6.15,
+        "value": "as"
     },
     {
         "type": "word",
-        "start": 37.98,
-        "end": 38.07,
-        "value": "who"
+        "start": 6.15,
+        "end": 6.27,
+        "value": "if"
     },
     {
         "type": "word",
-        "start": 38.07,
-        "end": 38.19,
-        "value": "were"
+        "start": 6.27,
+        "end": 6.39,
+        "value": "the"
     },
     {
         "type": "word",
-        "start": 38.19,
-        "end": 38.46,
-        "value": "not"
+        "start": 6.39,
+        "end": 6.9,
+        "value": "universe"
     },
     {
         "type": "word",
-        "start": 38.46,
-        "end": 38.82,
-        "value": "asked"
+        "start": 6.9,
+        "end": 7.41,
+        "value": "itself"
     },
     {
         "type": "word",
-        "start": 38.82,
-        "end": 38.94,
-        "value": "to"
+        "start": 7.41,
+        "end": 7.59,
+        "value": "had"
     },
     {
         "type": "word",
-        "start": 38.94,
-        "end": 39.27,
-        "value": "use"
+        "start": 7.59,
+        "end": 8.01,
+        "value": "hushed"
     },
     {
         "type": "word",
-        "start": 39.27,
-        "end": 39.54,
+        "start": 8.01,
+        "end": 8.13,
+        "value": "in"
+    },
+    {
+        "type": "word",
+        "start": 8.13,
+        "end": 8.79,
+        "value": "reverence"
+    },
+    {
+        "type": "word",
+        "start": 9.3,
+        "end": 9.51,
+        "value": "it"
+    },
+    {
+        "type": "word",
+        "start": 9.51,
+        "end": 9.66,
+        "value": "was"
+    },
+    {
+        "type": "word",
+        "start": 9.66,
+        "end": 9.78,
+        "value": "an"
+    },
+    {
+        "type": "word",
+        "start": 9.78,
+        "end": 10.47,
+        "value": "unexpected"
+    },
+    {
+        "type": "word",
+        "start": 10.47,
+        "end": 11.16,
+        "value": "tranquility"
+    },
+    {
+        "type": "word",
+        "start": 11.16,
+        "end": 11.7,
+        "value": "considering"
+    },
+    {
+        "type": "word",
+        "start": 11.7,
+        "end": 11.79,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 11.79,
+        "end": 12.3,
+        "value": "lively"
+    },
+    {
+        "type": "word",
+        "start": 12.3,
+        "end": 12.75,
+        "value": "tales"
+    },
+    {
+        "type": "word",
+        "start": 12.75,
+        "end": 12.9,
         "value": "that"
     },
     {
         "type": "word",
-        "start": 39.54,
-        "end": 39.9,
-        "value": "word"
+        "start": 12.9,
+        "end": 13.14,
+        "value": "used"
     },
     {
         "type": "word",
-        "start": 40.47,
-        "end": 40.77,
-        "value": "this"
+        "start": 13.14,
+        "end": 13.26,
+        "value": "to"
     },
     {
         "type": "word",
-        "start": 40.77,
-        "end": 41.49,
-        "value": "demonstrates"
+        "start": 13.26,
+        "end": 13.56,
+        "value": "echo"
     },
     {
         "type": "word",
-        "start": 41.49,
-        "end": 41.64,
-        "value": "how"
+        "start": 13.56,
+        "end": 13.89,
+        "value": "within"
     },
     {
         "type": "word",
-        "start": 41.64,
-        "end": 41.76,
+        "start": 13.89,
+        "end": 14.13,
+        "value": "those"
+    },
+    {
+        "type": "word",
+        "start": 14.13,
+        "end": 14.76,
+        "value": "walls"
+    },
+    {
+        "type": "word",
+        "start": 15.12,
+        "end": 15.72,
+        "value": "reflecting"
+    },
+    {
+        "type": "word",
+        "start": 15.72,
+        "end": 15.87,
+        "value": "on"
+    },
+    {
+        "type": "word",
+        "start": 15.87,
+        "end": 15.96,
+        "value": "it"
+    },
+    {
+        "type": "word",
+        "start": 15.96,
+        "end": 16.35,
+        "value": "now"
+    },
+    {
+        "type": "word",
+        "start": 16.35,
+        "end": 16.5,
+        "value": "i"
+    },
+    {
+        "type": "word",
+        "start": 16.5,
+        "end": 17.118734,
+        "value": "realized"
+    },
+    {
+        "type": "word",
+        "start": 17.118734,
+        "end": 17.28,
+        "value": "that"
+    },
+    {
+        "type": "word",
+        "start": 17.28,
+        "end": 17.37,
         "value": "the"
     },
     {
         "type": "word",
-        "start": 41.76,
-        "end": 42.09,
-        "value": "words"
+        "start": 17.37,
+        "end": 17.73,
+        "value": "shift"
     },
     {
         "type": "word",
-        "start": 42.09,
-        "end": 42.24,
-        "value": "we"
+        "start": 17.73,
+        "end": 17.88,
+        "value": "had"
     },
     {
         "type": "word",
-        "start": 42.24,
-        "end": 42.72,
-        "value": "use"
+        "start": 17.88,
+        "end": 18.27,
+        "value": "begun"
     },
     {
         "type": "word",
-        "start": 42.72,
-        "end": 42.9,
-        "value": "can"
+        "start": 18.3,
+        "end": 18.6,
+        "value": "during"
     },
     {
         "type": "word",
-        "start": 42.9,
-        "end": 43.5,
-        "value": "influence"
+        "start": 18.6,
+        "end": 18.75,
+        "value": "his"
     },
     {
         "type": "word",
-        "start": 43.5,
-        "end": 43.68,
+        "start": 18.75,
+        "end": 19.14,
+        "value": "final"
+    },
+    {
+        "type": "word",
+        "start": 19.14,
+        "end": 19.62,
+        "value": "weeks"
+    },
+    {
+        "type": "word",
+        "start": 19.89,
+        "end": 20.01,
+        "value": "a"
+    },
+    {
+        "type": "word",
+        "start": 20.16,
+        "end": 20.37,
+        "value": "subtle"
+    },
+    {
+        "type": "word",
+        "start": 20.37,
+        "end": 21.03,
+        "value": "withdraw"
+    },
+    {
+        "type": "word",
+        "start": 21.06,
+        "end": 21.27,
+        "value": "from"
+    },
+    {
+        "type": "word",
+        "start": 21.27,
+        "end": 21.36,
+        "value": "the"
+    },
+    {
+        "type": "word",
+        "start": 21.36,
+        "end": 21.9,
+        "value": "vibrant"
+    },
+    {
+        "type": "word",
+        "start": 21.9,
+        "end": 22.44,
+        "value": "soul"
+    },
+    {
+        "type": "word",
+        "start": 22.44,
+        "end": 22.56,
+        "value": "who"
+    },
+    {
+        "type": "word",
+        "start": 22.56,
+        "end": 22.86,
+        "value": "once"
+    },
+    {
+        "type": "word",
+        "start": 22.86,
+        "end": 23.46,
+        "value": "animated"
+    },
+    {
+        "type": "word",
+        "start": 23.46,
+        "end": 23.61,
         "value": "our"
     },
     {
         "type": "word",
-        "start": 43.68,
-        "end": 44.34,
-        "value": "actions"
+        "start": 23.61,
+        "end": 24.06,
+        "value": "space"
     },
     {
         "type": "word",
-        "start": 44.49,
-        "end": 44.7,
-        "value": "and"
-    },
-    {
-        "type": "word",
-        "start": 44.7,
-        "end": 44.85,
-        "value": "how"
-    },
-    {
-        "type": "word",
-        "start": 44.85,
-        "end": 45.0,
-        "value": "we"
-    },
-    {
-        "type": "word",
-        "start": 45.0,
-        "end": 45.27,
-        "value": "see"
-    },
-    {
-        "type": "word",
-        "start": 45.27,
-        "end": 45.39,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 45.39,
-        "end": 45.84,
-        "value": "world"
-    },
-    {
-        "type": "word",
-        "start": 46.14,
-        "end": 46.35,
-        "value": "so"
-    },
-    {
-        "type": "word",
-        "start": 46.35,
-        "end": 46.44,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 46.44,
-        "end": 46.71,
-        "value": "next"
-    },
-    {
-        "type": "word",
-        "start": 46.71,
-        "end": 46.95,
-        "value": "time"
-    },
-    {
-        "type": "word",
-        "start": 46.95,
-        "end": 47.1,
-        "value": "you're"
-    },
-    {
-        "type": "word",
-        "start": 47.1,
-        "end": 47.76,
-        "value": "communicating"
-    },
-    {
-        "type": "word",
-        "start": 47.76,
-        "end": 47.91,
+        "start": 24.06,
+        "end": 24.27,
         "value": "with"
     },
     {
         "type": "word",
-        "start": 47.91,
-        "end": 48.33,
-        "value": "someone"
+        "start": 24.27,
+        "end": 24.78,
+        "value": "tales"
     },
     {
         "type": "word",
-        "start": 48.48,
-        "end": 48.78,
-        "value": "think"
+        "start": 24.78,
+        "end": 24.93,
+        "value": "that"
     },
     {
         "type": "word",
-        "start": 48.78,
-        "end": 49.02,
-        "value": "about"
+        "start": 24.93,
+        "end": 25.62,
+        "value": "transcended"
     },
     {
         "type": "word",
-        "start": 49.02,
-        "end": 49.11,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 49.11,
-        "end": 49.47,
-        "value": "words"
-    },
-    {
-        "type": "word",
-        "start": 49.47,
-        "end": 49.62,
-        "value": "you're"
-    },
-    {
-        "type": "word",
-        "start": 49.62,
-        "end": 50.19,
-        "value": "using"
-    },
-    {
-        "type": "word",
-        "start": 50.28,
-        "end": 50.46,
-        "value": "and"
-    },
-    {
-        "type": "word",
-        "start": 50.46,
-        "end": 50.61,
-        "value": "how"
-    },
-    {
-        "type": "word",
-        "start": 50.61,
-        "end": 50.76,
-        "value": "they"
-    },
-    {
-        "type": "word",
-        "start": 50.76,
-        "end": 51.03,
-        "value": "might"
-    },
-    {
-        "type": "word",
-        "start": 51.03,
-        "end": 51.15,
-        "value": "be"
-    },
-    {
-        "type": "word",
-        "start": 51.15,
-        "end": 51.63,
-        "value": "affecting"
-    },
-    {
-        "type": "word",
-        "start": 51.63,
-        "end": 51.75,
-        "value": "the"
-    },
-    {
-        "type": "word",
-        "start": 51.75,
-        "end": 51.93,
-        "value": "other"
-    },
-    {
-        "type": "word",
-        "start": 51.93,
-        "end": 52.44,
-        "value": "person"
-    },
-    {
-        "type": "word",
-        "start": 52.68,
-        "end": 53.01,
-        "value": "thanks"
-    },
-    {
-        "type": "word",
-        "start": 53.01,
-        "end": 53.13,
-        "value": "for"
-    },
-    {
-        "type": "word",
-        "start": 53.13,
-        "end": 53.67,
-        "value": "watching"
+        "start": 25.62,
+        "end": 26.61,
+        "value": "generations"
     }
 ]
