@@ -56,6 +56,18 @@ def get_word_timestamps(audio_path):
 
 
 
+def add_time_to(timestamps, increment):
+	new_timestamps = []
+	for word_timestamp in timestamps:
+		word = word_timestamp[0][0]
+		start_time = word_timestamp[1] + increment
+		end_time = word_timestamp[2] + increment
+
+		new_timestamps.append(([word], start_time, end_time))
+
+	return new_timestamps
+
+
 
 
 script = """Here are 5 fun facts about Afghanistan we bet you didn't know!
@@ -78,6 +90,7 @@ paragraphs = script.split("\n\n")
 
 audio_files = []
 timestamp_lists = []
+last_time = 0
 
 for count, paragraph in enumerate(paragraphs):
 	filename = "AudioClips//par" + str(count)
@@ -87,7 +100,10 @@ for count, paragraph in enumerate(paragraphs):
 
 	convert_mp3_to_wav(filename + ".mp3", filename + ".wav")
 	bad_transcript, timestamps = get_word_timestamps(filename + ".wav")
-	timestamp_lists.append(Aligner.align_transcripts(paragraph.split(), bad_transcript.split(), timestamps))
+	aligned_timestamps = Aligner.align_transcripts(paragraph.split(), bad_transcript.split(), timestamps)
+	
+	timestamp_lists.append(add_time_to(aligned_timestamps, last_time))
+	last_time += AudioSegment.from_file(filename + ".mp3").duration_seconds + 0.5
 	print("Paragraph", count + 1, "stt complete")
 
 

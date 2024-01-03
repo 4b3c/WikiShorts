@@ -14,6 +14,7 @@ def find_first_matching_word(words1, words2):
 
 	return None, None
 
+
 # this function takes in a list of words from the real script
 # and a list of words rom the speech to text script
 # and the speech to text timestamps, then it uses this information to best align the scripts
@@ -27,7 +28,7 @@ def align_transcripts(real_words, fake_words, fake_timestamps):
 	while real_index < len(real_words) or fake_index < len(fake_words):
 		# if the words are the same, simply use the fake word + timestamp
 		if strip_punc(real_words[real_index]) == strip_punc(fake_words[fake_index]):
-			real_timestamps.append(([real_words[real_index]], fake_timestamps[fake_index][1:2]))
+			real_timestamps.append(([real_words[real_index]], fake_timestamps[fake_index][1], fake_timestamps[fake_index][2]))
 			real_index += 1
 			fake_index += 1
 		# if the words are not the same, we find the next matching words (stopping at 8 beyond)
