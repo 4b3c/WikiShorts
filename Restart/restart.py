@@ -1,7 +1,8 @@
 from pydub import AudioSegment
 from google.cloud import speech_v1p1beta1 as speech
 from google.oauth2 import service_account
-import ElevenTTS, Aligner
+from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
+import ElevenTTS, Aligner, CreateVideo
 
 
 def combine_mp3s(mp3_files, output_file, pause_duration=500):
@@ -47,8 +48,8 @@ def get_word_timestamps(audio_path):
 		alternative = result.alternatives[0]
 		transcript += alternative.transcript + " "
 		for word_info in alternative.words:
-			start_time = word_info.start_time.seconds + word_info.start_time.microseconds * 1e-9
-			end_time = word_info.end_time.seconds + word_info.end_time.microseconds * 1e-9
+			start_time = word_info.start_time.seconds + word_info.start_time.microseconds * 1e-6
+			end_time = word_info.end_time.seconds + word_info.end_time.microseconds * 1e-6
 			word_timestamp = ([word_info.word], start_time, end_time)
 			timestamps.append(word_timestamp)
 
@@ -59,11 +60,11 @@ def get_word_timestamps(audio_path):
 def add_time_to(timestamps, increment):
 	new_timestamps = []
 	for word_timestamp in timestamps:
-		word = word_timestamp[0][0]
+		word = word_timestamp[0]
 		start_time = word_timestamp[1] + increment
 		end_time = word_timestamp[2] + increment
 
-		new_timestamps.append(([word], start_time, end_time))
+		new_timestamps.append((word, start_time, end_time))
 
 	return new_timestamps
 
@@ -92,23 +93,39 @@ audio_files = []
 timestamp_lists = []
 last_time = 0
 
+print("Looping")
 for count, paragraph in enumerate(paragraphs):
 	filename = "AudioClips//par" + str(count)
-	ElevenTTS.save_audio(paragraph, filename + ".mp3")
+	# ElevenTTS.save_audio(paragraph, filename + ".mp3")
 	audio_files.append(filename + ".mp3")
 	print("Paragraph", count + 1, "tts complete")
 
 	convert_mp3_to_wav(filename + ".mp3", filename + ".wav")
 	bad_transcript, timestamps = get_word_timestamps(filename + ".wav")
+	print(bad_transcript, timestamps, "\n\n\n")
 	aligned_timestamps = Aligner.align_transcripts(paragraph.split(), bad_transcript.split(), timestamps)
-	
+
 	timestamp_lists.append(add_time_to(aligned_timestamps, last_time))
 	last_time += AudioSegment.from_file(filename + ".mp3").duration_seconds + 0.5
 	print("Paragraph", count + 1, "stt complete")
 
 
-
+print("Weee")
 combine_mp3s(audio_files, "temp//script.mp3")
 
+captions = []
 for timestamp in timestamp_lists:
-	print(timestamp)
+	captions += timestamp
+
+captions = Aligner.combine_phrases(captions, last_time)
+print(captions)
+
+print("Rendering video")
+CreateVideo.create_caption_video(captions, "temp//caption_video.mp4", last_time)
+
+
+
+audio = AudioFileClip("temp//script.mp3")
+video = VideoFileClip("temp//caption_video.mp4")
+video = video.set_audio(audio)
+video.write_videofile("temp//captions_with_audio.mp4")

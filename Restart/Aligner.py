@@ -50,3 +50,38 @@ def align_transcripts(real_words, fake_words, fake_timestamps):
 
 	return real_timestamps
 
+
+def length_of(list_of_words):
+	return sum(len(word) for word in list_of_words) + len(list_of_words)
+
+
+def add_word_if_fits(current_words, timestamps, starting_index, phrase_max_length = 16):
+	if current_words[-1][-1] in ['.', ',', '?', '!', '"']:
+		return starting_index, current_words
+	if starting_index < len(timestamps) and length_of(current_words) + length_of(timestamps[starting_index][0]) <= phrase_max_length:
+		new_current_words = current_words + timestamps[starting_index][0]
+		new_starting_index = starting_index + 1
+		starting_index, current_words = add_word_if_fits(new_current_words, timestamps, new_starting_index)
+
+	return starting_index, current_words
+
+
+def combine_phrases(timestamps, video_length):
+	combined_phrases = []
+	timestamp_index = 0
+
+
+	while timestamp_index < len(timestamps):
+		current_phrase = timestamps[timestamp_index][0]
+		current_phrase_start_time = timestamps[timestamp_index][1]
+		timestamp_index += 1
+
+		timestamp_index, current_phrase = add_word_if_fits(current_phrase, timestamps, timestamp_index)
+
+		if timestamp_index < len(timestamps):
+			current_phrase_end_time = timestamps[timestamp_index][1]
+		else:
+			current_phrase_end_time = video_length
+		combined_phrases.append((current_phrase, current_phrase_start_time, current_phrase_end_time))
+
+	return combined_phrases
