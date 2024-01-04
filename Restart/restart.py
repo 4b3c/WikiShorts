@@ -3,6 +3,7 @@ from google.cloud import speech_v1p1beta1 as speech
 from google.oauth2 import service_account
 from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
 import ElevenTTS, Aligner, CreateVideo
+import time
 
 
 def combine_mp3s(mp3_files, output_file, pause_duration=500):
@@ -69,7 +70,7 @@ def add_time_to(timestamps, increment):
 	return new_timestamps
 
 
-
+starting_time = time.time()
 
 script = """Here are 5 fun facts about Afghanistan we bet you didn't know!
 
@@ -93,24 +94,22 @@ audio_files = []
 timestamp_lists = []
 last_time = 0
 
-print("Looping")
+print("Starting...", time.time() - starting_time)
 for count, paragraph in enumerate(paragraphs):
 	filename = "AudioClips//par" + str(count)
 	# ElevenTTS.save_audio(paragraph, filename + ".mp3")
 	audio_files.append(filename + ".mp3")
-	print("Paragraph", count + 1, "tts complete")
+	print("Paragraph", count + 1, "tts complete", time.time() - starting_time)
 
 	convert_mp3_to_wav(filename + ".mp3", filename + ".wav")
 	bad_transcript, timestamps = get_word_timestamps(filename + ".wav")
-	print(bad_transcript, timestamps, "\n\n\n")
 	aligned_timestamps = Aligner.align_transcripts(paragraph.split(), bad_transcript.split(), timestamps)
 
 	timestamp_lists.append(add_time_to(aligned_timestamps, last_time))
 	last_time += AudioSegment.from_file(filename + ".mp3").duration_seconds + 0.5
-	print("Paragraph", count + 1, "stt complete")
+	print("Paragraph", count + 1, "stt complete", time.time() - starting_time)
 
 
-print("Weee")
 combine_mp3s(audio_files, "temp//script.mp3")
 
 captions = []
@@ -118,9 +117,8 @@ for timestamp in timestamp_lists:
 	captions += timestamp
 
 captions = Aligner.combine_phrases(captions, last_time)
-print(captions)
 
-print("Rendering video")
+print("Creating video", time.time() - starting_time)
 CreateVideo.create_caption_video(captions, "temp//caption_video.mp4", last_time)
 
 
