@@ -2,8 +2,9 @@ from pydub import AudioSegment
 from google.cloud import speech_v1p1beta1 as speech
 from google.oauth2 import service_account
 from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
-import ElevenTTS, Aligner, CreateVideo
+import ElevenTTS, Aligner, CreateVideo, GoogleImage
 import time
+
 
 
 def combine_mp3s(mp3_files, output_file, pause_duration=500):
@@ -20,9 +21,11 @@ def combine_mp3s(mp3_files, output_file, pause_duration=500):
 	combined.export(output_file, format="mp3")
 
 
+
 def convert_mp3_to_wav(mp3_path, wav_path):
 	audio = AudioSegment.from_mp3(mp3_path)
 	audio.export(wav_path, format="wav")
+
 
 
 def get_word_timestamps(audio_path):
@@ -70,19 +73,20 @@ def add_time_to(timestamps, increment):
 	return new_timestamps
 
 
+
 starting_time = time.time()
 
-script = """Here are 5 fun facts about Afghanistan we bet you didn't know!
+script = """Here are 5 fun facts about Canada we bet you didn't know!
 
-Afghanistan is home to the ancient city of Herat, often referred to as the "Pearl of Khorasan," which has a rich history dating back over 3,000 years.
+Canada, the world's second-largest country, is celebrated for its diverse landscapes, including the impressive Rocky Mountains.
 
-The national sport of Afghanistan is buzkashi, a traditional game where horse-mounted players compete to grab and carry a goat carcass towards a goal.
+The iconic red maple leaf on Canada's flag symbolizes the nation globally, representing its rich cultural diversity.
 
-The Wakhan Corridor, a narrow strip of land in northeastern Afghanistan, is a unique geopolitical entity that separates Tajikistan from Pakistan and China.
+Canada boasts two official languages, English and French, reflecting its colonial history and cultural tapestry.
 
-Afghanistan's national anthem does not have official lyrics, as it traditionally consists only of music played during official events.
+Toronto's CN Tower, a former record-holder as the world's tallest freestanding structure, is a prominent part of Canada's skyline.
 
-The historic city of Kabul, Afghanistan's capital, was once a major center on the Silk Road, connecting the Indian subcontinent with Central Asia and the Middle East.
+Known for friendly citizens, Canada consistently ranks high in global happiness and quality of life surveys.
 """
 
 
@@ -97,7 +101,7 @@ last_time = 0
 print("Starting...", time.time() - starting_time)
 for count, paragraph in enumerate(paragraphs):
 	filename = "AudioClips//par" + str(count)
-	# ElevenTTS.save_audio(paragraph, filename + ".mp3")
+	ElevenTTS.save_audio(paragraph, filename + ".mp3")
 	audio_files.append(filename + ".mp3")
 	print("Paragraph", count + 1, "tts complete", time.time() - starting_time)
 
@@ -112,18 +116,27 @@ for count, paragraph in enumerate(paragraphs):
 
 combine_mp3s(audio_files, "temp//script.mp3")
 
-captions = []
-for timestamp in timestamp_lists:
-	captions += timestamp
 
-captions = Aligner.combine_phrases(captions, last_time)
+subtitles = []
+for count, timestamp in enumerate(timestamp_lists):
+	if count + 1 < len(timestamp_lists):
+		section_end_time = timestamp_lists[count + 1][0][1]
+	else:
+		section_end_time = last_time
+	subtitles.append(Aligner.combine_phrases(timestamp, section_end_time))
+print(subtitles)
+
+
+
+image_files = ['images/img0.jpg'] + GoogleImage.get_images_for(script)
+print(image_files)
 
 print("Creating video", time.time() - starting_time)
-CreateVideo.create_caption_video(captions, "temp//caption_video.mp4", last_time)
+CreateVideo.create_caption_video(subtitles, "temp//caption_video.mp4", image_files, last_time)
 
 
 
 audio = AudioFileClip("temp//script.mp3")
 video = VideoFileClip("temp//caption_video.mp4")
 video = video.set_audio(audio)
-video.write_videofile("temp//captions_with_audio.mp4")
+video.write_videofile("temp//subtitles_with_audio.mp4")

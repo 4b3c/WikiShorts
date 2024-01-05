@@ -66,7 +66,7 @@ def add_word_if_fits(current_words, timestamps, starting_index, phrase_max_lengt
 	return starting_index, current_words
 
 
-def combine_phrases(timestamps, video_length):
+def combine_phrases(timestamps, section_end_time):
 	combined_phrases = []
 	timestamp_index = 0
 
@@ -81,7 +81,7 @@ def combine_phrases(timestamps, video_length):
 		if timestamp_index < len(timestamps):
 			current_phrase_end_time = timestamps[timestamp_index][1]
 		else:
-			current_phrase_end_time = video_length
+			current_phrase_end_time = section_end_time
 		combined_phrases.append((current_phrase, current_phrase_start_time, current_phrase_end_time))
 
 	return combined_phrases

@@ -1,122 +1,112 @@
-# import cv2, json, os
-# import numpy as np
 from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
-
-# os.environ["IMAGEIO_FFMPEG_AAC_CMD"] = "-c:v libx264 -c:a libvorbis"
-
-# def timestamp_video(title):
-# 	with open('Temporary//word_timestamps.json', 'r') as f:
-# 		wordts = json.load(f)
-# 		f.close()
-# 	with open('Temporary//img_timestamps.json', 'r') as f:
-# 		imgts = json.load(f)
-# 		f.close()
-
-# 	font = cv2.FONT_HERSHEY_SIMPLEX
-
-# 	images = []
-# 	for i in imgts:
-# 		image = cv2.imread(i[0])
-# 		image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-# 		images.append(image)
-
-# 	frames = []
-# 	imgnum = 0
-# 	for i in range(len(wordts)):
-# 		text = wordts[i]["value"]
-# 		frame = np.full((1920, 1080, 3), 5, dtype=np.uint8)
-
-# 		try:
-# 			duration = (wordts[i]["end"] - wordts[i]["start"])
-# 		except:
-# 			duration = 0.1
-# 		time = wordts[i]["start"]
-
-# 		if time > imgts[imgnum][1]:
-# 			try:
-# 				if time > imgts[imgnum + 1][1]:
-# 					imgnum += 1
-# 			except:
-# 				pass
-# 			image_height, image_width, _ = images[imgnum].shape
-# 			y_pos = int((1920 - image_height) / 2)
-# 			x_pos = int((1080 - image_width) / 2)
-
-# 			frame[y_pos : y_pos + image_height, x_pos : x_pos + image_width, :] = images[imgnum]
-
-# 		text_size = cv2.getTextSize(text, font, 4, 9)[0]
-# 		text_x = int((frame.shape[1] - text_size[0]) / 2)
-# 		cv2.putText(frame, text, (text_x, 430), font, 4, (0, 0, 0), 15, cv2.LINE_AA)
-# 		cv2.putText(frame, text, (text_x, 430), font, 4, (255, 255, 255), 9, cv2.LINE_AA)
-# 		frames.append([frame, duration])
-
-# 	clips = [ImageClip(frame[0]).set_duration(frame[1]) for frame in frames]
-# 	video = concatenate_videoclips(clips)
-
-# 	print(frames)
-
-# 	video.write_videofile("Temporary//output.mp4", fps=15)
-
-# 	audio = AudioFileClip("Temporary//test.mp3")
-# 	video = VideoFileClip("Temporary//output.mp4")
-# 	video = video.set_audio(audio)
-# 	video.write_videofile("Final//" + title + ".mp4")
-# 	for jpg in os.listdir("Temporary"):
-# 		if jpg.endswith(".jpg"):
-# 			os.remove("Temporary//" + jpg)
-
-# 	return "C:\\Users\\Abram P\\Desktop\\Programming\\Python_scripts\\WikiShorts\\Final\\" + title + ".mp4"
-
-
-
-
-
 import cv2
 import numpy as np
+import random
 
-def create_caption_video(caption_data, savefile, video_length, fps=30):
+
+
+def place_image_in_frame(image, frame):
+	frame[0:960, 0:1080] = image
+
+	return frame
+
+
+
+def create_caption_video(subtitles, savefile, image_files, video_length, fps=30):
+	frame_height, frame_width = 1920, 1080
+	fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+	out = cv2.VideoWriter(savefile, fourcc, fps, (frame_width, frame_height))
+
+	# declare text style variables
+	font = cv2.FONT_HERSHEY_SIMPLEX
+	text_size = 3.9
+	text_width = 15
+	shadow_width = 20
+
+	# create frames
+	frames = crop_video_frames('background/satisfying.mp4', video_length)
+	last_end_frame = 0
+
+	# add images to frames
+	for paragraph_index, subtitle_section in enumerate(subtitles):
+		image_path = image_files[paragraph_index]
+		image = cv2.imread(image_path)
+
+		# add captions to frames
+		for caption_index, caption_info in enumerate(subtitle_section):
+			caption = " ".join(caption_info[0])
+			start_time = caption_info[1]
+			end_time = caption_info[2]
+
+			# calculate frame indices for start and end times
+			start_frame = int(start_time * fps)
+			if start_frame == last_end_frame:
+				start_frame += 1
+			end_frame = int(end_time * fps)
+			if end_frame == start_frame:
+				end_frame += 3
+
+			last_end_frame = end_frame
+
+			if end_frame + 1 < len(frames):
+				end_frame = end_frame + 1
+			for frame_index in range(start_frame, end_frame):
+				current_frame = frames[frame_index]
+				current_frame = place_image_in_frame(image, current_frame)
+
+				# calculate text position
+				text_bound_box = cv2.getTextSize(caption, font, text_size, text_width)[0]
+				text_x = int((current_frame.shape[1] - text_bound_box[0]) / 2)
+				cv2.putText(current_frame, caption, (text_x, 1280), font, text_size, (255, 255, 255), text_width + shadow_width, cv2.LINE_AA)
+				cv2.putText(current_frame, caption, (text_x, 1280), font, text_size, (0, 0, 0), text_width, cv2.LINE_AA)
+
+	# write frames to video
+	for frame in frames:
+		out.write(frame)
+
+	# release video writer
+	out.release()
+	
+
+def crop_video_frames(input_video_path, new_length, fps=30):
     frame_height, frame_width = 1920, 1080
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    out = cv2.VideoWriter(savefile, fourcc, fps, (frame_width, frame_height))
+    cap = cv2.VideoCapture(input_video_path)
 
-    # declare text style variables
-    font = cv2.FONT_HERSHEY_SIMPLEX
-    text_size = 3
-    text_thickness = 10
+    # Get video properties
+    frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    original_width = int(cap.get(3))
+    original_height = int(cap.get(4))
 
-    # create frames
-    frames = [np.ones((frame_height, frame_width, 3), dtype=np.uint8) * 255 for _ in range(int(fps * video_length))]
-    last_end_frame = 0
+    # Calculate maximum starting frame to ensure the new length is maintained
+    max_start_frame = max(0, frame_count - int(new_length * fps))
 
-    # add captions to frames
-    for caption_index, caption_info in enumerate(caption_data):
-        caption = " ".join(caption_info[0])
-        start_time = caption_info[1]
-        end_time = caption_info[2]
+    # Choose a random starting frame within the valid range
+    start_frame = random.randint(0, max_start_frame)
 
-        # calculate frame indices for start and end times
-        start_frame = int(start_time * fps)
-        if start_frame == last_end_frame:
-        	start_frame += 1
-        end_frame = int(end_time * fps)
-        if end_frame == start_frame:
-        	end_frame += 3
+    # Set the starting frame
+    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
 
-        last_end_frame = end_frame
+    # Create all frames with black background
+    frames = [np.zeros((frame_height, frame_width, 3), dtype=np.uint8) for _ in range(int(new_length * fps))]
 
-        if end_frame + 1 < len(frames):
-        	end_frame = end_frame + 1
-        for frame_index in range(start_frame, end_frame):
-            current_frame = frames[frame_index]
+    # Calculate position to paste video frame on the background
+    crop_position_1 = int(((original_width * 2) - frame_width) / 2)
+    crop_position_2 = crop_position_1 + frame_width
+    paste_position_y = frame_height - (original_height * 2)
 
-            # calculate text position
-            text_bound_box = cv2.getTextSize(caption, font, text_size, text_thickness)[0]
-            text_x = int((current_frame.shape[1] - text_bound_box[0]) / 2)
-            cv2.putText(current_frame, caption, (text_x, 430), font, text_size, (0, 0, 0), text_thickness, cv2.LINE_AA)
+    # Overlay video frames onto the pre-created frames
+    for i in range(len(frames)):
+        ret, frame = cap.read()
+        if ret:
+            # Resize the frame to match the dimensions of the pre-created frames
+            frame = cv2.resize(frame, (original_width * 2, original_height * 2))
+            frame = frame[:, crop_position_1:crop_position_2]
+            # Paste video frame on the black background at the desired position
+            frames[i][paste_position_y:frame_height, 0:frame_width] = frame
+        else:
+            break
 
-    # write frames to video
-    for frame in frames:
-        out.write(frame)
+    # Release resources
+    cap.release()
 
-    # release video writer
-    out.release()
+    return np.array(frames)
