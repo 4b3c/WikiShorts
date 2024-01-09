@@ -24,7 +24,7 @@ def create_caption_video(subtitles, savefile, image_files, video_length, fps=30)
 	shadow_width = 20
 
 	# create frames
-	frames = crop_video_frames('background/satisfying.mp4', video_length)
+	frames = crop_video_frames('background/gtacar.mp4', video_length)
 	last_end_frame = 0
 
 	# add images to frames

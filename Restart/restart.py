@@ -7,7 +7,7 @@ import time
 
 
 
-def combine_mp3s(mp3_files, output_file, pause_duration=500):
+def combine_mp3s(mp3_files, output_file, pause_duration=300):
 	combined = AudioSegment.empty()
 
 	for i, mp3_file in enumerate(mp3_files):
@@ -76,18 +76,35 @@ def add_time_to(timestamps, increment):
 
 starting_time = time.time()
 
-script = """Here are 5 fun facts about Canada we bet you didn't know!
 
-Canada, the world's second-largest country, is celebrated for its diverse landscapes, including the impressive Rocky Mountains.
+# script = """Here are 5 fun facts about Japan we bet you didn't know!
 
-The iconic red maple leaf on Canada's flag symbolizes the nation globally, representing its rich cultural diversity.
+# There are cat cafes in Japan where patrons can enjoy a cup of coffee while spending time with resident cats.
 
-Canada boasts two official languages, English and French, reflecting its colonial history and cultural tapestry.
+# Some farmers in Japan grow square watermelons to make them easier to stack and store in small Japanese refrigerators.
 
-Toronto's CN Tower, a former record-holder as the world's tallest freestanding structure, is a prominent part of Canada's skyline.
+# Japan is home to capsule hotels, where guests sleep in small pods stacked on top of each other, maximizing space efficiency.
 
-Known for friendly citizens, Canada consistently ranks high in global happiness and quality of life surveys.
-"""
+# Tokyo features restaurants where robots serve food and entertain customers with dance performances.
+
+# Japanese game shows are famous for their eccentric and often hilarious challenges, like the famous "Human Tetris.
+
+# Comment how many facts you knew!"""
+
+
+script = """We bet you didn't know these crazy Star Wars facts!
+
+Make sure you comment how many facts you knew!
+
+1. Before settling on animatronics, the original plan for creating Yoda involved casting a real monkey in a costume and mask.
+
+2. Did you know, Lucasfilm chose Sebastian Shaw for the Vader unmasking scene, causing David Prowse, the original actor, to express his displeasure, resulting in him being banned from future Lucasfilm events?
+
+3. Filming Star Wars in Tunisia led to unexpected tensions the neighboring country Libya as threats were made over the presence of a Jawa Sandcrawler prop prompting George Lucas to have to move the prop to avoid an international incident.
+
+4. The asteroid field scenes in "The Empire Strikes Back" were filmed in a parking lot using small rocks and gravel, with the Millennium Falcon suspended above the set to create the illusion of navigating through space.
+
+5. Lastly, did you know that Jabba the Hutt's design was inspired by the shape of a rice cooker? Particularily the lid of the cooker transforming into Jabbas mouth and head."""
 
 
 paragraphs = script.split("\n\n")
@@ -110,11 +127,13 @@ for count, paragraph in enumerate(paragraphs):
 	aligned_timestamps = Aligner.align_transcripts(paragraph.split(), bad_transcript.split(), timestamps)
 
 	timestamp_lists.append(add_time_to(aligned_timestamps, last_time))
-	last_time += AudioSegment.from_file(filename + ".mp3").duration_seconds + 0.5
+	last_time += AudioSegment.from_file(filename + ".mp3").duration_seconds + 0.3
 	print("Paragraph", count + 1, "stt complete", time.time() - starting_time)
 
 
 combine_mp3s(audio_files, "temp//script.mp3")
+
+print(timestamp_lists)
 
 
 subtitles = []

@@ -15,7 +15,7 @@ def save_audio(text, save_file):
         "text": text,
         "model_id": "eleven_monolingual_v1",
         "voice_settings": {
-            "stability": 0.6,
+            "stability": 0.9,
             "similarity_boost": 0.6,
             "style": 0.5
         }

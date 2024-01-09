@@ -55,7 +55,7 @@ def length_of(list_of_words):
 	return sum(len(word) for word in list_of_words) + len(list_of_words)
 
 
-def add_word_if_fits(current_words, timestamps, starting_index, phrase_max_length = 16):
+def add_word_if_fits(current_words, timestamps, starting_index, phrase_max_length=16):
 	if current_words[-1][-1] in ['.', ',', '?', '!', '"']:
 		return starting_index, current_words
 	if starting_index < len(timestamps) and length_of(current_words) + length_of(timestamps[starting_index][0]) <= phrase_max_length:
