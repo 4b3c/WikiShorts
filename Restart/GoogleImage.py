@@ -138,63 +138,50 @@ def is_low_quality(image_path, min_resolution=(500, 400)):
 
 
 
-import cv2
-import numpy as np
+def resize_image(input_path, output_path, target_size=(1080, 960)):
+	image = cv2.imread(input_path)
 
-def resize_image(input_path, output_path, target_size=(1080, 960), add_whitespace=False):
-    image = cv2.imread(input_path)
+	if image is None:
+		print(f"Failed to load image: {input_path}")
+		return
 
-    if image is None:
-        print(f"Failed to load image: {input_path}")
-        return
+	original_aspect_ratio = image.shape[1] / image.shape[0]
+	target_aspect_ratio = target_size[0] / target_size[1]
 
-    original_aspect_ratio = image.shape[1] / image.shape[0]
+	if original_aspect_ratio > target_aspect_ratio:
+		# Image is horizontal
+		resized_width = target_size[0]
+		resized_height = int(resized_width / original_aspect_ratio)
+	else:
+		# Image is vertical or square
+		resized_height = target_size[1]
+		resized_width = int(resized_height * original_aspect_ratio)
 
-    if add_whitespace:
-        if original_aspect_ratio > 1:  # Image is horizontal
-            resized_width = target_size[0]
-            resized_height = int(resized_width / original_aspect_ratio)
-        else:  # Image is vertical
-            resized_height = target_size[1]
-            resized_width = int(resized_height * original_aspect_ratio)
-    else:
-        resized_height = target_size[1]
-        resized_width = int(resized_height * original_aspect_ratio)
+	resized_image = cv2.resize(image, (resized_width, resized_height))
 
-    resized_image = cv2.resize(image, (resized_width, resized_height))
+	canvas = np.ones((target_size[1], target_size[0], 3), dtype=np.uint8) * 255
 
-    if add_whitespace:
-        canvas = np.ones((target_size[1], target_size[0], 3), dtype=np.uint8) * 255
+	x_start = (canvas.shape[1] - resized_width) // 2
+	y_start = (canvas.shape[0] - resized_height) // 2
 
-        x_start = (canvas.shape[1] - resized_width) // 2
-        y_start = (canvas.shape[0] - resized_height) // 2
+	canvas[y_start:y_start + resized_height, x_start:x_start + resized_width] = resized_image
 
-        canvas[y_start:y_start + resized_height, x_start:x_start + resized_width] = resized_image
-
-        cv2.imwrite(output_path, canvas)
-    else:
-        x_start_crop = (resized_width - target_size[0]) // 2
-        y_start_crop = (resized_height - target_size[1]) // 2
-
-        cropped_image = resized_image[y_start_crop:y_start_crop + target_size[1], x_start_crop:x_start_crop + target_size[0]]
-
-        cv2.imwrite(output_path, cropped_image)
-
+	cv2.imwrite(output_path, canvas)
 
 
 
 def get_images_for(script):
-	paragraphs = script.split("\n\n")[1:]
+	paragraphs = script.split("\n\n")
 	folder = 'images/'
 	image_files = []
 
 	for number, search_query in enumerate(paragraphs):
-		image_name = 'img' + str(number + 1)
+		image_name = 'img' + str(number)
 		extension = download_image(search_query, 2, image_name, folder)
 		print(image_name, "found")
 
 		filename = folder + image_name + extension
-		resize_image(filename, filename, add_whitespace=True)
+		resize_image(filename, filename)
 		image_files.append(filename)
 		print(filename, "resized")
 

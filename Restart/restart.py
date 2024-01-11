@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 from google.cloud import speech_v1p1beta1 as speech
 from google.oauth2 import service_account
-from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips
+from moviepy.editor import ImageClip, VideoFileClip, AudioFileClip, concatenate_videoclips, CompositeAudioClip
 import ElevenTTS, Aligner, CreateVideo, GoogleImage
 import time
 
@@ -73,38 +73,86 @@ def add_time_to(timestamps, increment):
 	return new_timestamps
 
 
+def combine_video_and_audio(video_file, background_audio_file, output_file, volume_down=False):
+	video_clip = VideoFileClip(video_file)
+
+	background_audio_clip = AudioFileClip(background_audio_file)
+	background_audio_clip = background_audio_clip.subclip(0, video_clip.duration)
+	if volume_down:
+		background_audio_clip = background_audio_clip.volumex(0.1)
+
+	if video_clip == None:
+		print("Video clip: NONE")
+	if background_audio_clip == None:
+		print("Background audio clip: NONE")
+
+	video_audio = video_clip.audio
+	final_audio = CompositeAudioClip([video_audio, background_audio_clip])
+	video_clip = video_clip.set_audio(final_audio)
+	video_clip.write_videofile(output_file, codec='libx264', audio_codec='aac')
+
+
 
 starting_time = time.time()
 
 
-# script = """Here are 5 fun facts about Japan we bet you didn't know!
+# script = """Here are 5 fun facts about Russia we bet you didn't know!
 
-# There are cat cafes in Japan where patrons can enjoy a cup of coffee while spending time with resident cats.
+# The world's largest McDonald's restaurant is in Moscow's Pushkin Square, capable of seating over 700 customers.
 
-# Some farmers in Japan grow square watermelons to make them easier to stack and store in small Japanese refrigerators.
+# The Trans-Siberian Railway in Russia is the longest railway line in the world, stretching over 9,000 kilometers (5,600 miles) from Moscow to Vladivostok.
 
-# Japan is home to capsule hotels, where guests sleep in small pods stacked on top of each other, maximizing space efficiency.
+# Lake Baikal in Siberia is the deepest and oldest freshwater lake on Earth. It contains around 20% of the world's unfrozen freshwater.
 
-# Tokyo features restaurants where robots serve food and entertain customers with dance performances.
+# Moscow's metro system is not only efficient but also known for its stunning architecture and lavish design. It is one of the busiest metro systems globally.
 
-# Japanese game shows are famous for their eccentric and often hilarious challenges, like the famous "Human Tetris.
+# The Russian alphabet consists of 33 letters and is based on the Cyrillic script, which was developed in the First Bulgarian Empire.
 
 # Comment how many facts you knew!"""
 
 
-script = """We bet you didn't know these crazy Star Wars facts!
+# script = """Here are some crazy facts about Space!
 
-Make sure you comment how many facts you knew!
+# Did you know that Scientists theorize that Neptune and Uranus experience "diamond rain"?
 
-1. Before settling on animatronics, the original plan for creating Yoda involved casting a real monkey in a costume and mask.
+# They think hydrocarbons in the atmospheres turn into diamonds and fall towards the planets' cores!
 
-2. Did you know, Lucasfilm chose Sebastian Shaw for the Vader unmasking scene, causing David Prowse, the original actor, to express his displeasure, resulting in him being banned from future Lucasfilm events?
+# Jupiter's Great Red Spot is a massive storm that has been raging for at least 350 years and possibly much longer. It is so large that three Earths could fit inside it.
 
-3. Filming Star Wars in Tunisia led to unexpected tensions the neighboring country Libya as threats were made over the presence of a Jawa Sandcrawler prop prompting George Lucas to have to move the prop to avoid an international incident.
+# Saturn's moon Titan has lakes and seas, but instead of water, they are filled with liquid methane and ethane.
 
-4. The asteroid field scenes in "The Empire Strikes Back" were filmed in a parking lot using small rocks and gravel, with the Millennium Falcon suspended above the set to create the illusion of navigating through space.
+# Uranus rotates almost completely on its side, with an axial tilt of about 98 degrees, causing its poles to lie where other planets' equators are.
 
-5. Lastly, did you know that Jabba the Hutt's design was inspired by the shape of a rice cooker? Particularily the lid of the cooker transforming into Jabbas mouth and head."""
+# Ganymede, Jupiter's largest moon, has its own magnetic field, making it the only moon in the solar system known to have one."""
+
+
+# script = """You and someone else in the world have drunk milk from the same cow...
+
+# Crazy shower thoughts you haven't thought about until now!
+
+# You could easily kill two birds with one stone if you pick the stone up after killing the first bird and throw it again.
+
+# The longer you live, the more likely it is, for unlikely things, to happen in your life.
+
+# Getting a brain transplant is basically the same as the other person getting a body transplant.
+
+# A broken clock is right twice a day, but a working clock, set just a minute behind, is never right.
+
+# Make sure you like and subscribe!"""
+
+script = """Why do scuba divers fall backwards out of the boat?
+Because if they fell forwards they'd still be in the boat…
+
+Great jokes to tell your friends part 2!
+
+Four guys are hanging out. One of them says, “Hey, did you know  that 1 out of every 4 guys is gay?”
+Larry says, “I hope it’s chuck because he’s really cute.”
+
+A wife calls her husband and says "be careful driving home, some complete moron is driving down the wrong side of the highway."
+The husband replies "there's not just one, there's hundreds of them!"
+
+Like and comment which joke was your favorite!!
+"""
 
 
 paragraphs = script.split("\n\n")
@@ -147,15 +195,17 @@ print(subtitles)
 
 
 
-image_files = ['images/img0.jpg'] + GoogleImage.get_images_for(script)
+image_files = GoogleImage.get_images_for(script)
 print(image_files)
 
 print("Creating video", time.time() - starting_time)
 CreateVideo.create_caption_video(subtitles, "temp//caption_video.mp4", image_files, last_time)
 
 
+# add script audio then background music
+video_clip = VideoFileClip("temp//caption_video.mp4")
+audio_clip = AudioFileClip("temp//script.mp3")
+video_clip = video_clip.set_audio(audio_clip)
+video_clip.write_videofile("temp//subtitles_with_audio.mp4", codec='libx264', audio_codec='aac')
 
-audio = AudioFileClip("temp//script.mp3")
-video = VideoFileClip("temp//caption_video.mp4")
-video = video.set_audio(audio)
-video.write_videofile("temp//subtitles_with_audio.mp4")
+combine_video_and_audio("temp//subtitles_with_audio.mp4", "background//tiptoes.mp3", "temp//final_video.mp4", volume_down=True)

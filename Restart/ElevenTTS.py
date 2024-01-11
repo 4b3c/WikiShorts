@@ -17,7 +17,7 @@ def save_audio(text, save_file):
         "voice_settings": {
             "stability": 0.9,
             "similarity_boost": 0.6,
-            "style": 0.5
+            "style": 0.8
         }
     }
 
